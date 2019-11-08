@@ -1,0 +1,196 @@
+INFO  17:11:46,401 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:11:46,488 - #2 program
+INFO  17:11:46,488 - #44 test302
+INFO  17:11:46,488 - #44 int
+INFO  17:11:46,489 - #44 niz
+INFO  17:11:46,491 - #13 [
+INFO  17:11:46,491 - #14 ]
+INFO  17:11:46,491 - #16 ;
+INFO  17:11:46,492 - #9 {
+INFO  17:11:46,493 - #44 int
+INFO  17:11:46,494 - #44 a
+INFO  17:11:46,494 - #11 (
+INFO  17:11:46,495 - #44 int
+INFO  17:11:46,495 - #44 a
+INFO  17:11:46,496 - #15 ,
+INFO  17:11:46,497 - #44 int
+INFO  17:11:46,497 - #44 b
+INFO  17:11:46,497 - #15 ,
+INFO  17:11:46,498 - #44 int
+INFO  17:11:46,498 - #44 c
+INFO  17:11:46,498 - #12 )
+INFO  17:11:46,501 - #9 {
+INFO  17:11:46,504 - #6 return
+INFO  17:11:46,509 - #44 a
+INFO  17:11:46,510 - #16 ;
+INFO  17:11:46,510 - #10 }
+INFO  17:11:46,511 - #5 void
+INFO  17:11:46,513 - #44 main
+INFO  17:11:46,514 - #11 (
+INFO  17:11:46,514 - #12 )
+INFO  17:11:46,515 - #44 int
+INFO  17:11:46,515 - #44 x
+INFO  17:11:46,515 - #16 ;
+INFO  17:11:46,516 - #9 {
+INFO  17:11:46,516 - #44 niz
+INFO  17:11:46,516 - #13 [
+INFO  17:11:46,516 - #43 4
+INFO  17:11:46,516 - #14 ]
+INFO  17:11:46,516 - #27 =
+INFO  17:11:46,517 - #44 a
+INFO  17:11:46,517 - #11 (
+INFO  17:11:46,517 - #43 1
+INFO  17:11:46,518 - #15 ,
+INFO  17:11:46,519 - #43 2
+INFO  17:11:46,520 - #15 ,
+INFO  17:11:46,520 - #43 3
+INFO  17:11:46,520 - #12 )
+INFO  17:11:46,521 - #16 ;
+INFO  17:11:46,521 - #44 a
+INFO  17:11:46,522 - #11 (
+INFO  17:11:46,522 - #43 1
+INFO  17:11:46,522 - #15 ,
+INFO  17:11:46,522 - #43 1
+INFO  17:11:46,522 - #15 ,
+INFO  17:11:46,522 - #43 1
+INFO  17:11:46,522 - #12 )
+INFO  17:11:46,522 - #16 ;
+INFO  17:11:46,523 - #44 niz
+INFO  17:11:46,523 - #27 =
+INFO  17:11:46,523 - #7 new
+INFO  17:11:46,523 - #44 int
+INFO  17:11:46,523 - #13 [
+INFO  17:11:46,523 - #43 5
+INFO  17:11:46,523 - #14 ]
+INFO  17:11:46,523 - #16 ;
+INFO  17:11:46,523 - #44 niz
+INFO  17:11:46,523 - #13 [
+INFO  17:11:46,523 - #43 0
+INFO  17:11:46,523 - #14 ]
+INFO  17:11:46,523 - #27 =
+INFO  17:11:46,523 - #43 1
+INFO  17:11:46,523 - #16 ;
+INFO  17:11:46,524 - #44 niz
+INFO  17:11:46,524 - #13 [
+INFO  17:11:46,524 - #44 niz
+INFO  17:11:46,524 - #13 [
+INFO  17:11:46,524 - #43 0
+INFO  17:11:46,524 - #14 ]
+INFO  17:11:46,524 - #14 ]
+INFO  17:11:46,524 - #27 =
+INFO  17:11:46,524 - #43 3
+INFO  17:11:46,524 - #16 ;
+INFO  17:11:46,524 - #44 niz
+INFO  17:11:46,524 - #13 [
+INFO  17:11:46,524 - #43 2
+INFO  17:11:46,524 - #14 ]
+INFO  17:11:46,524 - #27 =
+INFO  17:11:46,525 - #43 5
+INFO  17:11:46,525 - #16 ;
+INFO  17:11:46,525 - #44 niz
+INFO  17:11:46,525 - #13 [
+INFO  17:11:46,525 - #43 0
+INFO  17:11:46,525 - #14 ]
+INFO  17:11:46,527 - #41 ++
+INFO  17:11:46,527 - #16 ;
+INFO  17:11:46,527 - #44 x
+INFO  17:11:46,527 - #41 ++
+INFO  17:11:46,527 - #16 ;
+INFO  17:11:46,527 - #18 print
+INFO  17:11:46,527 - #11 (
+INFO  17:11:46,527 - #44 niz
+INFO  17:11:46,528 - #13 [
+INFO  17:11:46,528 - #44 niz
+INFO  17:11:46,528 - #13 [
+INFO  17:11:46,528 - #43 0
+INFO  17:11:46,528 - #14 ]
+INFO  17:11:46,528 - #14 ]
+INFO  17:11:46,528 - #12 )
+INFO  17:11:46,528 - #16 ;
+INFO  17:11:46,528 - #10 }
+INFO  17:11:46,528 - #10 }
+INFO  17:11:46,535 - Otvaranje scope 
+INFO  17:11:46,535 - Prepoznato programsko ime : test302 na liniji 3
+INFO  17:11:46,536 - Prepoznat tip int na liniji 5
+INFO  17:11:46,536 - Prepoznata deklaracija vektorske promenljive niz na liniji 5
+INFO  17:11:46,536 - Prepoznat tip int na liniji 10
+INFO  17:11:46,536 - Otvaranje scope 
+INFO  17:11:46,536 - Prepoznat tip int na liniji 10
+INFO  17:11:46,536 - Prepoznata deklaracija skalarne promenljive a na liniji 10
+INFO  17:11:46,536 - Prepoznat tip int na liniji 10
+INFO  17:11:46,536 - Prepoznata deklaracija skalarne promenljive b na liniji 10
+INFO  17:11:46,536 - Prepoznat tip int na liniji 10
+INFO  17:11:46,538 - Prepoznata deklaracija skalarne promenljive c na liniji 10
+INFO  17:11:46,539 - Koriscenje formalnog argumenta fje a na liniji 13
+INFO  17:11:46,539 - 
+Var a: int, 0, 1 
+INFO  17:11:46,539 - Zatvaranje scope 
+INFO  17:11:46,539 - Otvaranje scope 
+INFO  17:11:46,539 - Prepoznat tip int na liniji 16
+INFO  17:11:46,539 - Prepoznata deklaracija skalarne promenljive x na liniji 16
+INFO  17:11:46,539 - Koriscenje globalne varijable niz na liniji 18
+INFO  17:11:46,539 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:11:46,540 - Pristup elementu niza niz na liniji 18
+INFO  17:11:46,540 - Koriscenje metode a na liniji 18
+INFO  17:11:46,540 - 
+Meth a: int, 0, 3 
+   Var a: int, 0, 1 
+   Var b: int, 1, 1 
+   Var c: int, 2, 1 
+
+INFO  17:11:46,541 - Dodela dozvoljena  na liniji 18
+INFO  17:11:46,541 - Koriscenje metode a na liniji 19
+INFO  17:11:46,541 - 
+Meth a: int, 0, 3 
+   Var a: int, 0, 1 
+   Var b: int, 1, 1 
+   Var c: int, 2, 1 
+
+INFO  17:11:46,541 - Koriscenje globalne varijable niz na liniji 20
+INFO  17:11:46,541 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:11:46,541 - Prepoznat tip int na liniji 20
+INFO  17:11:46,541 - Dodela dozvoljena  na liniji 20
+INFO  17:11:46,541 - Koriscenje globalne varijable niz na liniji 21
+INFO  17:11:46,541 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:11:46,541 - Pristup elementu niza niz na liniji 21
+INFO  17:11:46,541 - Dodela dozvoljena  na liniji 21
+INFO  17:11:46,541 - Koriscenje globalne varijable niz na liniji 22
+INFO  17:11:46,541 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:11:46,541 - Koriscenje globalne varijable niz na liniji 22
+INFO  17:11:46,541 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:11:46,541 - Pristup elementu niza niz na liniji 22
+INFO  17:11:46,541 - Pristup elementu niza niz na liniji 22
+INFO  17:11:46,541 - Dodela dozvoljena  na liniji 22
+INFO  17:11:46,542 - Koriscenje globalne varijable niz na liniji 23
+INFO  17:11:46,542 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:11:46,542 - Pristup elementu niza niz na liniji 23
+INFO  17:11:46,542 - Dodela dozvoljena  na liniji 23
+INFO  17:11:46,542 - Koriscenje globalne varijable niz na liniji 24
+INFO  17:11:46,542 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:11:46,542 - Pristup elementu niza niz na liniji 24
+INFO  17:11:46,542 - Detektovano inkrementiranje  na liniji 24
+INFO  17:11:46,542 - Koriscenje lokalne promenljive x na liniji 25
+INFO  17:11:46,542 - 
+Var x: int, 0, 1 
+INFO  17:11:46,542 - Detektovano inkrementiranje  na liniji 25
+INFO  17:11:46,542 - Koriscenje globalne varijable niz na liniji 26
+INFO  17:11:46,542 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:11:46,542 - Koriscenje globalne varijable niz na liniji 26
+INFO  17:11:46,542 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:11:46,542 - Pristup elementu niza niz na liniji 26
+INFO  17:11:46,542 - Pristup elementu niza niz na liniji 26
+INFO  17:11:46,542 - Zatvaranje scope 
+INFO  17:11:46,542 - Zatvaranje scope 
+INFO  17:11:46,542 - Zatvoren program! 
+INFO  17:11:46,542 - Print calls = 1
+INFO  17:11:46,543 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  17:11:46,546 - Parsiranje uspesno zavrseno!

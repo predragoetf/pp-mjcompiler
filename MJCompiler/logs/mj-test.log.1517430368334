@@ -1,0 +1,26 @@
+INFO  21:20:03,556 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:20:03,658 - #2 program
+INFO  21:20:03,659 - #45 MJProgram
+INFO  21:20:03,659 - #45 int
+INFO  21:20:03,663 - #45 x
+INFO  21:20:03,664 - #16 ;
+INFO  21:20:03,665 - #8 const
+INFO  21:20:03,666 - #45 int
+INFO  21:20:03,667 - #45 y
+INFO  21:20:03,667 - #28 =
+INFO  21:20:03,667 - #44 5
+INFO  21:20:03,667 - #15 ,
+INFO  21:20:03,668 - #45 a
+INFO  21:20:03,669 - #28 =
+INFO  21:20:03,669 - #44 13
+INFO  21:20:03,669 - #15 ,
+INFO  21:20:03,670 - #45 b
+INFO  21:20:03,670 - #28 =
+INFO  21:20:03,670 - #44 1
+INFO  21:20:03,670 - #16 ;
+INFO  21:20:03,670 - #8 const
+INFO  21:20:03,678 - #45 char
+INFO  21:20:03,679 - #45 opa
+INFO  21:20:03,679 - #28 =
+INFO  21:20:03,679 - #46 'p'
+INFO  21:20:03,679 - #16 ;

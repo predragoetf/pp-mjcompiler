@@ -1,0 +1,9 @@
+INFO  14:05:24,131 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:05:24,230 - #2 program
+INFO  14:05:24,230 - #44 MJProgram
+INFO  14:05:24,230 - #8 const
+INFO  14:05:24,232 - #44 bool
+INFO  14:05:24,232 - #44 bul
+INFO  14:05:24,233 - #27 =
+INFO  14:05:24,233 - #26 true
+INFO  14:05:24,233 - #16 ;

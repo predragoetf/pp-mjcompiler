@@ -1,0 +1,119 @@
+INFO  17:29:59,374 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:29:59,472 - #2 program
+INFO  17:29:59,472 - #44 MJProgram
+INFO  17:29:59,472 - #44 bool
+INFO  17:29:59,473 - #44 bul
+INFO  17:29:59,474 - #16 ;
+INFO  17:29:59,474 - #44 char
+INFO  17:29:59,475 - #44 s1
+INFO  17:29:59,475 - #13 [
+INFO  17:29:59,475 - #14 ]
+INFO  17:29:59,475 - #15 ,
+INFO  17:29:59,475 - #44 s2
+INFO  17:29:59,475 - #15 ,
+INFO  17:29:59,475 - #44 s3
+INFO  17:29:59,475 - #13 [
+INFO  17:29:59,476 - #14 ]
+INFO  17:29:59,476 - #16 ;
+INFO  17:29:59,476 - #44 int
+INFO  17:29:59,476 - #44 x
+INFO  17:29:59,477 - #16 ;
+INFO  17:29:59,477 - #8 const
+INFO  17:29:59,479 - #44 int
+INFO  17:29:59,479 - #44 y
+INFO  17:29:59,479 - #27 =
+INFO  17:29:59,479 - #43 5
+INFO  17:29:59,479 - #15 ,
+INFO  17:29:59,480 - #44 a
+INFO  17:29:59,480 - #27 =
+INFO  17:29:59,480 - #43 13
+INFO  17:29:59,481 - #15 ,
+INFO  17:29:59,481 - #44 b
+INFO  17:29:59,481 - #27 =
+INFO  17:29:59,481 - #43 1
+INFO  17:29:59,481 - #16 ;
+INFO  17:29:59,481 - #8 const
+INFO  17:29:59,482 - #44 char
+INFO  17:29:59,482 - #44 opa
+INFO  17:29:59,482 - #27 =
+INFO  17:29:59,482 - #45 p
+INFO  17:29:59,482 - #16 ;
+INFO  17:29:59,482 - #9 {
+INFO  17:29:59,482 - #44 int
+INFO  17:29:59,485 - #44 k
+INFO  17:29:59,485 - #11 (
+INFO  17:29:59,486 - #12 )
+INFO  17:29:59,488 - #44 int
+INFO  17:29:59,488 - #44 c
+INFO  17:29:59,488 - #16 ;
+INFO  17:29:59,488 - #9 {
+INFO  17:29:59,488 - #44 c
+INFO  17:29:59,488 - #27 =
+INFO  17:29:59,489 - #43 1
+INFO  17:29:59,489 - #16 ;
+INFO  17:29:59,489 - #6 return
+INFO  17:29:59,490 - #44 c
+INFO  17:29:59,490 - #36 +
+INFO  17:29:59,490 - #43 2
+INFO  17:29:59,491 - #16 ;
+INFO  17:29:59,491 - #10 }
+INFO  17:29:59,493 - #44 int
+INFO  17:29:59,494 - #44 main
+INFO  17:29:59,494 - #11 (
+INFO  17:29:59,494 - #12 )
+INFO  17:29:59,494 - #44 int
+INFO  17:29:59,495 - #44 c
+INFO  17:29:59,495 - #16 ;
+INFO  17:29:59,495 - #9 {
+INFO  17:29:59,495 - #44 y
+INFO  17:29:59,495 - #27 =
+INFO  17:29:59,495 - #43 2
+INFO  17:29:59,495 - #16 ;
+INFO  17:29:59,495 - #44 x
+INFO  17:29:59,495 - #27 =
+INFO  17:29:59,495 - #44 y
+INFO  17:29:59,495 - #36 +
+INFO  17:29:59,495 - #43 2
+INFO  17:29:59,495 - #16 ;
+INFO  17:29:59,495 - #44 y
+INFO  17:29:59,496 - #27 =
+INFO  17:29:59,496 - #44 k
+INFO  17:29:59,496 - #11 (
+INFO  17:29:59,496 - #12 )
+INFO  17:29:59,497 - #36 +
+INFO  17:29:59,497 - #43 3
+INFO  17:29:59,497 - #16 ;
+INFO  17:29:59,497 - #18 print
+INFO  17:29:59,497 - #11 (
+INFO  17:29:59,497 - #44 y
+INFO  17:29:59,497 - #12 )
+INFO  17:29:59,498 - #16 ;
+INFO  17:29:59,498 - #6 return
+INFO  17:29:59,498 - #43 0
+INFO  17:29:59,498 - #16 ;
+INFO  17:29:59,498 - #10 }
+INFO  17:29:59,498 - #10 }
+INFO  17:29:59,502 - Prepoznato programsko ime : MJProgram
+INFO  17:29:59,503 - Prepoznat tip bool
+INFO  17:29:59,503 - Prepoznata deklaracija skalarne promenljive bul
+INFO  17:29:59,503 - Prepoznat tip char
+INFO  17:29:59,503 - Prepoznata deklaracija vektorske promenljive s1
+INFO  17:29:59,503 - Prepoznata deklaracija skalarne promenljive s2
+INFO  17:29:59,503 - Prepoznata deklaracija vektorske promenljive s3
+INFO  17:29:59,503 - Prepoznat tip int
+INFO  17:29:59,504 - Prepoznata deklaracija skalarne promenljive x
+INFO  17:29:59,504 - Prepoznat tip int
+INFO  17:29:59,504 - Prepoznata konstanta y tipa int vrednosti 5
+INFO  17:29:59,504 - Prepoznata konstanta a tipa int vrednosti 13
+INFO  17:29:59,504 - Prepoznata konstanta b tipa int vrednosti 1
+INFO  17:29:59,504 - Prepoznat tip char
+INFO  17:29:59,504 - Prepoznata konstanta opa tipa char vrednosti p
+INFO  17:29:59,504 - Prepoznat tip int
+INFO  17:29:59,504 - Prepoznat tip int
+INFO  17:29:59,505 - Prepoznata deklaracija skalarne promenljive c
+INFO  17:29:59,505 - Prepoznat tip int
+INFO  17:29:59,505 - Prepoznat tip int
+ERROR 17:29:59,505 - Greska, neuspesno deklarisanje promenljive s imenom c, to ime je vec zauzeto! 
+ERROR 17:29:59,506 - Greska: nije pronadjena main metoda!
+INFO  17:29:59,506 - Zatvoren program! 
+INFO  17:29:59,506 - Print calls = 0

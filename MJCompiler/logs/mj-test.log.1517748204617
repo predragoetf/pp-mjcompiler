@@ -1,0 +1,105 @@
+INFO  13:42:12,154 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  13:42:12,244 - #2 program
+INFO  13:42:12,244 - #44 testFuncCall
+INFO  13:42:12,245 - #44 int
+INFO  13:42:12,248 - #44 g
+INFO  13:42:12,250 - #16 ;
+INFO  13:42:12,250 - #9 {
+INFO  13:42:12,251 - #44 int
+INFO  13:42:12,252 - #44 f
+INFO  13:42:12,252 - #11 (
+INFO  13:42:12,254 - #12 )
+INFO  13:42:12,257 - #9 {
+INFO  13:42:12,258 - #6 return
+INFO  13:42:12,263 - #43 1
+INFO  13:42:12,264 - #16 ;
+INFO  13:42:12,265 - #10 }
+INFO  13:42:12,266 - #44 int
+INFO  13:42:12,268 - #44 f2
+INFO  13:42:12,269 - #11 (
+INFO  13:42:12,269 - #44 int
+INFO  13:42:12,269 - #44 p1
+INFO  13:42:12,271 - #15 ,
+INFO  13:42:12,272 - #44 int
+INFO  13:42:12,272 - #44 p2
+INFO  13:42:12,272 - #12 )
+INFO  13:42:12,272 - #9 {
+INFO  13:42:12,272 - #6 return
+INFO  13:42:12,272 - #44 p1
+INFO  13:42:12,272 - #36 +
+INFO  13:42:12,273 - #44 p2
+INFO  13:42:12,275 - #16 ;
+INFO  13:42:12,277 - #10 }
+INFO  13:42:12,277 - #5 void
+INFO  13:42:12,277 - #44 main
+INFO  13:42:12,278 - #11 (
+INFO  13:42:12,278 - #12 )
+INFO  13:42:12,278 - #9 {
+INFO  13:42:12,278 - #44 f
+INFO  13:42:12,278 - #11 (
+INFO  13:42:12,279 - #12 )
+INFO  13:42:12,281 - #16 ;
+INFO  13:42:12,282 - #44 g
+INFO  13:42:12,282 - #27 =
+INFO  13:42:12,283 - #44 f
+INFO  13:42:12,283 - #11 (
+INFO  13:42:12,283 - #12 )
+INFO  13:42:12,283 - #16 ;
+INFO  13:42:12,283 - #44 g
+INFO  13:42:12,283 - #27 =
+INFO  13:42:12,283 - #44 f2
+INFO  13:42:12,283 - #11 (
+INFO  13:42:12,283 - #43 3
+INFO  13:42:12,284 - #15 ,
+INFO  13:42:12,284 - #44 g
+INFO  13:42:12,284 - #12 )
+INFO  13:42:12,284 - #16 ;
+INFO  13:42:12,284 - #44 f2
+INFO  13:42:12,284 - #11 (
+INFO  13:42:12,284 - #44 g
+INFO  13:42:12,287 - #15 ,
+INFO  13:42:12,287 - #44 g
+INFO  13:42:12,287 - #12 )
+INFO  13:42:12,287 - #16 ;
+INFO  13:42:12,287 - #18 print
+INFO  13:42:12,287 - #11 (
+INFO  13:42:12,287 - #44 g
+INFO  13:42:12,287 - #12 )
+INFO  13:42:12,287 - #16 ;
+INFO  13:42:12,287 - #10 }
+INFO  13:42:12,288 - #10 }
+INFO  13:42:12,292 - Otvaranje scope 
+INFO  13:42:12,292 - Prepoznato programsko ime : testFuncCall na liniji 1
+INFO  13:42:12,292 - Prepoznat tip int na liniji 3
+INFO  13:42:12,292 - Prepoznata deklaracija skalarne promenljive g na liniji 3
+INFO  13:42:12,292 - Prepoznat tip int na liniji 6
+INFO  13:42:12,292 - Otvaranje scope 
+INFO  13:42:12,292 - Zatvaranje scope 
+INFO  13:42:12,293 - Prepoznat tip int na liniji 7
+INFO  13:42:12,293 - Otvaranje scope 
+INFO  13:42:12,293 - Prepoznat tip int na liniji 7
+INFO  13:42:12,293 - Prepoznata deklaracija skalarne promenljive p1 na liniji 7
+INFO  13:42:12,293 - Prepoznat tip int na liniji 7
+INFO  13:42:12,293 - Prepoznata deklaracija skalarne promenljive p2 na liniji 7
+INFO  13:42:12,293 - Koriscenje varijable p1 na liniji 7
+INFO  13:42:12,293 - Koriscenje varijable p2 na liniji 7
+INFO  13:42:12,293 - Zatvaranje scope 
+INFO  13:42:12,293 - Otvaranje scope 
+INFO  13:42:12,293 - Koriscenje metode f na liniji 11
+INFO  13:42:12,293 - Koriscenje varijable g na liniji 12
+INFO  13:42:12,293 - Koriscenje metode f na liniji 12
+INFO  13:42:12,294 - Dodela dozvoljena  na liniji 12
+INFO  13:42:12,294 - Koriscenje varijable g na liniji 13
+INFO  13:42:12,294 - Koriscenje metode f2 na liniji 13
+INFO  13:42:12,294 - Koriscenje varijable g na liniji 13
+INFO  13:42:12,294 - Dodela dozvoljena  na liniji 13
+INFO  13:42:12,294 - Koriscenje metode f2 na liniji 14
+INFO  13:42:12,294 - Koriscenje varijable g na liniji 14
+INFO  13:42:12,294 - Koriscenje varijable g na liniji 14
+INFO  13:42:12,294 - Koriscenje varijable g na liniji 15
+INFO  13:42:12,294 - Zatvaranje scope 
+INFO  13:42:12,294 - Zatvaranje scope 
+INFO  13:42:12,294 - Zatvoren program! 
+INFO  13:42:12,294 - Print calls = 1
+INFO  13:42:12,295 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  13:42:12,305 - Parsiranje uspesno zavrseno!

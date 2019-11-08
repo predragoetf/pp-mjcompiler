@@ -1,0 +1,103 @@
+INFO  19:02:55,873 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:02:55,962 - #2 program
+INFO  19:02:55,963 - #44 p
+INFO  19:02:55,963 - #44 int
+INFO  19:02:55,964 - #44 c
+INFO  19:02:55,964 - #16 ;
+INFO  19:02:55,965 - #9 {
+INFO  19:02:55,965 - #5 void
+INFO  19:02:55,966 - #44 main
+INFO  19:02:55,967 - #11 (
+INFO  19:02:55,968 - #12 )
+INFO  19:02:55,969 - #44 int
+INFO  19:02:55,969 - #44 c1
+INFO  19:02:55,969 - #15 ,
+INFO  19:02:55,970 - #44 c2
+INFO  19:02:55,970 - #15 ,
+INFO  19:02:55,971 - #44 c3
+INFO  19:02:55,971 - #15 ,
+INFO  19:02:55,971 - #44 c4
+INFO  19:02:55,971 - #15 ,
+INFO  19:02:55,972 - #44 c5
+INFO  19:02:55,974 - #16 ;
+INFO  19:02:55,974 - #44 int
+INFO  19:02:55,975 - #44 a
+INFO  19:02:55,975 - #16 ;
+INFO  19:02:55,975 - #44 int
+INFO  19:02:55,975 - #44 b
+INFO  19:02:55,975 - #13 [
+INFO  19:02:55,975 - #14 ]
+INFO  19:02:55,975 - #16 ;
+INFO  19:02:55,976 - #9 {
+INFO  19:02:55,976 - #44 a
+INFO  19:02:55,980 - #27 =
+INFO  19:02:55,981 - #43 77
+INFO  19:02:55,981 - #16 ;
+INFO  19:02:55,982 - #44 b
+INFO  19:02:55,982 - #27 =
+INFO  19:02:55,982 - #7 new
+INFO  19:02:55,982 - #44 int
+INFO  19:02:55,982 - #13 [
+INFO  19:02:55,982 - #43 5
+INFO  19:02:55,982 - #14 ]
+INFO  19:02:55,983 - #16 ;
+INFO  19:02:55,983 - #44 b
+INFO  19:02:55,983 - #13 [
+INFO  19:02:55,983 - #43 3
+INFO  19:02:55,983 - #14 ]
+INFO  19:02:55,983 - #27 =
+INFO  19:02:55,984 - #43 1
+INFO  19:02:55,984 - #16 ;
+INFO  19:02:55,984 - #44 b
+INFO  19:02:55,984 - #13 [
+INFO  19:02:55,984 - #43 3
+INFO  19:02:55,984 - #14 ]
+INFO  19:02:55,985 - #27 =
+INFO  19:02:55,985 - #44 b
+INFO  19:02:55,985 - #13 [
+INFO  19:02:55,985 - #43 3
+INFO  19:02:55,985 - #14 ]
+INFO  19:02:55,985 - #36 +
+INFO  19:02:55,985 - #43 1
+INFO  19:02:55,987 - #16 ;
+INFO  19:02:55,988 - #18 print
+INFO  19:02:55,988 - #11 (
+INFO  19:02:55,988 - #44 a
+INFO  19:02:55,988 - #12 )
+INFO  19:02:55,988 - #16 ;
+INFO  19:02:55,988 - #6 return
+INFO  19:02:55,988 - #16 ;
+INFO  19:02:55,990 - #10 }
+INFO  19:02:55,990 - #10 }
+INFO  19:02:56,000 - Otvaranje scope 
+INFO  19:02:56,000 - Prepoznato programsko ime : p na liniji 1
+INFO  19:02:56,000 - Prepoznat tip int na liniji 4
+INFO  19:02:56,000 - Prepoznata deklaracija skalarne promenljive c na liniji 4
+INFO  19:02:56,001 - Otvaranje scope 
+INFO  19:02:56,001 - Prepoznat tip int na liniji 7
+INFO  19:02:56,001 - Prepoznata deklaracija skalarne promenljive c1 na liniji 7
+INFO  19:02:56,001 - Prepoznata deklaracija skalarne promenljive c2 na liniji 7
+INFO  19:02:56,001 - Prepoznata deklaracija skalarne promenljive c3 na liniji 7
+INFO  19:02:56,001 - Prepoznata deklaracija skalarne promenljive c4 na liniji 7
+INFO  19:02:56,001 - Prepoznata deklaracija skalarne promenljive c5 na liniji 7
+INFO  19:02:56,001 - Prepoznat tip int na liniji 7
+INFO  19:02:56,001 - Prepoznata deklaracija skalarne promenljive a na liniji 7
+INFO  19:02:56,001 - Prepoznat tip int na liniji 7
+INFO  19:02:56,002 - Prepoznata deklaracija vektorske promenljive b na liniji 7
+INFO  19:02:56,002 - Koriscenje varijable a na liniji 9
+INFO  19:02:56,002 - Dodela dozvoljena  na liniji 9
+INFO  19:02:56,002 - Koriscenje varijable b na liniji 10
+INFO  19:02:56,002 - Prepoznat tip int na liniji 10
+INFO  19:02:56,002 - Dodela dozvoljena  na liniji 10
+INFO  19:02:56,002 - Koriscenje varijable b na liniji 11
+INFO  19:02:56,003 - Dodela dozvoljena  na liniji 11
+INFO  19:02:56,003 - Koriscenje varijable b na liniji 12
+INFO  19:02:56,003 - Koriscenje varijable b na liniji 12
+INFO  19:02:56,003 - Dodela dozvoljena  na liniji 12
+INFO  19:02:56,003 - Koriscenje varijable a na liniji 17
+INFO  19:02:56,003 - Zatvaranje scope 
+INFO  19:02:56,003 - Zatvaranje scope 
+INFO  19:02:56,003 - Zatvoren program! 
+INFO  19:02:56,003 - Print calls = 1
+INFO  19:02:56,004 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  19:02:56,011 - Parsiranje uspesno zavrseno!

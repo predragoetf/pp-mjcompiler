@@ -1,0 +1,311 @@
+INFO  22:27:33,968 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:27:34,065 - #2 program
+INFO  22:27:34,068 - #44 Pfibonacci
+INFO  22:27:34,068 - #9 {
+INFO  22:27:34,071 - #44 int
+INFO  22:27:34,074 - #44 fibonacci
+INFO  22:27:34,076 - #11 (
+INFO  22:27:34,085 - #44 int
+INFO  22:27:34,086 - #44 n
+INFO  22:27:34,086 - #12 )
+INFO  22:27:34,086 - #9 {
+INFO  22:27:34,089 - #22 if
+INFO  22:27:34,096 - #11 (
+INFO  22:27:34,097 - #44 n
+INFO  22:27:34,097 - #28 ==
+INFO  22:27:34,099 - #43 1
+INFO  22:27:34,101 - #34 &&
+INFO  22:27:34,102 - #43 2
+INFO  22:27:34,102 - #28 ==
+INFO  22:27:34,102 - #43 2
+INFO  22:27:34,102 - #35 ||
+INFO  22:27:34,105 - #44 n
+INFO  22:27:34,106 - #28 ==
+INFO  22:27:34,106 - #43 0
+INFO  22:27:34,106 - #12 )
+INFO  22:27:34,106 - #9 {
+INFO  22:27:34,107 - #6 return
+INFO  22:27:34,107 - #43 1
+INFO  22:27:34,107 - #16 ;
+INFO  22:27:34,108 - #10 }
+INFO  22:27:34,108 - #23 else
+INFO  22:27:34,108 - #6 return
+INFO  22:27:34,109 - #44 fibonacci
+INFO  22:27:34,109 - #11 (
+INFO  22:27:34,109 - #44 n
+INFO  22:27:34,110 - #37 -
+INFO  22:27:34,110 - #43 1
+INFO  22:27:34,111 - #12 )
+INFO  22:27:34,111 - #36 +
+INFO  22:27:34,111 - #44 fibonacci
+INFO  22:27:34,112 - #11 (
+INFO  22:27:34,112 - #44 n
+INFO  22:27:34,112 - #37 -
+INFO  22:27:34,112 - #43 2
+INFO  22:27:34,112 - #12 )
+INFO  22:27:34,112 - #16 ;
+INFO  22:27:34,112 - #10 }
+INFO  22:27:34,112 - #5 void
+INFO  22:27:34,113 - #44 main
+INFO  22:27:34,114 - #11 (
+INFO  22:27:34,114 - #12 )
+INFO  22:27:34,114 - #44 int
+INFO  22:27:34,114 - #44 n
+INFO  22:27:34,114 - #16 ;
+INFO  22:27:34,115 - #44 int
+INFO  22:27:34,115 - #44 a
+INFO  22:27:34,115 - #15 ,
+INFO  22:27:34,115 - #44 b
+INFO  22:27:34,115 - #16 ;
+INFO  22:27:34,118 - #44 bool
+INFO  22:27:34,118 - #44 c
+INFO  22:27:34,118 - #16 ;
+INFO  22:27:34,118 - #9 {
+INFO  22:27:34,119 - #21 read
+INFO  22:27:34,119 - #11 (
+INFO  22:27:34,119 - #44 n
+INFO  22:27:34,119 - #12 )
+INFO  22:27:34,122 - #16 ;
+INFO  22:27:34,122 - #18 print
+INFO  22:27:34,122 - #11 (
+INFO  22:27:34,122 - #44 fibonacci
+INFO  22:27:34,122 - #11 (
+INFO  22:27:34,123 - #44 n
+INFO  22:27:34,123 - #12 )
+INFO  22:27:34,123 - #12 )
+INFO  22:27:34,123 - #16 ;
+INFO  22:27:34,123 - #22 if
+INFO  22:27:34,123 - #11 (
+INFO  22:27:34,123 - #44 n
+INFO  22:27:34,123 - #33 <
+INFO  22:27:34,123 - #43 3
+INFO  22:27:34,124 - #12 )
+INFO  22:27:34,124 - #9 {
+INFO  22:27:34,124 - #18 print
+INFO  22:27:34,124 - #11 (
+INFO  22:27:34,124 - #45 V
+INFO  22:27:34,124 - #12 )
+INFO  22:27:34,125 - #16 ;
+INFO  22:27:34,125 - #18 print
+INFO  22:27:34,125 - #11 (
+INFO  22:27:34,125 - #45 E
+INFO  22:27:34,125 - #12 )
+INFO  22:27:34,125 - #16 ;
+INFO  22:27:34,126 - #18 print
+INFO  22:27:34,126 - #11 (
+INFO  22:27:34,126 - #45 C
+INFO  22:27:34,126 - #12 )
+INFO  22:27:34,126 - #16 ;
+INFO  22:27:34,126 - #18 print
+INFO  22:27:34,126 - #11 (
+INFO  22:27:34,126 - #45 E
+INFO  22:27:34,126 - #12 )
+INFO  22:27:34,126 - #16 ;
+INFO  22:27:34,126 - #22 if
+INFO  22:27:34,126 - #11 (
+INFO  22:27:34,126 - #44 n
+INFO  22:27:34,126 - #28 ==
+INFO  22:27:34,126 - #43 3
+INFO  22:27:34,126 - #12 )
+INFO  22:27:34,126 - #9 {
+INFO  22:27:34,127 - #18 print
+INFO  22:27:34,127 - #11 (
+INFO  22:27:34,127 - #45 Y
+INFO  22:27:34,127 - #12 )
+INFO  22:27:34,127 - #16 ;
+INFO  22:27:34,127 - #18 print
+INFO  22:27:34,127 - #11 (
+INFO  22:27:34,127 - #43 111
+INFO  22:27:34,127 - #12 )
+INFO  22:27:34,127 - #16 ;
+INFO  22:27:34,128 - #10 }
+INFO  22:27:34,128 - #23 else
+INFO  22:27:34,128 - #9 {
+INFO  22:27:34,128 - #18 print
+INFO  22:27:34,128 - #11 (
+INFO  22:27:34,128 - #45 N
+INFO  22:27:34,128 - #12 )
+INFO  22:27:34,128 - #16 ;
+INFO  22:27:34,128 - #18 print
+INFO  22:27:34,128 - #11 (
+INFO  22:27:34,128 - #43 222
+INFO  22:27:34,128 - #12 )
+INFO  22:27:34,128 - #16 ;
+INFO  22:27:34,128 - #10 }
+INFO  22:27:34,129 - #18 print
+INFO  22:27:34,129 - #11 (
+INFO  22:27:34,129 - #45 a
+INFO  22:27:34,129 - #12 )
+INFO  22:27:34,130 - #16 ;
+INFO  22:27:34,130 - #10 }
+INFO  22:27:34,130 - #23 else
+INFO  22:27:34,130 - #9 {
+INFO  22:27:34,130 - #18 print
+INFO  22:27:34,130 - #11 (
+INFO  22:27:34,130 - #45 M
+INFO  22:27:34,130 - #12 )
+INFO  22:27:34,131 - #16 ;
+INFO  22:27:34,131 - #18 print
+INFO  22:27:34,131 - #11 (
+INFO  22:27:34,131 - #45 A
+INFO  22:27:34,131 - #12 )
+INFO  22:27:34,131 - #16 ;
+INFO  22:27:34,131 - #18 print
+INFO  22:27:34,131 - #11 (
+INFO  22:27:34,131 - #45 N
+INFO  22:27:34,131 - #12 )
+INFO  22:27:34,131 - #16 ;
+INFO  22:27:34,132 - #18 print
+INFO  22:27:34,132 - #11 (
+INFO  22:27:34,132 - #45 J
+INFO  22:27:34,132 - #12 )
+INFO  22:27:34,133 - #16 ;
+INFO  22:27:34,133 - #18 print
+INFO  22:27:34,134 - #11 (
+INFO  22:27:34,134 - #45 E
+INFO  22:27:34,134 - #12 )
+INFO  22:27:34,134 - #16 ;
+INFO  22:27:34,134 - #22 if
+INFO  22:27:34,134 - #11 (
+INFO  22:27:34,134 - #44 n
+INFO  22:27:34,134 - #28 ==
+INFO  22:27:34,134 - #43 3
+INFO  22:27:34,134 - #12 )
+INFO  22:27:34,134 - #9 {
+INFO  22:27:34,134 - #18 print
+INFO  22:27:34,134 - #11 (
+INFO  22:27:34,134 - #45 Y
+INFO  22:27:34,134 - #12 )
+INFO  22:27:34,135 - #16 ;
+INFO  22:27:34,135 - #18 print
+INFO  22:27:34,135 - #11 (
+INFO  22:27:34,135 - #43 333
+INFO  22:27:34,135 - #12 )
+INFO  22:27:34,135 - #16 ;
+INFO  22:27:34,135 - #10 }
+INFO  22:27:34,135 - #23 else
+INFO  22:27:34,135 - #9 {
+INFO  22:27:34,135 - #18 print
+INFO  22:27:34,135 - #11 (
+INFO  22:27:34,135 - #45 N
+INFO  22:27:34,135 - #12 )
+INFO  22:27:34,136 - #16 ;
+INFO  22:27:34,136 - #18 print
+INFO  22:27:34,136 - #11 (
+INFO  22:27:34,136 - #43 444
+INFO  22:27:34,136 - #12 )
+INFO  22:27:34,136 - #16 ;
+INFO  22:27:34,136 - #10 }
+INFO  22:27:34,136 - #18 print
+INFO  22:27:34,136 - #11 (
+INFO  22:27:34,136 - #45 b
+INFO  22:27:34,136 - #12 )
+INFO  22:27:34,136 - #16 ;
+INFO  22:27:34,136 - #10 }
+INFO  22:27:34,136 - #18 print
+INFO  22:27:34,136 - #11 (
+INFO  22:27:34,136 - #45 c
+INFO  22:27:34,136 - #12 )
+INFO  22:27:34,136 - #16 ;
+INFO  22:27:34,136 - #44 c
+INFO  22:27:34,137 - #27 =
+INFO  22:27:34,137 - #26 true
+INFO  22:27:34,137 - #16 ;
+INFO  22:27:34,138 - #44 a
+INFO  22:27:34,139 - #27 =
+INFO  22:27:34,139 - #43 1
+INFO  22:27:34,139 - #16 ;
+INFO  22:27:34,139 - #44 b
+INFO  22:27:34,139 - #27 =
+INFO  22:27:34,139 - #43 2
+INFO  22:27:34,139 - #16 ;
+INFO  22:27:34,139 - #22 if
+INFO  22:27:34,139 - #11 (
+INFO  22:27:34,139 - #44 c
+INFO  22:27:34,140 - #12 )
+INFO  22:27:34,140 - #9 {
+INFO  22:27:34,140 - #18 print
+INFO  22:27:34,140 - #11 (
+INFO  22:27:34,140 - #45 T
+INFO  22:27:34,140 - #12 )
+INFO  22:27:34,140 - #16 ;
+INFO  22:27:34,140 - #10 }
+INFO  22:27:34,140 - #10 }
+INFO  22:27:34,142 - #10 }
+INFO  22:27:34,158 - Otvaranje scope 
+INFO  22:27:34,158 - Prepoznato programsko ime : Pfibonacci na liniji 1
+INFO  22:27:34,159 - Prepoznat tip int na liniji 4
+INFO  22:27:34,159 - Otvaranje scope 
+INFO  22:27:34,159 - Prepoznat tip int na liniji 4
+INFO  22:27:34,159 - Prepoznata deklaracija skalarne promenljive n na liniji 4
+INFO  22:27:34,159 - Koriscenje lokalne varijable n na liniji 6
+INFO  22:27:34,159 - 
+Var n: int, 0, 1 
+INFO  22:27:34,160 - Koriscenje lokalne varijable n na liniji 6
+INFO  22:27:34,160 - 
+Var n: int, 0, 1 
+INFO  22:27:34,160 - Koriscenje metode fibonacci na liniji 11
+INFO  22:27:34,160 - 
+Meth fibonacci: int, 0, 1 
+
+INFO  22:27:34,160 - Koriscenje lokalne varijable n na liniji 11
+INFO  22:27:34,160 - 
+Var n: int, 0, 1 
+INFO  22:27:34,160 - Koriscenje metode fibonacci na liniji 11
+INFO  22:27:34,160 - 
+Meth fibonacci: int, 0, 1 
+
+INFO  22:27:34,160 - Koriscenje lokalne varijable n na liniji 11
+INFO  22:27:34,160 - 
+Var n: int, 0, 1 
+INFO  22:27:34,160 - Zatvaranje scope 
+INFO  22:27:34,160 - Otvaranje scope 
+INFO  22:27:34,160 - Prepoznat tip int na liniji 14
+INFO  22:27:34,160 - Prepoznata deklaracija skalarne promenljive n na liniji 14
+INFO  22:27:34,163 - Prepoznat tip int na liniji 14
+INFO  22:27:34,163 - Prepoznata deklaracija skalarne promenljive a na liniji 14
+INFO  22:27:34,164 - Prepoznata deklaracija skalarne promenljive b na liniji 14
+INFO  22:27:34,164 - Prepoznat tip bool na liniji 14
+INFO  22:27:34,164 - Prepoznata deklaracija skalarne promenljive c na liniji 14
+INFO  22:27:34,164 - Koriscenje lokalne varijable n na liniji 16
+INFO  22:27:34,164 - 
+Var n: int, 0, 1 
+INFO  22:27:34,164 - Detektovan dozvoljen read  na liniji 16
+INFO  22:27:34,164 - Koriscenje metode fibonacci na liniji 17
+INFO  22:27:34,165 - 
+Meth fibonacci: int, 0, 1 
+   Var n: int, 0, 1 
+
+INFO  22:27:34,165 - Koriscenje lokalne varijable n na liniji 17
+INFO  22:27:34,165 - 
+Var n: int, 0, 1 
+INFO  22:27:34,165 - Koriscenje lokalne varijable n na liniji 18
+INFO  22:27:34,165 - 
+Var n: int, 0, 1 
+INFO  22:27:34,165 - Koriscenje lokalne varijable n na liniji 24
+INFO  22:27:34,165 - 
+Var n: int, 0, 1 
+INFO  22:27:34,165 - Koriscenje lokalne varijable n na liniji 43
+INFO  22:27:34,166 - 
+Var n: int, 0, 1 
+INFO  22:27:34,166 - Koriscenje lokalne varijable c na liniji 58
+INFO  22:27:34,166 - 
+Var c: , 3, 1 
+INFO  22:27:34,166 - Dodela dozvoljena  na liniji 58
+INFO  22:27:34,166 - Koriscenje lokalne varijable a na liniji 59
+INFO  22:27:34,166 - 
+Var a: int, 1, 1 
+INFO  22:27:34,166 - Dodela dozvoljena  na liniji 59
+INFO  22:27:34,166 - Koriscenje lokalne varijable b na liniji 60
+INFO  22:27:34,166 - 
+Var b: int, 2, 1 
+INFO  22:27:34,166 - Dodela dozvoljena  na liniji 60
+INFO  22:27:34,166 - Koriscenje lokalne varijable c na liniji 61
+INFO  22:27:34,166 - 
+Var c: , 3, 1 
+INFO  22:27:34,166 - Zatvaranje scope 
+INFO  22:27:34,166 - Zatvaranje scope 
+INFO  22:27:34,166 - Zatvoren program! 
+INFO  22:27:34,166 - Print calls = 22
+INFO  22:27:34,167 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  22:27:34,174 - Parsiranje uspesno zavrseno!

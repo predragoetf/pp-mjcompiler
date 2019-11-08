@@ -1,0 +1,260 @@
+INFO  22:25:54,721 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:25:54,840 - #2 program
+INFO  22:25:54,840 - #44 Pfibonacci
+INFO  22:25:54,841 - #9 {
+INFO  22:25:54,842 - #44 int
+INFO  22:25:54,843 - #44 fibonacci
+INFO  22:25:54,843 - #11 (
+INFO  22:25:54,844 - #44 int
+INFO  22:25:54,845 - #44 n
+INFO  22:25:54,845 - #12 )
+INFO  22:25:54,845 - #9 {
+INFO  22:25:54,846 - #22 if
+INFO  22:25:54,847 - #11 (
+INFO  22:25:54,847 - #44 n
+INFO  22:25:54,847 - #28 ==
+INFO  22:25:54,849 - #43 1
+INFO  22:25:54,850 - #34 &&
+INFO  22:25:54,851 - #43 2
+INFO  22:25:54,851 - #28 ==
+INFO  22:25:54,851 - #43 2
+INFO  22:25:54,851 - #35 ||
+INFO  22:25:54,853 - #44 n
+INFO  22:25:54,855 - #28 ==
+INFO  22:25:54,855 - #43 0
+INFO  22:25:54,855 - #12 )
+INFO  22:25:54,855 - #9 {
+INFO  22:25:54,856 - #6 return
+INFO  22:25:54,856 - #43 1
+INFO  22:25:54,856 - #16 ;
+INFO  22:25:54,857 - #10 }
+INFO  22:25:54,857 - #23 else
+INFO  22:25:54,857 - #6 return
+INFO  22:25:54,858 - #44 fibonacci
+INFO  22:25:54,858 - #11 (
+INFO  22:25:54,858 - #44 n
+INFO  22:25:54,859 - #37 -
+INFO  22:25:54,860 - #43 1
+INFO  22:25:54,861 - #12 )
+INFO  22:25:54,861 - #36 +
+INFO  22:25:54,862 - #44 fibonacci
+INFO  22:25:54,862 - #11 (
+INFO  22:25:54,863 - #44 n
+INFO  22:25:54,863 - #37 -
+INFO  22:25:54,863 - #43 2
+INFO  22:25:54,863 - #12 )
+INFO  22:25:54,863 - #16 ;
+INFO  22:25:54,863 - #10 }
+INFO  22:25:54,864 - #5 void
+INFO  22:25:54,866 - #44 main
+INFO  22:25:54,867 - #11 (
+INFO  22:25:54,867 - #12 )
+INFO  22:25:54,871 - #44 int
+INFO  22:25:54,871 - #44 n
+INFO  22:25:54,871 - #16 ;
+INFO  22:25:54,871 - #9 {
+INFO  22:25:54,872 - #21 read
+INFO  22:25:54,872 - #11 (
+INFO  22:25:54,873 - #44 n
+INFO  22:25:54,873 - #12 )
+INFO  22:25:54,876 - #16 ;
+INFO  22:25:54,876 - #18 print
+INFO  22:25:54,878 - #11 (
+INFO  22:25:54,878 - #44 fibonacci
+INFO  22:25:54,878 - #11 (
+INFO  22:25:54,878 - #44 n
+INFO  22:25:54,879 - #12 )
+INFO  22:25:54,879 - #12 )
+INFO  22:25:54,879 - #16 ;
+INFO  22:25:54,880 - #22 if
+INFO  22:25:54,880 - #11 (
+INFO  22:25:54,880 - #44 n
+INFO  22:25:54,880 - #33 <
+INFO  22:25:54,880 - #43 3
+INFO  22:25:54,882 - #12 )
+INFO  22:25:54,882 - #9 {
+INFO  22:25:54,882 - #18 print
+INFO  22:25:54,882 - #11 (
+INFO  22:25:54,882 - #45 V
+INFO  22:25:54,882 - #12 )
+INFO  22:25:54,883 - #16 ;
+INFO  22:25:54,883 - #18 print
+INFO  22:25:54,883 - #11 (
+INFO  22:25:54,883 - #45 E
+INFO  22:25:54,883 - #12 )
+INFO  22:25:54,884 - #16 ;
+INFO  22:25:54,884 - #18 print
+INFO  22:25:54,884 - #11 (
+INFO  22:25:54,884 - #45 C
+INFO  22:25:54,884 - #12 )
+INFO  22:25:54,884 - #16 ;
+INFO  22:25:54,884 - #18 print
+INFO  22:25:54,884 - #11 (
+INFO  22:25:54,884 - #45 E
+INFO  22:25:54,884 - #12 )
+INFO  22:25:54,884 - #16 ;
+INFO  22:25:54,885 - #22 if
+INFO  22:25:54,885 - #11 (
+INFO  22:25:54,885 - #44 n
+INFO  22:25:54,885 - #28 ==
+INFO  22:25:54,885 - #43 3
+INFO  22:25:54,885 - #12 )
+INFO  22:25:54,885 - #9 {
+INFO  22:25:54,886 - #18 print
+INFO  22:25:54,886 - #11 (
+INFO  22:25:54,886 - #45 Y
+INFO  22:25:54,886 - #12 )
+INFO  22:25:54,886 - #16 ;
+INFO  22:25:54,886 - #18 print
+INFO  22:25:54,886 - #11 (
+INFO  22:25:54,886 - #43 111
+INFO  22:25:54,887 - #12 )
+INFO  22:25:54,887 - #16 ;
+INFO  22:25:54,887 - #10 }
+INFO  22:25:54,887 - #23 else
+INFO  22:25:54,887 - #9 {
+INFO  22:25:54,888 - #18 print
+INFO  22:25:54,888 - #11 (
+INFO  22:25:54,888 - #45 N
+INFO  22:25:54,888 - #12 )
+INFO  22:25:54,888 - #16 ;
+INFO  22:25:54,888 - #18 print
+INFO  22:25:54,888 - #11 (
+INFO  22:25:54,888 - #43 222
+INFO  22:25:54,888 - #12 )
+INFO  22:25:54,888 - #16 ;
+INFO  22:25:54,888 - #10 }
+INFO  22:25:54,888 - #18 print
+INFO  22:25:54,889 - #11 (
+INFO  22:25:54,889 - #45 a
+INFO  22:25:54,889 - #12 )
+INFO  22:25:54,889 - #16 ;
+INFO  22:25:54,889 - #10 }
+INFO  22:25:54,889 - #23 else
+INFO  22:25:54,889 - #9 {
+INFO  22:25:54,889 - #18 print
+INFO  22:25:54,889 - #11 (
+INFO  22:25:54,889 - #45 M
+INFO  22:25:54,889 - #12 )
+INFO  22:25:54,889 - #16 ;
+INFO  22:25:54,889 - #18 print
+INFO  22:25:54,889 - #11 (
+INFO  22:25:54,890 - #45 A
+INFO  22:25:54,890 - #12 )
+INFO  22:25:54,890 - #16 ;
+INFO  22:25:54,890 - #18 print
+INFO  22:25:54,890 - #11 (
+INFO  22:25:54,890 - #45 N
+INFO  22:25:54,890 - #12 )
+INFO  22:25:54,890 - #16 ;
+INFO  22:25:54,890 - #18 print
+INFO  22:25:54,890 - #11 (
+INFO  22:25:54,890 - #45 J
+INFO  22:25:54,890 - #12 )
+INFO  22:25:54,890 - #16 ;
+INFO  22:25:54,890 - #18 print
+INFO  22:25:54,890 - #11 (
+INFO  22:25:54,891 - #45 E
+INFO  22:25:54,891 - #12 )
+INFO  22:25:54,891 - #16 ;
+INFO  22:25:54,891 - #22 if
+INFO  22:25:54,891 - #11 (
+INFO  22:25:54,891 - #44 n
+INFO  22:25:54,891 - #28 ==
+INFO  22:25:54,891 - #43 3
+INFO  22:25:54,891 - #12 )
+INFO  22:25:54,891 - #9 {
+INFO  22:25:54,891 - #18 print
+INFO  22:25:54,891 - #11 (
+INFO  22:25:54,891 - #45 Y
+INFO  22:25:54,891 - #12 )
+INFO  22:25:54,891 - #16 ;
+INFO  22:25:54,891 - #18 print
+INFO  22:25:54,891 - #11 (
+INFO  22:25:54,891 - #43 333
+INFO  22:25:54,892 - #12 )
+INFO  22:25:54,892 - #16 ;
+INFO  22:25:54,892 - #10 }
+INFO  22:25:54,892 - #23 else
+INFO  22:25:54,892 - #9 {
+INFO  22:25:54,892 - #18 print
+INFO  22:25:54,892 - #11 (
+INFO  22:25:54,892 - #45 N
+INFO  22:25:54,892 - #12 )
+INFO  22:25:54,892 - #16 ;
+INFO  22:25:54,892 - #18 print
+INFO  22:25:54,892 - #11 (
+INFO  22:25:54,892 - #43 444
+INFO  22:25:54,893 - #12 )
+INFO  22:25:54,893 - #16 ;
+INFO  22:25:54,893 - #10 }
+INFO  22:25:54,893 - #18 print
+INFO  22:25:54,893 - #11 (
+INFO  22:25:54,893 - #45 b
+INFO  22:25:54,893 - #12 )
+INFO  22:25:54,893 - #16 ;
+INFO  22:25:54,893 - #10 }
+INFO  22:25:54,893 - #18 print
+INFO  22:25:54,893 - #11 (
+INFO  22:25:54,893 - #45 c
+INFO  22:25:54,894 - #12 )
+INFO  22:25:54,894 - #16 ;
+INFO  22:25:54,894 - #10 }
+INFO  22:25:54,894 - #10 }
+INFO  22:25:54,902 - Otvaranje scope 
+INFO  22:25:54,902 - Prepoznato programsko ime : Pfibonacci na liniji 1
+INFO  22:25:54,902 - Prepoznat tip int na liniji 4
+INFO  22:25:54,902 - Otvaranje scope 
+INFO  22:25:54,902 - Prepoznat tip int na liniji 4
+INFO  22:25:54,902 - Prepoznata deklaracija skalarne promenljive n na liniji 4
+INFO  22:25:54,902 - Koriscenje lokalne varijable n na liniji 6
+INFO  22:25:54,903 - 
+Var n: int, 0, 1 
+INFO  22:25:54,903 - Koriscenje lokalne varijable n na liniji 6
+INFO  22:25:54,903 - 
+Var n: int, 0, 1 
+INFO  22:25:54,903 - Koriscenje metode fibonacci na liniji 11
+INFO  22:25:54,903 - 
+Meth fibonacci: int, 0, 1 
+
+INFO  22:25:54,903 - Koriscenje lokalne varijable n na liniji 11
+INFO  22:25:54,903 - 
+Var n: int, 0, 1 
+INFO  22:25:54,903 - Koriscenje metode fibonacci na liniji 11
+INFO  22:25:54,903 - 
+Meth fibonacci: int, 0, 1 
+
+INFO  22:25:54,903 - Koriscenje lokalne varijable n na liniji 11
+INFO  22:25:54,903 - 
+Var n: int, 0, 1 
+INFO  22:25:54,903 - Zatvaranje scope 
+INFO  22:25:54,904 - Otvaranje scope 
+INFO  22:25:54,904 - Prepoznat tip int na liniji 14
+INFO  22:25:54,904 - Prepoznata deklaracija skalarne promenljive n na liniji 14
+INFO  22:25:54,904 - Koriscenje lokalne varijable n na liniji 16
+INFO  22:25:54,904 - 
+Var n: int, 0, 1 
+INFO  22:25:54,904 - Detektovan dozvoljen read  na liniji 16
+INFO  22:25:54,904 - Koriscenje metode fibonacci na liniji 17
+INFO  22:25:54,904 - 
+Meth fibonacci: int, 0, 1 
+   Var n: int, 0, 1 
+
+INFO  22:25:54,905 - Koriscenje lokalne varijable n na liniji 17
+INFO  22:25:54,905 - 
+Var n: int, 0, 1 
+INFO  22:25:54,905 - Koriscenje lokalne varijable n na liniji 18
+INFO  22:25:54,905 - 
+Var n: int, 0, 1 
+INFO  22:25:54,905 - Koriscenje lokalne varijable n na liniji 24
+INFO  22:25:54,905 - 
+Var n: int, 0, 1 
+INFO  22:25:54,905 - Koriscenje lokalne varijable n na liniji 43
+INFO  22:25:54,905 - 
+Var n: int, 0, 1 
+INFO  22:25:54,905 - Zatvaranje scope 
+INFO  22:25:54,905 - Zatvaranje scope 
+INFO  22:25:54,905 - Zatvoren program! 
+INFO  22:25:54,905 - Print calls = 21
+INFO  22:25:54,905 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  22:25:54,911 - Parsiranje uspesno zavrseno!

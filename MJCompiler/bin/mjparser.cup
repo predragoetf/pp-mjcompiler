@@ -1,0 +1,327 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+import rs.etf.pp1.symboltable.concepts.*;
+import rs.etf.pp1.symboltable.*;
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+init with {:
+
+	Tab.init();
+:}
+
+
+//terminali
+
+
+terminal PROG, CLASS ;
+terminal EXTENDS, VOID, RETURN ;
+terminal NEW, CONST ;
+terminal LBRACE, RBRACE, LPAREN, RPAREN, LSQBRACKET, RSQBRACKET ; 
+terminal COMMA, SEMI, DOT;
+terminal PRINT, BREAK, CONTINUE, READ ;
+
+terminal IF, ELSE ;
+terminal DO, WHILE ;
+
+terminal Boolean BOOL ;
+
+terminal EQUAL, EQUAL2, NOTEQUAL, GEQ, LEQ, GREATER, LESSER ;
+terminal AND, OR ;
+
+terminal PLUS, MINUS, MUL, MOD, DIV ;
+terminal INC, DEC ;
+
+terminal Integer NUMBER ;
+terminal String IDENT ;
+terminal Character CHAR;
+
+
+//neterminali 
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type ; 
+
+nonterminal Program ;
+nonterminal GlobalsList, ProgramMethodDeclList, GlobalsElem ;
+
+nonterminal ConstDecl ;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ConstDeclList ;
+nonterminal NumConst, CharConst;
+nonterminal BoolConst ; 
+nonterminal TypedConstAssignment, NonTypedConstAssignment ;
+
+nonterminal VarDecl ;
+nonterminal VarDeclList ;
+nonterminal TypedDeclaration, NonTypedDeclaration ;
+
+nonterminal ClassDecl ;
+nonterminal ClassExtendOption, ClassLocalVars, ClassMethodSection ;
+nonterminal ClassMethodList ;
+
+nonterminal MethodDecl ;
+nonterminal MethodReturnType, MethodFormPars, MethodLocalVars, MethodStatementList ;
+
+nonterminal FormPars ;
+ 
+nonterminal Statement ;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct StatementReturnValue;
+nonterminal StatementList ;
+
+nonterminal DesignatorStatement ;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator ;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr, ExprTerm ;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Term, Factor ;
+
+nonterminal Addop, Mulop ;
+nonterminal Relop ;
+
+nonterminal CallActualParams, ActPars ;
+
+nonterminal Condition, CondTerm, CondFact ;
+
+//neterminali dodati zbog semanticke analize
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj SemAnProgramName;
+nonterminal SemAnMethodDeclOpenScope;
+nonterminal SemAnEraseParamList;
+nonterminal CodeGenGetPc;
+nonterminal CodeGenInsertFunction;
+nonterminal CodeGenFixupStatementIfMatched, CodeGenFixupStatementIfUnmatched, CodeGenJmpFixup, CodeGenFixupConditionComplex;
+nonterminal CodeGenFixupAfterDo, CodeGenFixupAfterWhile;
+
+precedence left ELSE ;
+
+//univerzalne smene
+
+Program ::= (Program ) PROG SemAnProgramName GlobalsList LBRACE ProgramMethodDeclList RBRACE CodeGenInsertFunction;
+
+CodeGenInsertFunction ::= (CodeGenInsertFunctionEmpty ) /* epsilon */ ;
+
+SemAnProgramName ::= (SemAnProgramName ) IDENT:name ;
+
+GlobalsList ::= (GlobalsListList ) GlobalsList GlobalsElem ;
+GlobalsList ::= (GlobalsListEmpty )/* epsilon */ ;
+
+GlobalsElem ::= (GlobalsElemVar ) VarDecl ;
+GlobalsElem ::= (GlobalsElemClass ) ClassDecl ;
+GlobalsElem ::= (GlobalsElemConst ) ConstDecl ;
+
+ConstDecl ::= (ConstDecl ) ConstDeclList SEMI ;
+
+ConstDeclList ::= (ConstDeclListSingle ) CONST TypedConstAssignment ;
+ConstDeclList ::= (ConstDeclListMultiple ) ConstDeclList COMMA NonTypedConstAssignment ;
+
+TypedConstAssignment ::= (TypedConstAssignment ) Type NonTypedConstAssignment ;
+
+//NonTypedConstAssignment ::= (NonTypedConstAssignmentNum ) IDENT:cName EQUAL NumConst ;
+NonTypedConstAssignment ::= (NonTypedConstAssignmentNum ) IDENT:cName EQUAL NUMBER:value ;
+//NonTypedConstAssignment ::= (NonTypedConstAssignmentChar ) IDENT:cName EQUAL CharConst ;
+NonTypedConstAssignment ::= (NonTypedConstAssignmentChar ) IDENT:cName EQUAL CHAR:value ;
+//NonTypedConstAssignment ::= (NonTypedConstAssignmentBool ) IDENT:cName EQUAL BoolConst ;
+NonTypedConstAssignment ::= (NonTypedConstAssignmentBool ) IDENT:cName EQUAL BOOL:value ;
+
+NumConst ::= (NumConstPositive ) NUMBER:value ;
+
+CharConst ::= (CharConst ) CHAR:value ;
+
+BoolConst ::= (BoolConst) BOOL:value ;
+				
+VarDecl ::= (VarDeclOk ) VarDeclList SEMI ;				
+//VarDecl ::= (VarDeclError ) error SEMI ;
+
+VarDeclList ::= (VarDeclListSingle ) TypedDeclaration ;
+VarDeclList ::= (VarDeclListMultiple ) VarDeclList COMMA NonTypedDeclaration ;
+
+ClassDecl ::= (ClassDecl ) CLASS IDENT ClassExtendOption LBRACE ClassLocalVars ClassMethodSection RBRACE ;
+
+ClassExtendOption ::= (ClassExtendOptionNonDerived ) /* epsilon */ ;
+ClassExtendOption ::= (ClassExtendOptionDerived ) EXTENDS Type ;
+
+ClassLocalVars ::= (ClassLocalVarsNonExistent ) /* epsilon */ ;
+ClassLocalVars ::= (ClassLocalVarsExistent ) VarDecl ;
+
+ClassMethodSection ::= (ClassMethodSection ) LBRACE ClassMethodList RBRACE ;
+
+ClassMethodList ::= (ClassMethodListEmpty ) /* epsilon */ ;
+ClassMethodList ::= (ClassMethodListNonEmpty ) ClassMethodList MethodDecl ;
+
+ProgramMethodDeclList ::= (ProgramMethodDeclListEmpty )  /* epsilon */ ;
+ProgramMethodDeclList ::= (ProgramMethodDeclListNonEmpty ) ProgramMethodDeclList MethodDecl ;
+
+MethodDecl ::= (MethodDecl ) MethodReturnType IDENT:mName SemAnMethodDeclOpenScope LPAREN MethodFormPars RPAREN  MethodLocalVars LBRACE CodeGenGetPc MethodStatementList RBRACE ;
+
+MethodReturnType ::= (MethodReturnTypeTyped ) Type ;
+MethodReturnType ::= (MethodReturnTypeVoid ) VOID ;
+
+MethodFormPars ::= (MethodFormParsNone )  /* epsilon */ ;
+MethodFormPars ::= (MethodFormParsSome ) FormPars ;
+
+SemAnMethodDeclOpenScope ::= (SemAnMethodDeclOpenScopeEmpty ) /* epsilon */ ;
+CodeGenGetPc ::= (CodeGenGetPcEmpty ) /* epsilon */ ;
+
+MethodLocalVars ::= (MethodLocalVarsNonExistent ) /* epsilon */ ;
+MethodLocalVars ::= (MethodLocalVarsExistent ) MethodLocalVars VarDecl ;
+
+MethodStatementList ::= (MethodStatementListEmpty ) /* epsilon */ ;
+MethodStatementList ::= (MethodStatementListNonEmpty ) MethodStatementList Statement ;
+
+FormPars ::= (FormParsList) FormPars COMMA TypedDeclaration ;
+FormPars ::= (FormParsSingle) TypedDeclaration ;
+
+TypedDeclaration ::= (TypedDeclarationScalar ) Type IDENT:vName ;
+TypedDeclaration ::= (TypedDeclarationVector ) Type IDENT:vName LSQBRACKET RSQBRACKET ;
+TypedDeclaration ::= (TypedDeclarationError ) error ;
+
+NonTypedDeclaration ::= (NonTypedDeclarationScalar ) IDENT:vName ;
+NonTypedDeclaration ::= (NonTypedDeclarationVector ) IDENT:vName LSQBRACKET RSQBRACKET ;
+NonTypedDeclaration ::= (NonTypedDeclarationError ) error ;
+
+Type ::= (Type) IDENT:typeName ;
+
+
+//Nivo A
+
+Statement ::= (StatementAssignment ) DesignatorStatement SEMI ;
+//Statement ::= (StatementConstructor) Designator LPAREN RPAREN SEMI ;
+Statement ::= (StatementRead) READ LPAREN Designator RPAREN SEMI ;
+Statement ::= (StatementPrintSimple) PRINT LPAREN Expr RPAREN SEMI ;
+Statement ::= (StatementPrintComplex) PRINT LPAREN Expr COMMA NumConst RPAREN SEMI ;
+
+DesignatorStatement ::= (DesignatorStatementAssignment) Designator EQUAL Expr ;
+DesignatorStatement ::= (DesignatorStatementAssignmentError1) error EQUAL Expr ;
+DesignatorStatement ::= (DesignatorStatementAssignmentError2) Designator EQUAL error ;
+DesignatorStatement ::= (DesignatorStatementIncrement) Designator INC ;
+DesignatorStatement ::= (DesignatorStatementDecrement) Designator DEC ;
+
+Expr ::= (ExprTermSingle) ExprTerm ;
+Expr ::= (ExprTermSum) Expr Addop Term ;
+//Expr ::= (ExprCall) Designator LPAREN RPAREN ;
+ExprTerm ::= (ExprTermPositive) Term ;
+ExprTerm ::= (ExprTermNegative) MINUS Term ;
+
+Term ::= (TermFactor) Factor ;
+Term ::= (TermProduct) Term Mulop Factor ; 
+
+Factor ::= (FactorNumConstant) NumConst ;
+Factor ::= (FactorCharConstant) CharConst ;
+Factor ::= (FactorBoolConstant) BoolConst ;
+Factor ::= (FactorExpr) LPAREN Expr RPAREN ; 
+Factor ::= (FactorConstructor) NEW Type ;
+Factor ::= (FactorArrayAllocation) NEW Type LSQBRACKET Expr RSQBRACKET ;
+
+Designator ::= (DesignatorIdentifier) IDENT:vName ;
+Designator ::= (DesignatorFieldReferencing) Designator DOT IDENT:fName ;//ovo treba da pomera obj
+Designator ::= (DesignatorArrayDereferencing) Designator LSQBRACKET Expr RSQBRACKET ;
+
+Addop ::= (AddopAdd) PLUS ;
+Addop ::= (AddopSub) MINUS ;
+
+Mulop ::= (MulopMul) MUL ;
+Mulop ::= (MulopDiv) DIV ;
+Mulop ::= (MulopMod) MOD ;
+
+
+
+//Nivo B
+
+DesignatorStatement ::= (DesignatorStatementCall) Designator LPAREN SemAnEraseParamList CallActualParams RPAREN ; 
+
+Statement ::= (StatementIfMatched ) IF LPAREN Condition RPAREN CodeGenJmpFixup Statement ELSE CodeGenFixupStatementIfMatched Statement ;
+Statement ::= (StatementIfUnmatched ) IF LPAREN Condition RPAREN CodeGenJmpFixup Statement CodeGenFixupStatementIfUnmatched;
+Statement ::= (StatementDoWhile ) DO CodeGenFixupAfterDo Statement WHILE LPAREN Condition RPAREN CodeGenJmpFixup SEMI CodeGenFixupAfterWhile;
+Statement ::= (StatementBreak ) BREAK SEMI ;
+Statement ::= (StatementContinue ) CONTINUE SEMI ;
+Statement ::= (StatementReturn ) RETURN StatementReturnValue SEMI ;
+Statement ::= (StatementBlockOfStatements ) LBRACE StatementList RBRACE ;
+
+StatementReturnValue ::= (StatementReturnValueEmpty )  /* epsilon */ ;
+StatementReturnValue ::= (StatementReturnValueNotEmpty ) Expr ;
+
+StatementList ::= (StatementListEmpty ) /* epsilon */ ;
+StatementList ::= (StatementListNotEmpty ) StatementList Statement ;
+
+CallActualParams ::= (CallActualParamsNone ) /* epsilon */ ;
+CallActualParams ::= (CallActualParamsSome ) ActPars ;
+
+ActPars ::= (ActParsSingle ) Expr ;
+ActPars ::= (ActParsMultiple ) ActPars COMMA Expr ;
+
+Factor ::= (FactorDesignator) Designator ;
+Factor ::= (FactorFuncCall) Designator LPAREN SemAnEraseParamList CallActualParams RPAREN ;
+
+SemAnEraseParamList ::= (SemAnEraseParamListEmpty) /* epsilon */ ;
+
+Condition ::= (ConditionSimple) CondTerm ;
+Condition ::= (ConditionComplex) Condition OR CodeGenFixupConditionComplex CondTerm ;
+Condition ::= (ConditionError) error;
+
+CodeGenFixupStatementIfMatched ::= (CodeGenFixupStatementIfMatchedEmpty) /* epsilon */ ;
+CodeGenFixupStatementIfUnmatched ::= (CodeGenFixupStatementIfUnmatchedEmpty) /* epsilon */ ;
+CodeGenFixupConditionComplex ::= (CodeGenFixupConditionComplexEmpty ) /* epsilon */ ;
+CodeGenFixupAfterWhile ::= (CodeGenFixupAfterWhileEmpty ) /* epsilon */ ;
+CodeGenFixupAfterDo ::= (CodeGenFixupAfterDoEmpty ) /* epsilon */ ;
+CodeGenJmpFixup ::= (CodeGenJmpFixupEmpty ) /* epsilon */ ;
+
+CondTerm ::= (CondTermSimple) CondFact ;
+CondTerm ::= (CondTermComplex) CondTerm AND CondFact ;
+
+CondFact ::= (CondFactSingle) Expr ;
+CondFact ::= (CondFactComplex) Expr Relop Expr ;
+
+Relop ::= (RelopEquivalent) EQUAL2 ;
+Relop ::= (RelopNotEqual) NOTEQUAL ;
+Relop ::= (RelopGreater) GREATER ;
+Relop ::= (RelopLesser) LESSER ;
+Relop ::= (RelopGreaterOrEqual) GEQ ;
+Relop ::= (RelopLesserOrEqual) LEQ ;

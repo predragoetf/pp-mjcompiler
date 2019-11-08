@@ -1,0 +1,109 @@
+INFO  16:33:27,638 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:33:27,726 - #2 program
+INFO  16:33:27,726 - #44 testFuncCall
+INFO  16:33:27,726 - #44 int
+INFO  16:33:27,730 - #44 g
+INFO  16:33:27,731 - #16 ;
+INFO  16:33:27,732 - #44 int
+INFO  16:33:27,734 - #44 niz
+INFO  16:33:27,734 - #13 [
+INFO  16:33:27,735 - #14 ]
+INFO  16:33:27,735 - #16 ;
+INFO  16:33:27,735 - #44 bool
+INFO  16:33:27,736 - #44 b
+INFO  16:33:27,736 - #16 ;
+INFO  16:33:27,736 - #44 char
+INFO  16:33:27,736 - #44 c
+INFO  16:33:27,741 - #16 ;
+INFO  16:33:27,741 - #9 {
+INFO  16:33:27,741 - #44 int
+INFO  16:33:27,744 - #44 f
+INFO  16:33:27,746 - #11 (
+INFO  16:33:27,750 - #12 )
+INFO  16:33:27,751 - #9 {
+INFO  16:33:27,752 - #6 return
+INFO  16:33:27,755 - #43 66
+INFO  16:33:27,755 - #16 ;
+INFO  16:33:27,756 - #10 }
+INFO  16:33:27,756 - #44 int
+INFO  16:33:27,759 - #44 f2
+INFO  16:33:27,759 - #11 (
+INFO  16:33:27,760 - #44 int
+INFO  16:33:27,760 - #44 p1
+INFO  16:33:27,760 - #15 ,
+INFO  16:33:27,760 - #44 int
+INFO  16:33:27,760 - #44 p2
+INFO  16:33:27,760 - #12 )
+INFO  16:33:27,761 - #9 {
+INFO  16:33:27,761 - #6 return
+INFO  16:33:27,761 - #44 p1
+INFO  16:33:27,761 - #36 +
+INFO  16:33:27,762 - #44 p2
+INFO  16:33:27,766 - #16 ;
+INFO  16:33:27,767 - #10 }
+INFO  16:33:27,768 - #5 void
+INFO  16:33:27,769 - #44 main
+INFO  16:33:27,770 - #11 (
+INFO  16:33:27,770 - #12 )
+INFO  16:33:27,770 - #9 {
+INFO  16:33:27,770 - #44 niz
+INFO  16:33:27,770 - #27 =
+INFO  16:33:27,770 - #7 new
+INFO  16:33:27,770 - #44 int
+INFO  16:33:27,770 - #13 [
+INFO  16:33:27,770 - #43 69
+INFO  16:33:27,770 - #14 ]
+INFO  16:33:27,770 - #16 ;
+INFO  16:33:27,771 - #18 print
+INFO  16:33:27,771 - #11 (
+INFO  16:33:27,771 - #44 len
+INFO  16:33:27,773 - #11 (
+INFO  16:33:27,773 - #44 niz
+INFO  16:33:27,774 - #12 )
+INFO  16:33:27,775 - #12 )
+INFO  16:33:27,775 - #16 ;
+INFO  16:33:27,775 - #10 }
+INFO  16:33:27,775 - #10 }
+INFO  16:33:27,781 - Otvaranje scope 
+INFO  16:33:27,781 - Prepoznato programsko ime : testFuncCall na liniji 1
+INFO  16:33:27,781 - Prepoznat tip int na liniji 3
+INFO  16:33:27,781 - Prepoznata deklaracija skalarne promenljive g na liniji 3
+INFO  16:33:27,781 - Prepoznat tip int na liniji 4
+INFO  16:33:27,781 - Prepoznata deklaracija vektorske promenljive niz na liniji 4
+INFO  16:33:27,781 - Prepoznat tip bool na liniji 5
+INFO  16:33:27,781 - Prepoznata deklaracija skalarne promenljive b na liniji 5
+INFO  16:33:27,781 - Prepoznat tip char na liniji 6
+INFO  16:33:27,781 - Prepoznata deklaracija skalarne promenljive c na liniji 6
+INFO  16:33:27,781 - Prepoznat tip int na liniji 8
+INFO  16:33:27,781 - Otvaranje scope 
+INFO  16:33:27,782 - Zatvaranje scope 
+INFO  16:33:27,782 - Prepoznat tip int na liniji 9
+INFO  16:33:27,782 - Otvaranje scope 
+INFO  16:33:27,782 - Prepoznat tip int na liniji 9
+INFO  16:33:27,782 - Prepoznata deklaracija skalarne promenljive p1 na liniji 9
+INFO  16:33:27,782 - Prepoznat tip int na liniji 9
+INFO  16:33:27,782 - Prepoznata deklaracija skalarne promenljive p2 na liniji 9
+INFO  16:33:27,782 - Koriscenje lokalne varijable p1 na liniji 9
+INFO  16:33:27,782 - Var p1: int, 0, 1 
+INFO  16:33:27,782 - Koriscenje lokalne varijable p2 na liniji 9
+INFO  16:33:27,782 - Var p1: int, 0, 1 Var p2: int, 1, 1 
+INFO  16:33:27,782 - Zatvaranje scope 
+INFO  16:33:27,782 - Otvaranje scope 
+INFO  16:33:27,783 - Koriscenje globalne varijable niz na liniji 13
+INFO  16:33:27,783 - Var p1: int, 0, 1 Var p2: int, 1, 1 Var niz: Arr of int, 1, 0 
+INFO  16:33:27,783 - Prepoznat tip int na liniji 13
+INFO  16:33:27,783 - Dodela dozvoljena  na liniji 13
+INFO  16:33:27,783 - Koriscenje metode len na liniji 21
+INFO  16:33:27,783 - Var p1: int, 0, 1 Var p2: int, 1, 1 Var niz: Arr of int, 1, 0 Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+INFO  16:33:27,783 - Koriscenje globalne varijable niz na liniji 21
+INFO  16:33:27,784 - Var p1: int, 0, 1 Var p2: int, 1, 1 Var niz: Arr of int, 1, 0 Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+Var niz: Arr of int, 1, 0 
+INFO  16:33:27,784 - Zatvaranje scope 
+INFO  16:33:27,784 - Zatvaranje scope 
+INFO  16:33:27,784 - Zatvoren program! 
+INFO  16:33:27,784 - Print calls = 1
+INFO  16:33:27,784 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  16:33:27,789 - Parsiranje uspesno zavrseno!

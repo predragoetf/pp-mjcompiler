@@ -1,0 +1,105 @@
+INFO  14:29:24,527 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:29:24,622 - #2 program
+INFO  14:29:24,623 - #44 testFuncCall
+INFO  14:29:24,623 - #44 int
+INFO  14:29:24,625 - #44 g
+INFO  14:29:24,626 - #16 ;
+INFO  14:29:24,626 - #9 {
+INFO  14:29:24,626 - #44 int
+INFO  14:29:24,627 - #44 f
+INFO  14:29:24,627 - #11 (
+INFO  14:29:24,628 - #12 )
+INFO  14:29:24,628 - #9 {
+INFO  14:29:24,629 - #6 return
+INFO  14:29:24,634 - #43 69
+INFO  14:29:24,634 - #16 ;
+INFO  14:29:24,635 - #10 }
+INFO  14:29:24,637 - #44 int
+INFO  14:29:24,639 - #44 f2
+INFO  14:29:24,639 - #11 (
+INFO  14:29:24,639 - #44 int
+INFO  14:29:24,639 - #44 p1
+INFO  14:29:24,641 - #15 ,
+INFO  14:29:24,641 - #44 int
+INFO  14:29:24,642 - #44 p2
+INFO  14:29:24,642 - #12 )
+INFO  14:29:24,642 - #9 {
+INFO  14:29:24,642 - #6 return
+INFO  14:29:24,642 - #44 p1
+INFO  14:29:24,642 - #36 +
+INFO  14:29:24,643 - #44 p2
+INFO  14:29:24,645 - #16 ;
+INFO  14:29:24,645 - #10 }
+INFO  14:29:24,645 - #5 void
+INFO  14:29:24,645 - #44 main
+INFO  14:29:24,647 - #11 (
+INFO  14:29:24,647 - #12 )
+INFO  14:29:24,647 - #9 {
+INFO  14:29:24,647 - #44 f
+INFO  14:29:24,647 - #11 (
+INFO  14:29:24,647 - #12 )
+INFO  14:29:24,650 - #16 ;
+INFO  14:29:24,651 - #44 g
+INFO  14:29:24,651 - #27 =
+INFO  14:29:24,651 - #44 f
+INFO  14:29:24,651 - #11 (
+INFO  14:29:24,651 - #12 )
+INFO  14:29:24,651 - #16 ;
+INFO  14:29:24,653 - #44 g
+INFO  14:29:24,653 - #27 =
+INFO  14:29:24,653 - #44 f2
+INFO  14:29:24,654 - #11 (
+INFO  14:29:24,654 - #43 3
+INFO  14:29:24,654 - #15 ,
+INFO  14:29:24,654 - #44 g
+INFO  14:29:24,654 - #12 )
+INFO  14:29:24,655 - #16 ;
+INFO  14:29:24,656 - #44 f2
+INFO  14:29:24,656 - #11 (
+INFO  14:29:24,656 - #44 g
+INFO  14:29:24,659 - #15 ,
+INFO  14:29:24,660 - #44 g
+INFO  14:29:24,660 - #12 )
+INFO  14:29:24,660 - #16 ;
+INFO  14:29:24,661 - #18 print
+INFO  14:29:24,661 - #11 (
+INFO  14:29:24,661 - #44 g
+INFO  14:29:24,662 - #12 )
+INFO  14:29:24,662 - #16 ;
+INFO  14:29:24,662 - #10 }
+INFO  14:29:24,665 - #10 }
+INFO  14:29:24,669 - Otvaranje scope 
+INFO  14:29:24,669 - Prepoznato programsko ime : testFuncCall na liniji 1
+INFO  14:29:24,669 - Prepoznat tip int na liniji 3
+INFO  14:29:24,669 - Prepoznata deklaracija skalarne promenljive g na liniji 3
+INFO  14:29:24,670 - Prepoznat tip int na liniji 6
+INFO  14:29:24,670 - Otvaranje scope 
+INFO  14:29:24,670 - Zatvaranje scope 
+INFO  14:29:24,670 - Prepoznat tip int na liniji 7
+INFO  14:29:24,670 - Otvaranje scope 
+INFO  14:29:24,670 - Prepoznat tip int na liniji 7
+INFO  14:29:24,670 - Prepoznata deklaracija skalarne promenljive p1 na liniji 7
+INFO  14:29:24,670 - Prepoznat tip int na liniji 7
+INFO  14:29:24,670 - Prepoznata deklaracija skalarne promenljive p2 na liniji 7
+INFO  14:29:24,670 - Koriscenje varijable p1 na liniji 7
+INFO  14:29:24,671 - Koriscenje varijable p2 na liniji 7
+INFO  14:29:24,671 - Zatvaranje scope 
+INFO  14:29:24,671 - Otvaranje scope 
+INFO  14:29:24,671 - Koriscenje metode f na liniji 11
+INFO  14:29:24,671 - Koriscenje varijable g na liniji 12
+INFO  14:29:24,671 - Koriscenje metode f na liniji 12
+INFO  14:29:24,671 - Dodela dozvoljena  na liniji 12
+INFO  14:29:24,671 - Koriscenje varijable g na liniji 13
+INFO  14:29:24,671 - Koriscenje metode f2 na liniji 13
+INFO  14:29:24,671 - Koriscenje varijable g na liniji 13
+INFO  14:29:24,672 - Dodela dozvoljena  na liniji 13
+INFO  14:29:24,672 - Koriscenje metode f2 na liniji 14
+INFO  14:29:24,672 - Koriscenje varijable g na liniji 14
+INFO  14:29:24,672 - Koriscenje varijable g na liniji 14
+INFO  14:29:24,672 - Koriscenje varijable g na liniji 15
+INFO  14:29:24,672 - Zatvaranje scope 
+INFO  14:29:24,672 - Zatvaranje scope 
+INFO  14:29:24,672 - Zatvoren program! 
+INFO  14:29:24,672 - Print calls = 1
+INFO  14:29:24,673 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  14:29:24,680 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,60 @@
+INFO  16:57:19,647 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:57:19,730 - #2 program
+INFO  16:57:19,731 - #44 MJProgram
+INFO  16:57:19,731 - #44 bool
+INFO  16:57:19,736 - #44 bul
+INFO  16:57:19,739 - #16 ;
+INFO  16:57:19,740 - #44 int
+INFO  16:57:19,745 - #44 x
+INFO  16:57:19,745 - #16 ;
+INFO  16:57:19,745 - #8 const
+INFO  16:57:19,745 - #44 int
+INFO  16:57:19,745 - #44 y
+INFO  16:57:19,746 - #27 =
+INFO  16:57:19,746 - #43 5
+INFO  16:57:19,746 - #15 ,
+INFO  16:57:19,747 - #44 a
+INFO  16:57:19,747 - #27 =
+INFO  16:57:19,747 - #43 13
+INFO  16:57:19,747 - #15 ,
+INFO  16:57:19,747 - #44 b
+INFO  16:57:19,747 - #27 =
+INFO  16:57:19,749 - #43 1
+INFO  16:57:19,749 - #16 ;
+INFO  16:57:19,749 - #8 const
+INFO  16:57:19,750 - #44 char
+INFO  16:57:19,750 - #44 opa
+INFO  16:57:19,751 - #27 =
+INFO  16:57:19,751 - #45 p
+INFO  16:57:19,751 - #16 ;
+INFO  16:57:19,751 - #9 {
+INFO  16:57:19,751 - #44 int
+INFO  16:57:19,752 - #44 k
+INFO  16:57:19,752 - #11 (
+INFO  16:57:19,752 - #12 )
+INFO  16:57:19,753 - #44 int
+INFO  16:57:19,753 - #44 c
+INFO  16:57:19,753 - #16 ;
+INFO  16:57:19,753 - #9 {
+INFO  16:57:19,753 - #44 c
+INFO  16:57:19,754 - #27 =
+INFO  16:57:19,754 - #43 1
+INFO  16:57:19,754 - #16 ;
+INFO  16:57:19,755 - #6 return
+INFO  16:57:19,757 - #44 c
+INFO  16:57:19,758 - #36 +
+INFO  16:57:19,758 - #43 2
+INFO  16:57:19,760 - #16 ;
+INFO  16:57:19,760 - #10 }
+INFO  16:57:19,761 - #44 int
+INFO  16:57:19,762 - #44 main
+INFO  16:57:19,762 - #11 (
+INFO  16:57:19,762 - #12 )
+INFO  16:57:19,762 - #44 int
+INFO  16:57:19,762 - #44 c
+INFO  16:57:19,762 - #9 {
+ERROR 16:57:19,762 - 
+Sintaksna greska na liniji 12
+ERROR 16:57:19,762 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12
+INFO  16:57:19,764 - Prepoznat tip int
+INFO  16:57:19,765 - Print calls = 0

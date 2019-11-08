@@ -1,0 +1,112 @@
+INFO  15:27:42,549 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:27:42,640 - #2 program
+INFO  15:27:42,641 - #44 testFuncCall
+INFO  15:27:42,642 - #44 int
+INFO  15:27:42,644 - #44 g
+INFO  15:27:42,648 - #16 ;
+INFO  15:27:42,649 - #44 int
+INFO  15:27:42,650 - #44 niz
+INFO  15:27:42,650 - #13 [
+INFO  15:27:42,650 - #14 ]
+INFO  15:27:42,650 - #16 ;
+INFO  15:27:42,650 - #44 char
+INFO  15:27:42,650 - #44 c
+INFO  15:27:42,651 - #16 ;
+INFO  15:27:42,651 - #9 {
+INFO  15:27:42,651 - #44 int
+INFO  15:27:42,652 - #44 f
+INFO  15:27:42,653 - #11 (
+INFO  15:27:42,658 - #12 )
+INFO  15:27:42,660 - #9 {
+INFO  15:27:42,661 - #6 return
+INFO  15:27:42,664 - #43 66
+INFO  15:27:42,664 - #16 ;
+INFO  15:27:42,664 - #10 }
+INFO  15:27:42,665 - #44 int
+INFO  15:27:42,666 - #44 f2
+INFO  15:27:42,666 - #11 (
+INFO  15:27:42,666 - #44 int
+INFO  15:27:42,666 - #44 p1
+INFO  15:27:42,666 - #15 ,
+INFO  15:27:42,666 - #44 int
+INFO  15:27:42,666 - #44 p2
+INFO  15:27:42,666 - #12 )
+INFO  15:27:42,666 - #9 {
+INFO  15:27:42,666 - #6 return
+INFO  15:27:42,666 - #44 p1
+INFO  15:27:42,666 - #36 +
+INFO  15:27:42,667 - #44 p2
+INFO  15:27:42,667 - #16 ;
+INFO  15:27:42,668 - #10 }
+INFO  15:27:42,668 - #5 void
+INFO  15:27:42,668 - #44 main
+INFO  15:27:42,668 - #11 (
+INFO  15:27:42,669 - #12 )
+INFO  15:27:42,669 - #9 {
+INFO  15:27:42,669 - #44 niz
+INFO  15:27:42,669 - #27 =
+INFO  15:27:42,669 - #7 new
+INFO  15:27:42,669 - #44 int
+INFO  15:27:42,670 - #13 [
+INFO  15:27:42,670 - #43 69
+INFO  15:27:42,670 - #14 ]
+INFO  15:27:42,671 - #16 ;
+INFO  15:27:42,674 - #44 c
+INFO  15:27:42,674 - #27 =
+INFO  15:27:42,674 - #45 A
+INFO  15:27:42,674 - #16 ;
+INFO  15:27:42,675 - #44 g
+INFO  15:27:42,675 - #27 =
+INFO  15:27:42,678 - #44 ord
+INFO  15:27:42,678 - #11 (
+INFO  15:27:42,678 - #45 A
+INFO  15:27:42,679 - #12 )
+INFO  15:27:42,679 - #16 ;
+INFO  15:27:42,680 - #18 print
+INFO  15:27:42,680 - #11 (
+INFO  15:27:42,680 - #44 len
+INFO  15:27:42,680 - #11 (
+INFO  15:27:42,680 - #44 niz
+INFO  15:27:42,680 - #12 )
+INFO  15:27:42,680 - #12 )
+INFO  15:27:42,680 - #16 ;
+INFO  15:27:42,680 - #10 }
+INFO  15:27:42,680 - #10 }
+INFO  15:27:42,691 - Otvaranje scope 
+INFO  15:27:42,691 - Prepoznato programsko ime : testFuncCall na liniji 1
+INFO  15:27:42,691 - Prepoznat tip int na liniji 3
+INFO  15:27:42,691 - Prepoznata deklaracija skalarne promenljive g na liniji 3
+INFO  15:27:42,691 - Prepoznat tip int na liniji 4
+INFO  15:27:42,691 - Prepoznata deklaracija vektorske promenljive niz na liniji 4
+INFO  15:27:42,691 - Prepoznat tip char na liniji 5
+INFO  15:27:42,691 - Prepoznata deklaracija skalarne promenljive c na liniji 5
+INFO  15:27:42,691 - Prepoznat tip int na liniji 7
+INFO  15:27:42,692 - Otvaranje scope 
+INFO  15:27:42,692 - Zatvaranje scope 
+INFO  15:27:42,693 - Prepoznat tip int na liniji 8
+INFO  15:27:42,694 - Otvaranje scope 
+INFO  15:27:42,694 - Prepoznat tip int na liniji 8
+INFO  15:27:42,694 - Prepoznata deklaracija skalarne promenljive p1 na liniji 8
+INFO  15:27:42,694 - Prepoznat tip int na liniji 8
+INFO  15:27:42,694 - Prepoznata deklaracija skalarne promenljive p2 na liniji 8
+INFO  15:27:42,695 - Koriscenje varijable p1 na liniji 8
+INFO  15:27:42,695 - Koriscenje varijable p2 na liniji 8
+INFO  15:27:42,695 - Zatvaranje scope 
+INFO  15:27:42,696 - Otvaranje scope 
+INFO  15:27:42,696 - Koriscenje varijable niz na liniji 12
+INFO  15:27:42,696 - Prepoznat tip int na liniji 12
+INFO  15:27:42,696 - Dodela dozvoljena  na liniji 12
+INFO  15:27:42,696 - Koriscenje varijable c na liniji 18
+INFO  15:27:42,696 - Dodela dozvoljena  na liniji 18
+INFO  15:27:42,696 - Koriscenje varijable g na liniji 19
+INFO  15:27:42,696 - Koriscenje metode ord na liniji 19
+INFO  15:27:42,697 - Dodela dozvoljena  na liniji 19
+INFO  15:27:42,697 - Koriscenje metode len na liniji 20
+INFO  15:27:42,697 - Koriscenje varijable niz na liniji 20
+ERROR 15:27:42,697 - Ne preklapa se tip ocekivanog i stvarnog argumenta 1  /1 na liniji 20
+ERROR 15:27:42,697 - Prosledjivanje greske  na liniji 20
+INFO  15:27:42,697 - Zatvaranje scope 
+INFO  15:27:42,698 - Zatvaranje scope 
+INFO  15:27:42,698 - Zatvoren program! 
+INFO  15:27:42,698 - Print calls = 0
+ERROR 15:27:42,699 - Parsiranje NIJE uspesno zavrseno!

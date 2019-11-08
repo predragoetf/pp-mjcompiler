@@ -1,0 +1,114 @@
+INFO  21:09:31,648 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:09:31,743 - #2 program
+INFO  21:09:31,743 - #44 MJProgram
+INFO  21:09:31,743 - #44 bool
+INFO  21:09:31,745 - #44 bul
+INFO  21:09:31,746 - #16 ;
+INFO  21:09:31,748 - #44 char
+INFO  21:09:31,749 - #44 s1
+INFO  21:09:31,750 - #13 [
+INFO  21:09:31,750 - #14 ]
+INFO  21:09:31,750 - #15 ,
+INFO  21:09:31,750 - #44 s2
+INFO  21:09:31,750 - #15 ,
+INFO  21:09:31,750 - #44 s3
+INFO  21:09:31,751 - #13 [
+INFO  21:09:31,751 - #14 ]
+INFO  21:09:31,751 - #16 ;
+INFO  21:09:31,751 - #44 int
+INFO  21:09:31,751 - #44 x
+INFO  21:09:31,752 - #16 ;
+INFO  21:09:31,752 - #8 const
+INFO  21:09:31,754 - #44 int
+INFO  21:09:31,754 - #44 y
+INFO  21:09:31,754 - #27 =
+INFO  21:09:31,754 - #43 5
+INFO  21:09:31,754 - #15 ,
+INFO  21:09:31,755 - #44 a
+INFO  21:09:31,755 - #27 =
+INFO  21:09:31,755 - #43 13
+INFO  21:09:31,756 - #15 ,
+INFO  21:09:31,756 - #44 b
+INFO  21:09:31,756 - #27 =
+INFO  21:09:31,756 - #43 1
+INFO  21:09:31,756 - #16 ;
+INFO  21:09:31,756 - #8 const
+INFO  21:09:31,757 - #44 char
+INFO  21:09:31,757 - #44 opa
+INFO  21:09:31,757 - #27 =
+INFO  21:09:31,757 - #45 p
+INFO  21:09:31,757 - #16 ;
+INFO  21:09:31,757 - #9 {
+INFO  21:09:31,757 - #44 int
+INFO  21:09:31,758 - #44 k
+INFO  21:09:31,758 - #11 (
+INFO  21:09:31,761 - #12 )
+INFO  21:09:31,762 - #44 int
+INFO  21:09:31,762 - #44 c
+INFO  21:09:31,763 - #16 ;
+INFO  21:09:31,763 - #9 {
+INFO  21:09:31,764 - #44 c
+INFO  21:09:31,764 - #27 =
+INFO  21:09:31,765 - #43 1
+INFO  21:09:31,765 - #16 ;
+INFO  21:09:31,765 - #6 return
+INFO  21:09:31,766 - #44 c
+INFO  21:09:31,766 - #36 +
+INFO  21:09:31,766 - #43 2
+INFO  21:09:31,767 - #16 ;
+INFO  21:09:31,768 - #10 }
+INFO  21:09:31,771 - #44 int
+INFO  21:09:31,774 - #44 main
+INFO  21:09:31,774 - #11 (
+INFO  21:09:31,774 - #12 )
+INFO  21:09:31,774 - #44 int
+INFO  21:09:31,774 - #44 c
+INFO  21:09:31,774 - #16 ;
+INFO  21:09:31,774 - #9 {
+INFO  21:09:31,774 - #44 y
+INFO  21:09:31,774 - #27 =
+INFO  21:09:31,774 - #43 2
+INFO  21:09:31,774 - #16 ;
+INFO  21:09:31,774 - #44 x
+INFO  21:09:31,774 - #27 =
+INFO  21:09:31,775 - #44 y
+INFO  21:09:31,775 - #36 +
+INFO  21:09:31,775 - #43 2
+INFO  21:09:31,775 - #16 ;
+INFO  21:09:31,776 - #44 y
+INFO  21:09:31,776 - #27 =
+INFO  21:09:31,776 - #44 k
+INFO  21:09:31,776 - #11 (
+INFO  21:09:31,776 - #12 )
+INFO  21:09:31,777 - #36 +
+INFO  21:09:31,777 - #43 3
+INFO  21:09:31,777 - #16 ;
+INFO  21:09:31,777 - #18 print
+INFO  21:09:31,777 - #11 (
+INFO  21:09:31,778 - #44 y
+INFO  21:09:31,778 - #12 )
+INFO  21:09:31,778 - #16 ;
+INFO  21:09:31,778 - #6 return
+INFO  21:09:31,778 - #43 0
+INFO  21:09:31,778 - #16 ;
+INFO  21:09:31,778 - #10 }
+INFO  21:09:31,778 - #10 }
+INFO  21:09:31,782 - Prepoznato programsko ime : MJProgram na liniji 1
+INFO  21:09:31,782 - Prepoznat tip bool na liniji 2
+INFO  21:09:31,782 - Prepoznata deklaracija skalarne promenljive bul na liniji 2
+INFO  21:09:31,782 - Prepoznat tip char na liniji 3
+INFO  21:09:31,782 - Prepoznata deklaracija vektorske promenljive s1 na liniji 3
+INFO  21:09:31,782 - Prepoznata deklaracija skalarne promenljive s2 na liniji 3
+INFO  21:09:31,782 - Prepoznata deklaracija vektorske promenljive s3 na liniji 3
+INFO  21:09:31,782 - Prepoznat tip int na liniji 4
+INFO  21:09:31,782 - Prepoznata deklaracija skalarne promenljive x na liniji 4
+INFO  21:09:31,782 - Prepoznat tip int na liniji 4
+INFO  21:09:31,782 - Prepoznata konstanta y tipa int vrednosti 5 na liniji 4
+INFO  21:09:31,782 - Prepoznata konstanta a tipa int vrednosti 13 na liniji 4
+INFO  21:09:31,783 - Prepoznata konstanta b tipa int vrednosti 1 na liniji 4
+INFO  21:09:31,783 - Prepoznat tip char na liniji 5
+INFO  21:09:31,783 - Prepoznata konstanta opa tipa char vrednosti p na liniji 5
+INFO  21:09:31,783 - Prepoznat tip int na liniji 8
+INFO  21:09:31,783 - Prepoznat tip int na liniji 8
+INFO  21:09:31,783 - Prepoznata deklaracija skalarne promenljive c na liniji 8
+INFO  21:09:31,783 - Prepoznat tip int na liniji 13

@@ -1,0 +1,97 @@
+INFO  17:15:47,956 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:15:48,042 - #2 program
+INFO  17:15:48,043 - #44 test302
+INFO  17:15:48,044 - #44 int
+INFO  17:15:48,046 - #44 niz
+INFO  17:15:48,046 - #13 [
+INFO  17:15:48,046 - #14 ]
+INFO  17:15:48,046 - #16 ;
+INFO  17:15:48,047 - #9 {
+INFO  17:15:48,047 - #44 int
+INFO  17:15:48,048 - #44 a
+INFO  17:15:48,048 - #11 (
+INFO  17:15:48,049 - #44 int
+INFO  17:15:48,050 - #44 d
+INFO  17:15:48,050 - #15 ,
+INFO  17:15:48,051 - #44 int
+INFO  17:15:48,051 - #44 b
+INFO  17:15:48,052 - #15 ,
+INFO  17:15:48,052 - #44 int
+INFO  17:15:48,052 - #44 c
+INFO  17:15:48,052 - #12 )
+INFO  17:15:48,054 - #9 {
+INFO  17:15:48,055 - #6 return
+INFO  17:15:48,057 - #43 1
+INFO  17:15:48,058 - #16 ;
+INFO  17:15:48,060 - #10 }
+INFO  17:15:48,061 - #5 void
+INFO  17:15:48,063 - #44 main
+INFO  17:15:48,066 - #11 (
+INFO  17:15:48,066 - #12 )
+INFO  17:15:48,067 - #44 int
+INFO  17:15:48,067 - #44 x
+INFO  17:15:48,067 - #16 ;
+INFO  17:15:48,067 - #9 {
+INFO  17:15:48,068 - #44 niz
+INFO  17:15:48,068 - #27 =
+INFO  17:15:48,068 - #7 new
+INFO  17:15:48,068 - #44 int
+INFO  17:15:48,068 - #13 [
+INFO  17:15:48,068 - #43 5
+INFO  17:15:48,068 - #14 ]
+INFO  17:15:48,068 - #16 ;
+INFO  17:15:48,069 - #44 niz
+INFO  17:15:48,069 - #13 [
+INFO  17:15:48,069 - #43 4
+INFO  17:15:48,069 - #14 ]
+INFO  17:15:48,069 - #27 =
+INFO  17:15:48,071 - #44 a
+INFO  17:15:48,071 - #11 (
+INFO  17:15:48,071 - #43 1
+INFO  17:15:48,072 - #15 ,
+INFO  17:15:48,072 - #43 2
+INFO  17:15:48,073 - #15 ,
+INFO  17:15:48,073 - #43 3
+INFO  17:15:48,073 - #12 )
+INFO  17:15:48,073 - #16 ;
+INFO  17:15:48,073 - #10 }
+INFO  17:15:48,074 - #10 }
+INFO  17:15:48,091 - Otvaranje scope 
+INFO  17:15:48,091 - Prepoznato programsko ime : test302 na liniji 3
+INFO  17:15:48,091 - Prepoznat tip int na liniji 5
+INFO  17:15:48,091 - Prepoznata deklaracija vektorske promenljive niz na liniji 5
+INFO  17:15:48,091 - Prepoznat tip int na liniji 10
+INFO  17:15:48,092 - Otvaranje scope 
+INFO  17:15:48,092 - Prepoznat tip int na liniji 10
+INFO  17:15:48,092 - Prepoznata deklaracija skalarne promenljive d na liniji 10
+INFO  17:15:48,092 - Prepoznat tip int na liniji 10
+INFO  17:15:48,092 - Prepoznata deklaracija skalarne promenljive b na liniji 10
+INFO  17:15:48,092 - Prepoznat tip int na liniji 10
+INFO  17:15:48,092 - Prepoznata deklaracija skalarne promenljive c na liniji 10
+INFO  17:15:48,092 - Zatvaranje scope 
+INFO  17:15:48,092 - Otvaranje scope 
+INFO  17:15:48,092 - Prepoznat tip int na liniji 16
+INFO  17:15:48,092 - Prepoznata deklaracija skalarne promenljive x na liniji 16
+INFO  17:15:48,092 - Koriscenje globalne varijable niz na liniji 20
+INFO  17:15:48,093 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:15:48,093 - Prepoznat tip int na liniji 20
+INFO  17:15:48,093 - Dodela dozvoljena  na liniji 20
+INFO  17:15:48,093 - Koriscenje globalne varijable niz na liniji 21
+INFO  17:15:48,093 - 
+Var niz: Arr of int, 0, 0 
+INFO  17:15:48,093 - Pristup elementu niza niz na liniji 21
+INFO  17:15:48,093 - Koriscenje metode a na liniji 21
+INFO  17:15:48,093 - 
+Meth a: int, 0, 3 
+   Var d: int, 0, 1 
+   Var b: int, 1, 1 
+   Var c: int, 2, 1 
+
+INFO  17:15:48,094 - Dodela dozvoljena  na liniji 21
+INFO  17:15:48,094 - Zatvaranje scope 
+INFO  17:15:48,094 - Zatvaranje scope 
+INFO  17:15:48,094 - Zatvoren program! 
+INFO  17:15:48,094 - Print calls = 0
+INFO  17:15:48,094 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  17:15:48,100 - Parsiranje uspesno zavrseno!

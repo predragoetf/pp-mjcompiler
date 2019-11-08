@@ -1,0 +1,116 @@
+INFO  21:47:06,947 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:47:07,036 - #2 program
+INFO  21:47:07,036 - #44 MJProgram
+INFO  21:47:07,036 - #44 bool
+INFO  21:47:07,038 - #44 bul
+INFO  21:47:07,038 - #16 ;
+INFO  21:47:07,038 - #44 char
+INFO  21:47:07,039 - #44 s1
+INFO  21:47:07,039 - #13 [
+INFO  21:47:07,039 - #14 ]
+INFO  21:47:07,039 - #15 ,
+INFO  21:47:07,039 - #44 s2
+INFO  21:47:07,040 - #15 ,
+INFO  21:47:07,040 - #44 s3
+INFO  21:47:07,040 - #13 [
+INFO  21:47:07,040 - #14 ]
+INFO  21:47:07,040 - #16 ;
+INFO  21:47:07,040 - #44 int
+INFO  21:47:07,040 - #44 x
+INFO  21:47:07,041 - #16 ;
+INFO  21:47:07,041 - #8 const
+INFO  21:47:07,043 - #44 int
+INFO  21:47:07,043 - #44 y
+INFO  21:47:07,043 - #27 =
+INFO  21:47:07,043 - #43 5
+INFO  21:47:07,044 - #15 ,
+INFO  21:47:07,045 - #44 a
+INFO  21:47:07,045 - #27 =
+INFO  21:47:07,045 - #43 13
+INFO  21:47:07,045 - #15 ,
+INFO  21:47:07,046 - #44 b
+INFO  21:47:07,046 - #27 =
+INFO  21:47:07,046 - #43 1
+INFO  21:47:07,046 - #16 ;
+INFO  21:47:07,046 - #8 const
+INFO  21:47:07,048 - #44 char
+INFO  21:47:07,049 - #44 opa
+INFO  21:47:07,049 - #27 =
+INFO  21:47:07,049 - #45 p
+INFO  21:47:07,049 - #16 ;
+INFO  21:47:07,050 - #9 {
+INFO  21:47:07,050 - #44 int
+INFO  21:47:07,052 - #44 k
+INFO  21:47:07,054 - #11 (
+INFO  21:47:07,056 - #12 )
+INFO  21:47:07,058 - #44 int
+INFO  21:47:07,060 - #44 c
+INFO  21:47:07,060 - #16 ;
+INFO  21:47:07,060 - #9 {
+INFO  21:47:07,062 - #44 c
+INFO  21:47:07,063 - #27 =
+INFO  21:47:07,064 - #43 1
+INFO  21:47:07,064 - #16 ;
+INFO  21:47:07,064 - #6 return
+INFO  21:47:07,065 - #44 c
+INFO  21:47:07,065 - #36 +
+INFO  21:47:07,065 - #43 2
+INFO  21:47:07,067 - #16 ;
+INFO  21:47:07,068 - #10 }
+INFO  21:47:07,071 - #44 int
+INFO  21:47:07,072 - #44 main
+INFO  21:47:07,073 - #11 (
+INFO  21:47:07,073 - #12 )
+INFO  21:47:07,073 - #44 int
+INFO  21:47:07,074 - #44 d
+INFO  21:47:07,074 - #16 ;
+INFO  21:47:07,074 - #9 {
+INFO  21:47:07,074 - #44 y
+INFO  21:47:07,074 - #27 =
+INFO  21:47:07,074 - #43 2
+INFO  21:47:07,074 - #16 ;
+INFO  21:47:07,075 - #44 x
+INFO  21:47:07,076 - #27 =
+INFO  21:47:07,076 - #44 y
+INFO  21:47:07,076 - #36 +
+INFO  21:47:07,076 - #43 2
+INFO  21:47:07,076 - #16 ;
+INFO  21:47:07,076 - #44 y
+INFO  21:47:07,076 - #27 =
+INFO  21:47:07,076 - #44 k
+INFO  21:47:07,076 - #11 (
+INFO  21:47:07,076 - #12 )
+INFO  21:47:07,077 - #36 +
+INFO  21:47:07,077 - #43 3
+INFO  21:47:07,078 - #16 ;
+INFO  21:47:07,078 - #18 print
+INFO  21:47:07,078 - #11 (
+INFO  21:47:07,078 - #44 y
+INFO  21:47:07,078 - #12 )
+INFO  21:47:07,078 - #16 ;
+INFO  21:47:07,078 - #6 return
+INFO  21:47:07,078 - #43 0
+INFO  21:47:07,078 - #16 ;
+INFO  21:47:07,079 - #10 }
+INFO  21:47:07,079 - #10 }
+INFO  21:47:07,085 - Otvaranje scope 
+INFO  21:47:07,085 - Prepoznato programsko ime : MJProgram na liniji 1
+INFO  21:47:07,085 - Prepoznat tip bool na liniji 2
+INFO  21:47:07,086 - Prepoznata deklaracija skalarne promenljive bul na liniji 2
+INFO  21:47:07,086 - Prepoznat tip char na liniji 3
+INFO  21:47:07,086 - Prepoznata deklaracija vektorske promenljive s1 na liniji 3
+INFO  21:47:07,086 - Prepoznata deklaracija skalarne promenljive s2 na liniji 3
+INFO  21:47:07,086 - Prepoznata deklaracija vektorske promenljive s3 na liniji 3
+INFO  21:47:07,086 - Prepoznat tip int na liniji 4
+INFO  21:47:07,086 - Prepoznata deklaracija skalarne promenljive x na liniji 4
+INFO  21:47:07,086 - Prepoznat tip int na liniji 4
+INFO  21:47:07,086 - Prepoznata konstanta y tipa int vrednosti 5 na liniji 4
+INFO  21:47:07,086 - Prepoznata konstanta a tipa int vrednosti 13 na liniji 4
+INFO  21:47:07,086 - Prepoznata konstanta b tipa int vrednosti 1 na liniji 4
+INFO  21:47:07,086 - Prepoznat tip char na liniji 5
+INFO  21:47:07,086 - Prepoznata konstanta opa tipa char vrednosti p na liniji 5
+INFO  21:47:07,087 - Prepoznat tip int na liniji 8
+INFO  21:47:07,087 - Prepoznat tip int na liniji 8
+INFO  21:47:07,087 - Prepoznata deklaracija skalarne promenljive c na liniji 8
+INFO  21:47:07,087 - Zatvaranje scope 
+INFO  21:47:07,087 - Prepoznat tip int na liniji 13

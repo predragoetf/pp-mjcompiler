@@ -1,0 +1,114 @@
+INFO  14:31:42,279 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:31:42,381 - #2 program
+INFO  14:31:42,381 - #44 testFuncCall
+INFO  14:31:42,381 - #44 int
+INFO  14:31:42,383 - #44 g
+INFO  14:31:42,383 - #16 ;
+INFO  14:31:42,383 - #9 {
+INFO  14:31:42,384 - #44 int
+INFO  14:31:42,384 - #44 f
+INFO  14:31:42,384 - #11 (
+INFO  14:31:42,385 - #12 )
+INFO  14:31:42,386 - #9 {
+INFO  14:31:42,386 - #6 return
+INFO  14:31:42,388 - #43 69
+INFO  14:31:42,388 - #16 ;
+INFO  14:31:42,388 - #10 }
+INFO  14:31:42,389 - #44 int
+INFO  14:31:42,390 - #44 f2
+INFO  14:31:42,390 - #11 (
+INFO  14:31:42,390 - #44 int
+INFO  14:31:42,390 - #44 p1
+INFO  14:31:42,392 - #15 ,
+INFO  14:31:42,392 - #44 int
+INFO  14:31:42,392 - #44 p2
+INFO  14:31:42,392 - #12 )
+INFO  14:31:42,392 - #9 {
+INFO  14:31:42,393 - #6 return
+INFO  14:31:42,393 - #44 p1
+INFO  14:31:42,393 - #36 +
+INFO  14:31:42,393 - #44 p2
+INFO  14:31:42,394 - #16 ;
+INFO  14:31:42,394 - #10 }
+INFO  14:31:42,394 - #5 void
+INFO  14:31:42,394 - #44 main
+INFO  14:31:42,395 - #11 (
+INFO  14:31:42,395 - #12 )
+INFO  14:31:42,395 - #9 {
+INFO  14:31:42,395 - #44 f
+INFO  14:31:42,395 - #11 (
+INFO  14:31:42,395 - #12 )
+INFO  14:31:42,396 - #16 ;
+INFO  14:31:42,397 - #44 g
+INFO  14:31:42,397 - #27 =
+INFO  14:31:42,397 - #44 f
+INFO  14:31:42,397 - #11 (
+INFO  14:31:42,397 - #12 )
+INFO  14:31:42,397 - #16 ;
+INFO  14:31:42,397 - #44 g
+INFO  14:31:42,398 - #27 =
+INFO  14:31:42,398 - #44 f2
+INFO  14:31:42,398 - #11 (
+INFO  14:31:42,398 - #43 3
+INFO  14:31:42,398 - #15 ,
+INFO  14:31:42,398 - #44 g
+INFO  14:31:42,398 - #12 )
+INFO  14:31:42,398 - #16 ;
+INFO  14:31:42,398 - #44 f2
+INFO  14:31:42,398 - #11 (
+INFO  14:31:42,399 - #44 g
+INFO  14:31:42,401 - #15 ,
+INFO  14:31:42,401 - #44 g
+INFO  14:31:42,401 - #12 )
+INFO  14:31:42,401 - #16 ;
+INFO  14:31:42,401 - #18 print
+INFO  14:31:42,402 - #11 (
+INFO  14:31:42,402 - #44 g
+INFO  14:31:42,402 - #12 )
+INFO  14:31:42,402 - #16 ;
+INFO  14:31:42,402 - #18 print
+INFO  14:31:42,402 - #11 (
+INFO  14:31:42,402 - #44 chr
+INFO  14:31:42,402 - #11 (
+INFO  14:31:42,403 - #43 97
+INFO  14:31:42,403 - #12 )
+INFO  14:31:42,403 - #12 )
+INFO  14:31:42,403 - #16 ;
+INFO  14:31:42,403 - #10 }
+INFO  14:31:42,403 - #10 }
+INFO  14:31:42,409 - Otvaranje scope 
+INFO  14:31:42,409 - Prepoznato programsko ime : testFuncCall na liniji 1
+INFO  14:31:42,410 - Prepoznat tip int na liniji 3
+INFO  14:31:42,410 - Prepoznata deklaracija skalarne promenljive g na liniji 3
+INFO  14:31:42,410 - Prepoznat tip int na liniji 6
+INFO  14:31:42,410 - Otvaranje scope 
+INFO  14:31:42,411 - Zatvaranje scope 
+INFO  14:31:42,411 - Prepoznat tip int na liniji 7
+INFO  14:31:42,411 - Otvaranje scope 
+INFO  14:31:42,411 - Prepoznat tip int na liniji 7
+INFO  14:31:42,411 - Prepoznata deklaracija skalarne promenljive p1 na liniji 7
+INFO  14:31:42,411 - Prepoznat tip int na liniji 7
+INFO  14:31:42,411 - Prepoznata deklaracija skalarne promenljive p2 na liniji 7
+INFO  14:31:42,411 - Koriscenje varijable p1 na liniji 7
+INFO  14:31:42,411 - Koriscenje varijable p2 na liniji 7
+INFO  14:31:42,411 - Zatvaranje scope 
+INFO  14:31:42,412 - Otvaranje scope 
+INFO  14:31:42,412 - Koriscenje metode f na liniji 11
+INFO  14:31:42,412 - Koriscenje varijable g na liniji 12
+INFO  14:31:42,412 - Koriscenje metode f na liniji 12
+INFO  14:31:42,412 - Dodela dozvoljena  na liniji 12
+INFO  14:31:42,412 - Koriscenje varijable g na liniji 13
+INFO  14:31:42,412 - Koriscenje metode f2 na liniji 13
+INFO  14:31:42,413 - Koriscenje varijable g na liniji 13
+INFO  14:31:42,413 - Dodela dozvoljena  na liniji 13
+INFO  14:31:42,414 - Koriscenje metode f2 na liniji 14
+INFO  14:31:42,414 - Koriscenje varijable g na liniji 14
+INFO  14:31:42,414 - Koriscenje varijable g na liniji 14
+INFO  14:31:42,414 - Koriscenje varijable g na liniji 15
+INFO  14:31:42,414 - Koriscenje metode chr na liniji 16
+INFO  14:31:42,414 - Zatvaranje scope 
+INFO  14:31:42,414 - Zatvaranje scope 
+INFO  14:31:42,414 - Zatvoren program! 
+INFO  14:31:42,415 - Print calls = 2
+INFO  14:31:42,415 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  14:31:42,426 - Parsiranje uspesno zavrseno!

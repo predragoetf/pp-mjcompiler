@@ -1,0 +1,91 @@
+INFO  22:51:32,628 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:51:32,691 - #2 program
+INFO  22:51:32,691 - #45 MJProgram
+INFO  22:51:32,691 - #45 int
+INFO  22:51:32,692 - #45 x
+INFO  22:51:32,693 - #16 ;
+INFO  22:51:32,693 - #8 const
+INFO  22:51:32,694 - #45 int
+INFO  22:51:32,694 - #45 y
+INFO  22:51:32,694 - #28 =
+INFO  22:51:32,694 - #44 5
+INFO  22:51:32,694 - #15 ,
+INFO  22:51:32,695 - #45 a
+INFO  22:51:32,695 - #28 =
+INFO  22:51:32,695 - #44 13
+INFO  22:51:32,695 - #15 ,
+INFO  22:51:32,695 - #45 b
+INFO  22:51:32,695 - #28 =
+INFO  22:51:32,695 - #44 1
+INFO  22:51:32,695 - #16 ;
+INFO  22:51:32,696 - #8 const
+INFO  22:51:32,698 - #45 char
+INFO  22:51:32,698 - #45 opa
+INFO  22:51:32,698 - #28 =
+INFO  22:51:32,698 - #46 p
+INFO  22:51:32,698 - #16 ;
+INFO  22:51:32,698 - #9 {
+INFO  22:51:32,698 - #45 int
+INFO  22:51:32,699 - #45 k
+INFO  22:51:32,699 - #11 (
+INFO  22:51:32,699 - #12 )
+INFO  22:51:32,700 - #45 int
+INFO  22:51:32,700 - #45 c
+INFO  22:51:32,700 - #16 ;
+INFO  22:51:32,700 - #9 {
+INFO  22:51:32,700 - #45 c
+INFO  22:51:32,701 - #28 =
+INFO  22:51:32,701 - #44 1
+INFO  22:51:32,701 - #16 ;
+INFO  22:51:32,702 - #6 return
+INFO  22:51:32,702 - #45 c
+INFO  22:51:32,702 - #37 +
+INFO  22:51:32,702 - #44 2
+INFO  22:51:32,703 - #16 ;
+INFO  22:51:32,703 - #10 }
+INFO  22:51:32,704 - #45 int
+INFO  22:51:32,704 - #45 main
+INFO  22:51:32,704 - #11 (
+INFO  22:51:32,704 - #12 )
+INFO  22:51:32,704 - #9 {
+INFO  22:51:32,705 - #45 y
+INFO  22:51:32,705 - #28 =
+INFO  22:51:32,705 - #44 2
+INFO  22:51:32,705 - #16 ;
+INFO  22:51:32,705 - #45 x
+INFO  22:51:32,706 - #28 =
+INFO  22:51:32,707 - #45 y
+INFO  22:51:32,707 - #37 +
+INFO  22:51:32,707 - #44 2
+INFO  22:51:32,707 - #16 ;
+INFO  22:51:32,707 - #45 y
+INFO  22:51:32,707 - #28 =
+INFO  22:51:32,707 - #45 k
+INFO  22:51:32,707 - #11 (
+INFO  22:51:32,707 - #12 )
+INFO  22:51:32,708 - #37 +
+INFO  22:51:32,708 - #44 3
+INFO  22:51:32,708 - #16 ;
+INFO  22:51:32,708 - #18 print
+INFO  22:51:32,708 - #11 (
+INFO  22:51:32,708 - #45 y
+INFO  22:51:32,708 - #12 )
+INFO  22:51:32,708 - #16 ;
+INFO  22:51:32,708 - #6 return
+INFO  22:51:32,709 - #44 0
+INFO  22:51:32,709 - #16 ;
+INFO  22:51:32,709 - #10 }
+INFO  22:51:32,709 - #10 }
+INFO  22:51:32,712 - Prepoznato programsko ime : MJProgram
+INFO  22:51:32,712 - Prepoznat tip int
+INFO  22:51:32,712 - Prepoznat tip int
+INFO  22:51:32,712 - Prepoznata konstanta y tipa int vrednosti 5
+INFO  22:51:32,712 - Prepoznata konstanta a tipa int vrednosti 13
+INFO  22:51:32,712 - Prepoznata konstanta b tipa int vrednosti 1
+INFO  22:51:32,712 - Prepoznat tip char
+INFO  22:51:32,712 - Prepoznata konstanta opa tipa char vrednosti p
+INFO  22:51:32,712 - Prepoznat tip int
+INFO  22:51:32,712 - Prepoznat tip int
+INFO  22:51:32,713 - Prepoznat tip int
+INFO  22:51:32,713 - Zatvoren program! 
+INFO  22:51:32,713 - Print calls = 0

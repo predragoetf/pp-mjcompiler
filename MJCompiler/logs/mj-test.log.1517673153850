@@ -1,0 +1,47 @@
+INFO  16:47:29,282 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:47:29,371 - #2 program
+INFO  16:47:29,371 - #44 p
+INFO  16:47:29,371 - #9 {
+INFO  16:47:29,373 - #5 void
+INFO  16:47:29,374 - #44 main
+INFO  16:47:29,375 - #11 (
+INFO  16:47:29,376 - #12 )
+INFO  16:47:29,377 - #44 int
+INFO  16:47:29,377 - #44 a
+INFO  16:47:29,378 - #16 ;
+INFO  16:47:29,379 - #44 int
+INFO  16:47:29,380 - #44 b
+INFO  16:47:29,381 - #13 [
+INFO  16:47:29,381 - #14 ]
+INFO  16:47:29,381 - #16 ;
+INFO  16:47:29,381 - #9 {
+INFO  16:47:29,381 - #21 read
+INFO  16:47:29,385 - #11 (
+INFO  16:47:29,386 - #44 a
+INFO  16:47:29,386 - #12 )
+INFO  16:47:29,386 - #16 ;
+INFO  16:47:29,388 - #18 print
+INFO  16:47:29,388 - #11 (
+INFO  16:47:29,389 - #44 a
+INFO  16:47:29,389 - #12 )
+INFO  16:47:29,389 - #16 ;
+INFO  16:47:29,389 - #6 return
+INFO  16:47:29,390 - #16 ;
+INFO  16:47:29,391 - #10 }
+INFO  16:47:29,391 - #10 }
+INFO  16:47:29,401 - Otvaranje scope 
+INFO  16:47:29,402 - Prepoznato programsko ime : p na liniji 1
+INFO  16:47:29,402 - Otvaranje scope 
+INFO  16:47:29,402 - Prepoznat tip int na liniji 6
+INFO  16:47:29,402 - Prepoznata deklaracija skalarne promenljive a na liniji 6
+INFO  16:47:29,402 - Prepoznat tip int na liniji 6
+INFO  16:47:29,402 - Prepoznata deklaracija vektorske promenljive b na liniji 6
+INFO  16:47:29,402 - Koriscenje varijable a na liniji 12
+INFO  16:47:29,402 - Detektovan dozvoljen read  na liniji 12
+INFO  16:47:29,403 - Koriscenje varijable a na liniji 13
+INFO  16:47:29,403 - Zatvaranje scope 
+INFO  16:47:29,403 - Zatvaranje scope 
+INFO  16:47:29,403 - Zatvoren program! 
+INFO  16:47:29,403 - Print calls = 1
+INFO  16:47:29,404 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  16:47:29,412 - Parsiranje uspesno zavrseno!

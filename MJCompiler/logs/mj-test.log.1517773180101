@@ -1,0 +1,118 @@
+INFO  20:12:15,830 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:12:15,922 - #2 program
+INFO  20:12:15,922 - #44 Pfibonacci
+INFO  20:12:15,922 - #9 {
+INFO  20:12:15,924 - #44 int
+INFO  20:12:15,928 - #44 fibonacci
+INFO  20:12:15,928 - #11 (
+INFO  20:12:15,929 - #44 int
+INFO  20:12:15,930 - #44 n
+INFO  20:12:15,930 - #12 )
+INFO  20:12:15,930 - #9 {
+INFO  20:12:15,931 - #22 if
+INFO  20:12:15,933 - #11 (
+INFO  20:12:15,933 - #44 n
+INFO  20:12:15,933 - #28 ==
+INFO  20:12:15,934 - #43 1
+INFO  20:12:15,936 - #34 &&
+INFO  20:12:15,936 - #43 2
+INFO  20:12:15,936 - #28 ==
+INFO  20:12:15,937 - #43 2
+INFO  20:12:15,937 - #35 ||
+INFO  20:12:15,938 - #44 n
+INFO  20:12:15,939 - #28 ==
+INFO  20:12:15,939 - #43 0
+INFO  20:12:15,939 - #12 )
+INFO  20:12:15,940 - #9 {
+INFO  20:12:15,941 - #6 return
+INFO  20:12:15,941 - #43 1
+INFO  20:12:15,941 - #16 ;
+INFO  20:12:15,941 - #10 }
+INFO  20:12:15,942 - #23 else
+INFO  20:12:15,943 - #6 return
+INFO  20:12:15,943 - #44 fibonacci
+INFO  20:12:15,943 - #11 (
+INFO  20:12:15,943 - #44 n
+INFO  20:12:15,946 - #37 -
+INFO  20:12:15,946 - #43 1
+INFO  20:12:15,948 - #12 )
+INFO  20:12:15,949 - #36 +
+INFO  20:12:15,949 - #44 fibonacci
+INFO  20:12:15,950 - #11 (
+INFO  20:12:15,950 - #44 n
+INFO  20:12:15,950 - #37 -
+INFO  20:12:15,950 - #43 2
+INFO  20:12:15,950 - #12 )
+INFO  20:12:15,951 - #16 ;
+INFO  20:12:15,951 - #10 }
+INFO  20:12:15,951 - #5 void
+INFO  20:12:15,954 - #44 main
+INFO  20:12:15,955 - #11 (
+INFO  20:12:15,955 - #12 )
+INFO  20:12:15,957 - #44 int
+INFO  20:12:15,957 - #44 n
+INFO  20:12:15,958 - #16 ;
+INFO  20:12:15,958 - #9 {
+INFO  20:12:15,958 - #21 read
+INFO  20:12:15,959 - #11 (
+INFO  20:12:15,959 - #44 n
+INFO  20:12:15,959 - #12 )
+INFO  20:12:15,962 - #16 ;
+INFO  20:12:15,962 - #18 print
+INFO  20:12:15,963 - #11 (
+INFO  20:12:15,963 - #44 fibonacci
+INFO  20:12:15,963 - #11 (
+INFO  20:12:15,963 - #44 n
+INFO  20:12:15,963 - #12 )
+INFO  20:12:15,963 - #12 )
+INFO  20:12:15,963 - #16 ;
+INFO  20:12:15,963 - #10 }
+INFO  20:12:15,964 - #10 }
+INFO  20:12:15,978 - Otvaranje scope 
+INFO  20:12:15,979 - Prepoznato programsko ime : Pfibonacci na liniji 1
+INFO  20:12:15,979 - Prepoznat tip int na liniji 4
+INFO  20:12:15,979 - Otvaranje scope 
+INFO  20:12:15,979 - Prepoznat tip int na liniji 4
+INFO  20:12:15,979 - Prepoznata deklaracija skalarne promenljive n na liniji 4
+INFO  20:12:15,980 - Koriscenje lokalne varijable n na liniji 6
+INFO  20:12:15,980 - 
+Var n: int, 0, 1 
+INFO  20:12:15,980 - Koriscenje lokalne varijable n na liniji 6
+INFO  20:12:15,981 - 
+Var n: int, 0, 1 
+INFO  20:12:15,981 - Koriscenje metode fibonacci na liniji 11
+INFO  20:12:15,981 - 
+Meth fibonacci: int, 0, 1 
+
+INFO  20:12:15,981 - Koriscenje lokalne varijable n na liniji 11
+INFO  20:12:15,981 - 
+Var n: int, 0, 1 
+INFO  20:12:15,981 - Koriscenje metode fibonacci na liniji 11
+INFO  20:12:15,981 - 
+Meth fibonacci: int, 0, 1 
+
+INFO  20:12:15,981 - Koriscenje lokalne varijable n na liniji 11
+INFO  20:12:15,981 - 
+Var n: int, 0, 1 
+INFO  20:12:15,981 - Zatvaranje scope 
+INFO  20:12:15,981 - Otvaranje scope 
+INFO  20:12:15,981 - Prepoznat tip int na liniji 14
+INFO  20:12:15,982 - Prepoznata deklaracija skalarne promenljive n na liniji 14
+INFO  20:12:15,982 - Koriscenje lokalne varijable n na liniji 16
+INFO  20:12:15,982 - 
+Var n: int, 0, 1 
+INFO  20:12:15,982 - Detektovan dozvoljen read  na liniji 16
+INFO  20:12:15,982 - Koriscenje metode fibonacci na liniji 17
+INFO  20:12:15,982 - 
+Meth fibonacci: int, 0, 1 
+   Var n: int, 0, 1 
+
+INFO  20:12:15,982 - Koriscenje lokalne varijable n na liniji 17
+INFO  20:12:15,982 - 
+Var n: int, 0, 1 
+INFO  20:12:15,982 - Zatvaranje scope 
+INFO  20:12:15,983 - Zatvaranje scope 
+INFO  20:12:15,983 - Zatvoren program! 
+INFO  20:12:15,983 - Print calls = 1
+INFO  20:12:15,983 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  20:12:15,989 - Parsiranje uspesno zavrseno!

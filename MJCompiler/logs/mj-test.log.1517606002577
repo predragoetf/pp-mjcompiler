@@ -1,0 +1,32 @@
+INFO  22:12:48,112 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:12:48,219 - #2 program
+INFO  22:12:48,219 - #44 test301
+INFO  22:12:48,219 - #8 const
+INFO  22:12:48,220 - #44 int
+INFO  22:12:48,220 - #44 jedan
+INFO  22:12:48,221 - #27 =
+INFO  22:12:48,221 - #43 1
+INFO  22:12:48,221 - #16 ;
+INFO  22:12:48,222 - #8 const
+INFO  22:12:48,223 - #44 int
+INFO  22:12:48,223 - #44 pet
+INFO  22:12:48,223 - #27 =
+INFO  22:12:48,223 - #43 5
+INFO  22:12:48,224 - #16 ;
+INFO  22:12:48,224 - #44 int
+INFO  22:12:48,224 - #44 niz
+INFO  22:12:48,224 - #13 [
+INFO  22:12:48,224 - #14 ]
+INFO  22:12:48,224 - #16 ;
+INFO  22:12:48,224 - #44 char
+INFO  22:12:48,227 - #44 nizch
+INFO  22:12:48,227 - #13 [
+INFO  22:12:48,227 - #14 ]
+INFO  22:12:48,227 - #16 ;
+INFO  22:12:48,227 - #5 void
+ERROR 22:12:48,227 - 
+Sintaksna greska na liniji 11
+ERROR 22:12:48,227 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11
+INFO  22:12:48,232 - Prepoznat tip char na liniji 9
+INFO  22:12:48,232 - Prepoznata deklaracija vektorske promenljive nizch na liniji 9
+INFO  22:12:48,232 - Print calls = 0

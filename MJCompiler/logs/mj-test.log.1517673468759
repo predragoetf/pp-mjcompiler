@@ -1,0 +1,56 @@
+INFO  16:56:50,090 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:56:50,174 - #2 program
+INFO  16:56:50,175 - #44 p
+INFO  16:56:50,175 - #44 int
+INFO  16:56:50,176 - #44 c
+INFO  16:56:50,177 - #16 ;
+INFO  16:56:50,177 - #9 {
+INFO  16:56:50,178 - #5 void
+INFO  16:56:50,179 - #44 main
+INFO  16:56:50,180 - #11 (
+INFO  16:56:50,181 - #12 )
+INFO  16:56:50,182 - #44 int
+INFO  16:56:50,184 - #44 c
+INFO  16:56:50,184 - #16 ;
+INFO  16:56:50,184 - #44 int
+INFO  16:56:50,185 - #44 a
+INFO  16:56:50,185 - #16 ;
+INFO  16:56:50,185 - #44 int
+INFO  16:56:50,186 - #44 b
+INFO  16:56:50,186 - #13 [
+INFO  16:56:50,186 - #14 ]
+INFO  16:56:50,186 - #16 ;
+INFO  16:56:50,189 - #9 {
+INFO  16:56:50,189 - #21 read
+INFO  16:56:50,193 - #11 (
+INFO  16:56:50,193 - #44 a
+INFO  16:56:50,193 - #12 )
+INFO  16:56:50,194 - #16 ;
+INFO  16:56:50,194 - #18 print
+INFO  16:56:50,194 - #11 (
+INFO  16:56:50,194 - #43 5
+INFO  16:56:50,194 - #12 )
+INFO  16:56:50,195 - #16 ;
+INFO  16:56:50,196 - #6 return
+INFO  16:56:50,196 - #16 ;
+INFO  16:56:50,197 - #10 }
+INFO  16:56:50,198 - #10 }
+INFO  16:56:50,207 - Otvaranje scope 
+INFO  16:56:50,208 - Prepoznato programsko ime : p na liniji 1
+INFO  16:56:50,209 - Prepoznat tip int na liniji 4
+INFO  16:56:50,209 - Prepoznata deklaracija skalarne promenljive c na liniji 4
+INFO  16:56:50,210 - Otvaranje scope 
+INFO  16:56:50,210 - Prepoznat tip int na liniji 7
+INFO  16:56:50,210 - Prepoznata deklaracija skalarne promenljive c na liniji 7
+INFO  16:56:50,210 - Prepoznat tip int na liniji 7
+INFO  16:56:50,210 - Prepoznata deklaracija skalarne promenljive a na liniji 7
+INFO  16:56:50,210 - Prepoznat tip int na liniji 7
+INFO  16:56:50,210 - Prepoznata deklaracija vektorske promenljive b na liniji 7
+INFO  16:56:50,210 - Koriscenje varijable a na liniji 13
+INFO  16:56:50,211 - Detektovan dozvoljen read  na liniji 13
+INFO  16:56:50,211 - Zatvaranje scope 
+INFO  16:56:50,211 - Zatvaranje scope 
+INFO  16:56:50,212 - Zatvoren program! 
+INFO  16:56:50,212 - Print calls = 1
+INFO  16:56:50,213 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  16:56:50,222 - Parsiranje uspesno zavrseno!

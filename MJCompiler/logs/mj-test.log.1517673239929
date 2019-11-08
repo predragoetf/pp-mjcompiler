@@ -1,0 +1,52 @@
+INFO  16:52:33,853 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:52:33,934 - #2 program
+INFO  16:52:33,934 - #44 p
+INFO  16:52:33,934 - #9 {
+INFO  16:52:33,935 - #5 void
+INFO  16:52:33,936 - #44 main
+INFO  16:52:33,936 - #11 (
+INFO  16:52:33,937 - #12 )
+INFO  16:52:33,938 - #44 int
+INFO  16:52:33,938 - #44 c
+INFO  16:52:33,939 - #16 ;
+INFO  16:52:33,939 - #44 int
+INFO  16:52:33,940 - #44 a
+INFO  16:52:33,940 - #16 ;
+INFO  16:52:33,940 - #44 int
+INFO  16:52:33,940 - #44 b
+INFO  16:52:33,940 - #13 [
+INFO  16:52:33,940 - #14 ]
+INFO  16:52:33,940 - #16 ;
+INFO  16:52:33,941 - #9 {
+INFO  16:52:33,941 - #21 read
+INFO  16:52:33,942 - #11 (
+INFO  16:52:33,944 - #44 a
+INFO  16:52:33,944 - #12 )
+INFO  16:52:33,944 - #16 ;
+INFO  16:52:33,944 - #18 print
+INFO  16:52:33,944 - #11 (
+INFO  16:52:33,945 - #44 a
+INFO  16:52:33,945 - #12 )
+INFO  16:52:33,945 - #16 ;
+INFO  16:52:33,945 - #6 return
+INFO  16:52:33,945 - #16 ;
+INFO  16:52:33,946 - #10 }
+INFO  16:52:33,946 - #10 }
+INFO  16:52:33,952 - Otvaranje scope 
+INFO  16:52:33,952 - Prepoznato programsko ime : p na liniji 1
+INFO  16:52:33,952 - Otvaranje scope 
+INFO  16:52:33,952 - Prepoznat tip int na liniji 6
+INFO  16:52:33,952 - Prepoznata deklaracija skalarne promenljive c na liniji 6
+INFO  16:52:33,952 - Prepoznat tip int na liniji 6
+INFO  16:52:33,953 - Prepoznata deklaracija skalarne promenljive a na liniji 6
+INFO  16:52:33,953 - Prepoznat tip int na liniji 6
+INFO  16:52:33,953 - Prepoznata deklaracija vektorske promenljive b na liniji 6
+INFO  16:52:33,953 - Koriscenje varijable a na liniji 12
+INFO  16:52:33,953 - Detektovan dozvoljen read  na liniji 12
+INFO  16:52:33,953 - Koriscenje varijable a na liniji 13
+INFO  16:52:33,953 - Zatvaranje scope 
+INFO  16:52:33,954 - Zatvaranje scope 
+INFO  16:52:33,954 - Zatvoren program! 
+INFO  16:52:33,954 - Print calls = 1
+INFO  16:52:33,960 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  16:52:33,979 - Parsiranje uspesno zavrseno!

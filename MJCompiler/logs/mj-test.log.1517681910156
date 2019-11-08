@@ -1,0 +1,120 @@
+INFO  19:18:00,896 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:18:00,987 - #2 program
+INFO  19:18:00,989 - #44 p
+INFO  19:18:00,989 - #44 int
+INFO  19:18:00,993 - #44 c
+INFO  19:18:00,994 - #16 ;
+INFO  19:18:00,994 - #9 {
+INFO  19:18:00,995 - #5 void
+INFO  19:18:01,002 - #44 main
+INFO  19:18:01,004 - #11 (
+INFO  19:18:01,008 - #12 )
+INFO  19:18:01,010 - #44 int
+INFO  19:18:01,012 - #44 c1
+INFO  19:18:01,012 - #15 ,
+INFO  19:18:01,012 - #44 c2
+INFO  19:18:01,012 - #15 ,
+INFO  19:18:01,014 - #44 c3
+INFO  19:18:01,014 - #15 ,
+INFO  19:18:01,014 - #44 c4
+INFO  19:18:01,014 - #15 ,
+INFO  19:18:01,015 - #44 c5
+INFO  19:18:01,016 - #16 ;
+INFO  19:18:01,017 - #44 int
+INFO  19:18:01,017 - #44 a
+INFO  19:18:01,017 - #16 ;
+INFO  19:18:01,017 - #44 char
+INFO  19:18:01,018 - #44 b
+INFO  19:18:01,018 - #13 [
+INFO  19:18:01,018 - #14 ]
+INFO  19:18:01,019 - #16 ;
+INFO  19:18:01,020 - #44 char
+INFO  19:18:01,021 - #44 d
+INFO  19:18:01,021 - #13 [
+INFO  19:18:01,021 - #14 ]
+INFO  19:18:01,021 - #16 ;
+INFO  19:18:01,021 - #9 {
+INFO  19:18:01,021 - #44 a
+INFO  19:18:01,025 - #27 =
+INFO  19:18:01,025 - #43 77
+INFO  19:18:01,025 - #16 ;
+INFO  19:18:01,026 - #44 b
+INFO  19:18:01,027 - #27 =
+INFO  19:18:01,027 - #7 new
+INFO  19:18:01,027 - #44 int
+INFO  19:18:01,027 - #13 [
+INFO  19:18:01,027 - #43 5
+INFO  19:18:01,027 - #36 +
+INFO  19:18:01,027 - #44 a
+INFO  19:18:01,028 - #14 ]
+INFO  19:18:01,029 - #16 ;
+INFO  19:18:01,029 - #44 d
+INFO  19:18:01,029 - #27 =
+INFO  19:18:01,029 - #7 new
+INFO  19:18:01,029 - #44 int
+INFO  19:18:01,029 - #13 [
+INFO  19:18:01,029 - #43 5
+INFO  19:18:01,029 - #14 ]
+INFO  19:18:01,029 - #16 ;
+INFO  19:18:01,030 - #44 b
+INFO  19:18:01,030 - #13 [
+INFO  19:18:01,030 - #43 3
+INFO  19:18:01,030 - #14 ]
+INFO  19:18:01,030 - #27 =
+INFO  19:18:01,030 - #45 5
+INFO  19:18:01,030 - #16 ;
+INFO  19:18:01,031 - #44 d
+INFO  19:18:01,031 - #27 =
+INFO  19:18:01,031 - #44 b
+INFO  19:18:01,031 - #16 ;
+INFO  19:18:01,031 - #18 print
+INFO  19:18:01,031 - #11 (
+INFO  19:18:01,031 - #44 d
+INFO  19:18:01,031 - #13 [
+INFO  19:18:01,031 - #43 3
+INFO  19:18:01,031 - #14 ]
+INFO  19:18:01,031 - #15 ,
+INFO  19:18:01,031 - #43 13
+INFO  19:18:01,032 - #12 )
+INFO  19:18:01,032 - #16 ;
+INFO  19:18:01,032 - #6 return
+INFO  19:18:01,032 - #16 ;
+INFO  19:18:01,032 - #10 }
+INFO  19:18:01,032 - #10 }
+INFO  19:18:01,037 - Otvaranje scope 
+INFO  19:18:01,037 - Prepoznato programsko ime : p na liniji 1
+INFO  19:18:01,037 - Prepoznat tip int na liniji 4
+INFO  19:18:01,037 - Prepoznata deklaracija skalarne promenljive c na liniji 4
+INFO  19:18:01,037 - Otvaranje scope 
+INFO  19:18:01,037 - Prepoznat tip int na liniji 7
+INFO  19:18:01,037 - Prepoznata deklaracija skalarne promenljive c1 na liniji 7
+INFO  19:18:01,038 - Prepoznata deklaracija skalarne promenljive c2 na liniji 7
+INFO  19:18:01,038 - Prepoznata deklaracija skalarne promenljive c3 na liniji 7
+INFO  19:18:01,038 - Prepoznata deklaracija skalarne promenljive c4 na liniji 7
+INFO  19:18:01,038 - Prepoznata deklaracija skalarne promenljive c5 na liniji 7
+INFO  19:18:01,038 - Prepoznat tip int na liniji 7
+INFO  19:18:01,038 - Prepoznata deklaracija skalarne promenljive a na liniji 7
+INFO  19:18:01,038 - Prepoznat tip char na liniji 7
+INFO  19:18:01,038 - Prepoznata deklaracija vektorske promenljive b na liniji 7
+INFO  19:18:01,038 - Prepoznat tip char na liniji 7
+INFO  19:18:01,038 - Prepoznata deklaracija vektorske promenljive d na liniji 7
+INFO  19:18:01,038 - Koriscenje varijable a na liniji 9
+INFO  19:18:01,038 - Dodela dozvoljena  na liniji 9
+INFO  19:18:01,038 - Koriscenje varijable b na liniji 10
+INFO  19:18:01,038 - Prepoznat tip int na liniji 10
+INFO  19:18:01,039 - Koriscenje varijable a na liniji 10
+ERROR 19:18:01,039 - Greska: tipovi nisu kompatibilni  na liniji 10
+INFO  19:18:01,039 - Koriscenje varijable d na liniji 11
+INFO  19:18:01,039 - Prepoznat tip int na liniji 11
+ERROR 19:18:01,039 - Greska: tipovi nisu kompatibilni  na liniji 11
+INFO  19:18:01,039 - Koriscenje varijable b na liniji 13
+INFO  19:18:01,039 - Dodela dozvoljena  na liniji 13
+INFO  19:18:01,039 - Koriscenje varijable d na liniji 15
+INFO  19:18:01,039 - Koriscenje varijable b na liniji 15
+INFO  19:18:01,039 - Dodela dozvoljena  na liniji 15
+INFO  19:18:01,039 - Koriscenje varijable d na liniji 20
+INFO  19:18:01,039 - Zatvaranje scope 
+INFO  19:18:01,039 - Zatvaranje scope 
+INFO  19:18:01,039 - Zatvoren program! 
+INFO  19:18:01,039 - Print calls = 1
+ERROR 19:18:01,040 - Parsiranje NIJE uspesno zavrseno!

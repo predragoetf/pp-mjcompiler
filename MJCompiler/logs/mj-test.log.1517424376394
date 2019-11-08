@@ -1,0 +1,72 @@
+INFO  19:19:46,042 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:19:46,095 - #2 program
+INFO  19:19:46,096 - #45 MJProgram
+INFO  19:19:46,096 - #45 int
+INFO  19:19:46,097 - #45 x
+INFO  19:19:46,097 - #16 ;
+INFO  19:19:46,098 - #8 const
+INFO  19:19:46,098 - #45 int
+INFO  19:19:46,098 - #45 y
+INFO  19:19:46,098 - #28 =
+INFO  19:19:46,099 - #44 5
+INFO  19:19:46,099 - #16 ;
+INFO  19:19:46,100 - #9 {
+INFO  19:19:46,100 - #45 int
+INFO  19:19:46,101 - #45 k
+INFO  19:19:46,101 - #11 (
+INFO  19:19:46,101 - #12 )
+INFO  19:19:46,102 - #45 int
+INFO  19:19:46,102 - #45 c
+INFO  19:19:46,102 - #16 ;
+INFO  19:19:46,102 - #9 {
+INFO  19:19:46,104 - #45 c
+INFO  19:19:46,105 - #28 =
+INFO  19:19:46,105 - #44 1
+INFO  19:19:46,105 - #16 ;
+INFO  19:19:46,105 - #6 return
+INFO  19:19:46,105 - #45 c
+INFO  19:19:46,106 - #37 +
+INFO  19:19:46,106 - #44 2
+INFO  19:19:46,106 - #16 ;
+INFO  19:19:46,107 - #10 }
+INFO  19:19:46,107 - #45 int
+INFO  19:19:46,108 - #45 main
+INFO  19:19:46,108 - #11 (
+INFO  19:19:46,108 - #12 )
+INFO  19:19:46,108 - #9 {
+INFO  19:19:46,108 - #45 y
+INFO  19:19:46,108 - #28 =
+INFO  19:19:46,109 - #44 2
+INFO  19:19:46,109 - #16 ;
+INFO  19:19:46,109 - #45 x
+INFO  19:19:46,109 - #28 =
+INFO  19:19:46,109 - #45 y
+INFO  19:19:46,109 - #37 +
+INFO  19:19:46,109 - #44 2
+INFO  19:19:46,109 - #16 ;
+INFO  19:19:46,109 - #45 y
+INFO  19:19:46,109 - #28 =
+INFO  19:19:46,109 - #45 k
+INFO  19:19:46,109 - #11 (
+INFO  19:19:46,109 - #12 )
+INFO  19:19:46,110 - #37 +
+INFO  19:19:46,110 - #44 3
+INFO  19:19:46,110 - #16 ;
+INFO  19:19:46,110 - #18 print
+INFO  19:19:46,110 - #11 (
+INFO  19:19:46,110 - #45 y
+INFO  19:19:46,111 - #12 )
+INFO  19:19:46,111 - #16 ;
+INFO  19:19:46,113 - #6 return
+INFO  19:19:46,113 - #44 0
+INFO  19:19:46,113 - #16 ;
+INFO  19:19:46,113 - #10 }
+INFO  19:19:46,113 - #10 }
+INFO  19:19:46,116 - Prepoznato programsko ime : MJProgram
+INFO  19:19:46,117 - Prepoznat tip int
+INFO  19:19:46,117 - Prepoznat tip int
+INFO  19:19:46,117 - Prepoznat tip int
+INFO  19:19:46,117 - Prepoznat tip int
+INFO  19:19:46,117 - Prepoznat tip int
+INFO  19:19:46,117 - Zatvoren program! 
+INFO  19:19:46,117 - Print calls = 0

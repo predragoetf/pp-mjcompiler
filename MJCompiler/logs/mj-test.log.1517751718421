@@ -1,0 +1,71 @@
+INFO  14:38:40,279 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:38:40,363 - #2 program
+INFO  14:38:40,364 - #44 testFuncCall
+INFO  14:38:40,364 - #44 int
+INFO  14:38:40,365 - #44 g
+INFO  14:38:40,367 - #16 ;
+INFO  14:38:40,368 - #9 {
+INFO  14:38:40,368 - #44 int
+INFO  14:38:40,369 - #44 f
+INFO  14:38:40,369 - #11 (
+INFO  14:38:40,370 - #12 )
+INFO  14:38:40,372 - #9 {
+INFO  14:38:40,374 - #6 return
+INFO  14:38:40,377 - #43 66
+INFO  14:38:40,377 - #16 ;
+INFO  14:38:40,378 - #10 }
+INFO  14:38:40,379 - #44 int
+INFO  14:38:40,381 - #44 f2
+INFO  14:38:40,381 - #11 (
+INFO  14:38:40,381 - #44 int
+INFO  14:38:40,381 - #44 p1
+INFO  14:38:40,381 - #15 ,
+INFO  14:38:40,382 - #44 int
+INFO  14:38:40,382 - #44 p2
+INFO  14:38:40,382 - #12 )
+INFO  14:38:40,386 - #9 {
+INFO  14:38:40,387 - #6 return
+INFO  14:38:40,387 - #44 p1
+INFO  14:38:40,388 - #36 +
+INFO  14:38:40,388 - #44 p2
+INFO  14:38:40,390 - #16 ;
+INFO  14:38:40,390 - #10 }
+INFO  14:38:40,390 - #5 void
+INFO  14:38:40,390 - #44 main
+INFO  14:38:40,391 - #11 (
+INFO  14:38:40,395 - #12 )
+INFO  14:38:40,395 - #9 {
+INFO  14:38:40,395 - #18 print
+INFO  14:38:40,395 - #11 (
+INFO  14:38:40,396 - #44 chr
+INFO  14:38:40,396 - #11 (
+INFO  14:38:40,396 - #43 65
+INFO  14:38:40,398 - #12 )
+INFO  14:38:40,399 - #12 )
+INFO  14:38:40,399 - #16 ;
+INFO  14:38:40,399 - #10 }
+INFO  14:38:40,399 - #10 }
+INFO  14:38:40,409 - Otvaranje scope 
+INFO  14:38:40,409 - Prepoznato programsko ime : testFuncCall na liniji 1
+INFO  14:38:40,409 - Prepoznat tip int na liniji 3
+INFO  14:38:40,409 - Prepoznata deklaracija skalarne promenljive g na liniji 3
+INFO  14:38:40,409 - Prepoznat tip int na liniji 6
+INFO  14:38:40,409 - Otvaranje scope 
+INFO  14:38:40,410 - Zatvaranje scope 
+INFO  14:38:40,410 - Prepoznat tip int na liniji 7
+INFO  14:38:40,410 - Otvaranje scope 
+INFO  14:38:40,410 - Prepoznat tip int na liniji 7
+INFO  14:38:40,410 - Prepoznata deklaracija skalarne promenljive p1 na liniji 7
+INFO  14:38:40,410 - Prepoznat tip int na liniji 7
+INFO  14:38:40,410 - Prepoznata deklaracija skalarne promenljive p2 na liniji 7
+INFO  14:38:40,410 - Koriscenje varijable p1 na liniji 7
+INFO  14:38:40,410 - Koriscenje varijable p2 na liniji 7
+INFO  14:38:40,410 - Zatvaranje scope 
+INFO  14:38:40,410 - Otvaranje scope 
+INFO  14:38:40,411 - Koriscenje metode chr na liniji 16
+INFO  14:38:40,411 - Zatvaranje scope 
+INFO  14:38:40,411 - Zatvaranje scope 
+INFO  14:38:40,411 - Zatvoren program! 
+INFO  14:38:40,411 - Print calls = 1
+INFO  14:38:40,412 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  14:38:40,421 - Parsiranje uspesno zavrseno!

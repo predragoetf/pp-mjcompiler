@@ -1,0 +1,177 @@
+INFO  20:41:55,230 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:41:55,318 - #2 program
+INFO  20:41:55,319 - #44 Pfibonacci
+INFO  20:41:55,319 - #9 {
+INFO  20:41:55,320 - #44 int
+INFO  20:41:55,323 - #44 fibonacci
+INFO  20:41:55,325 - #11 (
+INFO  20:41:55,329 - #44 int
+INFO  20:41:55,329 - #44 n
+INFO  20:41:55,329 - #12 )
+INFO  20:41:55,330 - #9 {
+INFO  20:41:55,334 - #22 if
+INFO  20:41:55,346 - #11 (
+INFO  20:41:55,347 - #44 n
+INFO  20:41:55,347 - #28 ==
+INFO  20:41:55,347 - #43 1
+INFO  20:41:55,349 - #34 &&
+INFO  20:41:55,350 - #43 2
+INFO  20:41:55,350 - #28 ==
+INFO  20:41:55,350 - #43 2
+INFO  20:41:55,350 - #35 ||
+INFO  20:41:55,352 - #44 n
+INFO  20:41:55,353 - #28 ==
+INFO  20:41:55,353 - #43 0
+INFO  20:41:55,353 - #12 )
+INFO  20:41:55,353 - #9 {
+INFO  20:41:55,354 - #6 return
+INFO  20:41:55,354 - #43 1
+INFO  20:41:55,354 - #16 ;
+INFO  20:41:55,354 - #10 }
+INFO  20:41:55,355 - #23 else
+INFO  20:41:55,355 - #6 return
+INFO  20:41:55,355 - #44 fibonacci
+INFO  20:41:55,355 - #11 (
+INFO  20:41:55,355 - #44 n
+INFO  20:41:55,356 - #37 -
+INFO  20:41:55,356 - #43 1
+INFO  20:41:55,357 - #12 )
+INFO  20:41:55,357 - #36 +
+INFO  20:41:55,357 - #44 fibonacci
+INFO  20:41:55,358 - #11 (
+INFO  20:41:55,358 - #44 n
+INFO  20:41:55,358 - #37 -
+INFO  20:41:55,358 - #43 2
+INFO  20:41:55,358 - #12 )
+INFO  20:41:55,358 - #16 ;
+INFO  20:41:55,358 - #10 }
+INFO  20:41:55,359 - #5 void
+INFO  20:41:55,360 - #44 main
+INFO  20:41:55,360 - #11 (
+INFO  20:41:55,360 - #12 )
+INFO  20:41:55,361 - #44 int
+INFO  20:41:55,361 - #44 n
+INFO  20:41:55,361 - #16 ;
+INFO  20:41:55,361 - #9 {
+INFO  20:41:55,361 - #21 read
+INFO  20:41:55,362 - #11 (
+INFO  20:41:55,362 - #44 n
+INFO  20:41:55,362 - #12 )
+INFO  20:41:55,365 - #16 ;
+INFO  20:41:55,365 - #18 print
+INFO  20:41:55,365 - #11 (
+INFO  20:41:55,365 - #44 fibonacci
+INFO  20:41:55,365 - #11 (
+INFO  20:41:55,365 - #44 n
+INFO  20:41:55,365 - #12 )
+INFO  20:41:55,366 - #12 )
+INFO  20:41:55,366 - #16 ;
+INFO  20:41:55,366 - #22 if
+INFO  20:41:55,366 - #11 (
+INFO  20:41:55,366 - #44 n
+INFO  20:41:55,366 - #30 >=
+INFO  20:41:55,366 - #43 3
+INFO  20:41:55,367 - #12 )
+INFO  20:41:55,367 - #9 {
+INFO  20:41:55,367 - #18 print
+INFO  20:41:55,367 - #11 (
+INFO  20:41:55,367 - #45 V
+INFO  20:41:55,367 - #12 )
+INFO  20:41:55,368 - #16 ;
+INFO  20:41:55,368 - #18 print
+INFO  20:41:55,368 - #11 (
+INFO  20:41:55,368 - #45 E
+INFO  20:41:55,369 - #12 )
+INFO  20:41:55,369 - #16 ;
+INFO  20:41:55,369 - #18 print
+INFO  20:41:55,369 - #11 (
+INFO  20:41:55,369 - #45 C
+INFO  20:41:55,369 - #12 )
+INFO  20:41:55,369 - #16 ;
+INFO  20:41:55,369 - #18 print
+INFO  20:41:55,369 - #11 (
+INFO  20:41:55,369 - #45 E
+INFO  20:41:55,369 - #12 )
+INFO  20:41:55,369 - #16 ;
+INFO  20:41:55,369 - #10 }
+INFO  20:41:55,369 - #23 else
+INFO  20:41:55,370 - #9 {
+INFO  20:41:55,370 - #18 print
+INFO  20:41:55,370 - #11 (
+INFO  20:41:55,370 - #45 M
+INFO  20:41:55,370 - #12 )
+INFO  20:41:55,370 - #16 ;
+INFO  20:41:55,370 - #18 print
+INFO  20:41:55,370 - #11 (
+INFO  20:41:55,370 - #45 A
+INFO  20:41:55,370 - #12 )
+INFO  20:41:55,370 - #16 ;
+INFO  20:41:55,370 - #18 print
+INFO  20:41:55,370 - #11 (
+INFO  20:41:55,370 - #45 N
+INFO  20:41:55,370 - #12 )
+INFO  20:41:55,370 - #16 ;
+INFO  20:41:55,370 - #18 print
+INFO  20:41:55,370 - #11 (
+INFO  20:41:55,370 - #45 J
+INFO  20:41:55,371 - #12 )
+INFO  20:41:55,371 - #16 ;
+INFO  20:41:55,371 - #18 print
+INFO  20:41:55,371 - #11 (
+INFO  20:41:55,371 - #45 E
+INFO  20:41:55,371 - #12 )
+INFO  20:41:55,371 - #16 ;
+INFO  20:41:55,371 - #10 }
+INFO  20:41:55,371 - #10 }
+INFO  20:41:55,371 - #10 }
+INFO  20:41:55,378 - Otvaranje scope 
+INFO  20:41:55,378 - Prepoznato programsko ime : Pfibonacci na liniji 1
+INFO  20:41:55,378 - Prepoznat tip int na liniji 4
+INFO  20:41:55,378 - Otvaranje scope 
+INFO  20:41:55,378 - Prepoznat tip int na liniji 4
+INFO  20:41:55,378 - Prepoznata deklaracija skalarne promenljive n na liniji 4
+INFO  20:41:55,379 - Koriscenje lokalne varijable n na liniji 6
+INFO  20:41:55,379 - 
+Var n: int, 0, 1 
+INFO  20:41:55,379 - Koriscenje lokalne varijable n na liniji 6
+INFO  20:41:55,379 - 
+Var n: int, 0, 1 
+INFO  20:41:55,379 - Koriscenje metode fibonacci na liniji 11
+INFO  20:41:55,379 - 
+Meth fibonacci: int, 0, 1 
+
+INFO  20:41:55,379 - Koriscenje lokalne varijable n na liniji 11
+INFO  20:41:55,379 - 
+Var n: int, 0, 1 
+INFO  20:41:55,380 - Koriscenje metode fibonacci na liniji 11
+INFO  20:41:55,380 - 
+Meth fibonacci: int, 0, 1 
+
+INFO  20:41:55,380 - Koriscenje lokalne varijable n na liniji 11
+INFO  20:41:55,380 - 
+Var n: int, 0, 1 
+INFO  20:41:55,380 - Zatvaranje scope 
+INFO  20:41:55,380 - Otvaranje scope 
+INFO  20:41:55,381 - Prepoznat tip int na liniji 14
+INFO  20:41:55,381 - Prepoznata deklaracija skalarne promenljive n na liniji 14
+INFO  20:41:55,381 - Koriscenje lokalne varijable n na liniji 16
+INFO  20:41:55,382 - 
+Var n: int, 0, 1 
+INFO  20:41:55,382 - Detektovan dozvoljen read  na liniji 16
+INFO  20:41:55,382 - Koriscenje metode fibonacci na liniji 17
+INFO  20:41:55,382 - 
+Meth fibonacci: int, 0, 1 
+   Var n: int, 0, 1 
+
+INFO  20:41:55,382 - Koriscenje lokalne varijable n na liniji 17
+INFO  20:41:55,382 - 
+Var n: int, 0, 1 
+INFO  20:41:55,383 - Koriscenje lokalne varijable n na liniji 18
+INFO  20:41:55,383 - 
+Var n: int, 0, 1 
+INFO  20:41:55,383 - Zatvaranje scope 
+INFO  20:41:55,383 - Zatvaranje scope 
+INFO  20:41:55,383 - Zatvoren program! 
+INFO  20:41:55,383 - Print calls = 10
+INFO  20:41:55,384 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  20:41:55,400 - Parsiranje uspesno zavrseno!

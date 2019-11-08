@@ -1,0 +1,137 @@
+INFO  15:14:39,695 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:14:39,793 - #2 program
+INFO  15:14:39,794 - #44 MJProgram
+INFO  15:14:39,794 - #44 bool
+INFO  15:14:39,797 - #44 bul
+INFO  15:14:39,798 - #16 ;
+INFO  15:14:39,799 - #44 char
+INFO  15:14:39,801 - #44 s1
+INFO  15:14:39,801 - #13 [
+INFO  15:14:39,801 - #14 ]
+INFO  15:14:39,803 - #15 ,
+INFO  15:14:39,804 - #44 s2
+INFO  15:14:39,804 - #15 ,
+INFO  15:14:39,805 - #44 s3
+INFO  15:14:39,805 - #13 [
+INFO  15:14:39,805 - #14 ]
+INFO  15:14:39,806 - #16 ;
+INFO  15:14:39,810 - #44 int
+INFO  15:14:39,811 - #44 x
+INFO  15:14:39,811 - #16 ;
+INFO  15:14:39,812 - #8 const
+INFO  15:14:39,814 - #44 int
+INFO  15:14:39,814 - #44 y
+INFO  15:14:39,814 - #27 =
+INFO  15:14:39,814 - #43 5
+INFO  15:14:39,814 - #15 ,
+INFO  15:14:39,817 - #44 a
+INFO  15:14:39,817 - #27 =
+INFO  15:14:39,817 - #43 13
+INFO  15:14:39,817 - #15 ,
+INFO  15:14:39,817 - #44 b
+INFO  15:14:39,817 - #27 =
+INFO  15:14:39,817 - #43 1
+INFO  15:14:39,818 - #16 ;
+INFO  15:14:39,818 - #8 const
+INFO  15:14:39,819 - #44 char
+INFO  15:14:39,820 - #44 opa
+INFO  15:14:39,820 - #27 =
+INFO  15:14:39,820 - #45 p
+INFO  15:14:39,820 - #16 ;
+INFO  15:14:39,820 - #9 {
+INFO  15:14:39,820 - #44 int
+INFO  15:14:39,823 - #44 k
+INFO  15:14:39,824 - #11 (
+INFO  15:14:39,826 - #12 )
+INFO  15:14:39,827 - #44 int
+INFO  15:14:39,828 - #44 c
+INFO  15:14:39,828 - #16 ;
+INFO  15:14:39,828 - #9 {
+INFO  15:14:39,829 - #44 c
+INFO  15:14:39,829 - #27 =
+INFO  15:14:39,830 - #43 1
+INFO  15:14:39,830 - #16 ;
+INFO  15:14:39,831 - #6 return
+INFO  15:14:39,831 - #44 c
+INFO  15:14:39,831 - #36 +
+INFO  15:14:39,831 - #43 2
+INFO  15:14:39,832 - #16 ;
+INFO  15:14:39,833 - #10 }
+INFO  15:14:39,835 - #44 int
+INFO  15:14:39,836 - #44 main
+INFO  15:14:39,836 - #11 (
+INFO  15:14:39,836 - #12 )
+INFO  15:14:39,836 - #44 int
+INFO  15:14:39,836 - #44 d
+INFO  15:14:39,836 - #16 ;
+INFO  15:14:39,837 - #9 {
+INFO  15:14:39,837 - #44 y
+INFO  15:14:39,837 - #27 =
+INFO  15:14:39,837 - #43 2
+INFO  15:14:39,837 - #16 ;
+INFO  15:14:39,837 - #44 x
+INFO  15:14:39,837 - #27 =
+INFO  15:14:39,837 - #44 y
+INFO  15:14:39,837 - #36 +
+INFO  15:14:39,837 - #43 2
+INFO  15:14:39,837 - #16 ;
+INFO  15:14:39,837 - #44 y
+INFO  15:14:39,837 - #27 =
+INFO  15:14:39,837 - #44 k
+INFO  15:14:39,837 - #11 (
+INFO  15:14:39,837 - #12 )
+INFO  15:14:39,839 - #36 +
+INFO  15:14:39,839 - #43 3
+INFO  15:14:39,839 - #16 ;
+INFO  15:14:39,839 - #44 k
+INFO  15:14:39,839 - #11 (
+INFO  15:14:39,839 - #12 )
+INFO  15:14:39,839 - #16 ;
+INFO  15:14:39,839 - #18 print
+INFO  15:14:39,839 - #11 (
+INFO  15:14:39,840 - #44 y
+INFO  15:14:39,840 - #12 )
+INFO  15:14:39,840 - #16 ;
+INFO  15:14:39,840 - #6 return
+INFO  15:14:39,840 - #43 0
+INFO  15:14:39,840 - #16 ;
+INFO  15:14:39,840 - #10 }
+INFO  15:14:39,840 - #10 }
+INFO  15:14:39,844 - Otvaranje scope 
+INFO  15:14:39,844 - Prepoznato programsko ime : MJProgram na liniji 1
+INFO  15:14:39,844 - Prepoznat tip bool na liniji 2
+INFO  15:14:39,844 - Prepoznata deklaracija skalarne promenljive bul na liniji 2
+INFO  15:14:39,844 - Prepoznat tip char na liniji 3
+INFO  15:14:39,844 - Prepoznata deklaracija vektorske promenljive s1 na liniji 3
+INFO  15:14:39,844 - Prepoznata deklaracija skalarne promenljive s2 na liniji 3
+INFO  15:14:39,844 - Prepoznata deklaracija vektorske promenljive s3 na liniji 3
+INFO  15:14:39,844 - Prepoznat tip int na liniji 4
+INFO  15:14:39,844 - Prepoznata deklaracija skalarne promenljive x na liniji 4
+INFO  15:14:39,844 - Prepoznat tip int na liniji 4
+INFO  15:14:39,844 - Prepoznata konstanta y tipa int vrednosti 5 na liniji 4
+INFO  15:14:39,845 - Prepoznata konstanta a tipa int vrednosti 13 na liniji 4
+INFO  15:14:39,845 - Prepoznata konstanta b tipa int vrednosti 1 na liniji 4
+INFO  15:14:39,845 - Prepoznat tip char na liniji 5
+INFO  15:14:39,845 - Prepoznata konstanta opa tipa char vrednosti p na liniji 5
+INFO  15:14:39,845 - Prepoznat tip int na liniji 8
+INFO  15:14:39,845 - Otvaranje scope 
+INFO  15:14:39,845 - Prepoznat tip int na liniji 8
+INFO  15:14:39,845 - Prepoznata deklaracija skalarne promenljive c na liniji 8
+INFO  15:14:39,845 - Koriscenje varijable c na liniji 9
+INFO  15:14:39,846 - Koriscenje varijable c na liniji 10
+INFO  15:14:39,846 - Zatvaranje scope 
+INFO  15:14:39,846 - Prepoznat tip int na liniji 13
+INFO  15:14:39,846 - Otvaranje scope 
+INFO  15:14:39,846 - Prepoznat tip int na liniji 13
+INFO  15:14:39,846 - Prepoznata deklaracija skalarne promenljive d na liniji 13
+INFO  15:14:39,846 - Koriscenje konstante y na liniji 14
+INFO  15:14:39,846 - Koriscenje varijable x na liniji 15
+INFO  15:14:39,846 - Koriscenje konstante y na liniji 15
+INFO  15:14:39,846 - Koriscenje konstante y na liniji 16
+INFO  15:14:39,846 - Koriscenje metode k na liniji 16
+INFO  15:14:39,847 - Koriscenje metode k na liniji 17
+INFO  15:14:39,847 - Koriscenje konstante y na liniji 18
+INFO  15:14:39,847 - Zatvaranje scope 
+INFO  15:14:39,847 - Zatvaranje scope 
+INFO  15:14:39,847 - Zatvoren program! 
+INFO  15:14:39,847 - Print calls = 0

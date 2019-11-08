@@ -1,0 +1,331 @@
+INFO  21:58:04,342 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:58:04,433 - #2 program
+INFO  21:58:04,433 - #44 test301
+INFO  21:58:04,433 - #8 const
+INFO  21:58:04,435 - #44 int
+INFO  21:58:04,435 - #44 jedan
+INFO  21:58:04,436 - #27 =
+INFO  21:58:04,436 - #43 1
+INFO  21:58:04,436 - #16 ;
+INFO  21:58:04,437 - #8 const
+INFO  21:58:04,438 - #44 int
+INFO  21:58:04,438 - #44 pet
+INFO  21:58:04,439 - #27 =
+INFO  21:58:04,439 - #43 5
+INFO  21:58:04,439 - #16 ;
+INFO  21:58:04,439 - #44 int
+INFO  21:58:04,440 - #44 niz
+INFO  21:58:04,440 - #13 [
+INFO  21:58:04,440 - #14 ]
+INFO  21:58:04,441 - #16 ;
+INFO  21:58:04,441 - #44 char
+INFO  21:58:04,446 - #44 nizch
+INFO  21:58:04,446 - #13 [
+INFO  21:58:04,446 - #14 ]
+INFO  21:58:04,446 - #16 ;
+INFO  21:58:04,446 - #9 {
+INFO  21:58:04,446 - #5 void
+INFO  21:58:04,448 - #44 m
+INFO  21:58:04,450 - #11 (
+INFO  21:58:04,451 - #44 int
+INFO  21:58:04,451 - #44 a
+INFO  21:58:04,451 - #15 ,
+INFO  21:58:04,452 - #44 int
+INFO  21:58:04,452 - #44 b
+INFO  21:58:04,453 - #12 )
+INFO  21:58:04,453 - #44 int
+INFO  21:58:04,454 - #44 c
+INFO  21:58:04,454 - #16 ;
+INFO  21:58:04,454 - #9 {
+INFO  21:58:04,455 - #6 return
+INFO  21:58:04,457 - #16 ;
+INFO  21:58:04,459 - #10 }
+INFO  21:58:04,460 - #5 void
+INFO  21:58:04,462 - #44 main
+INFO  21:58:04,462 - #11 (
+INFO  21:58:04,462 - #12 )
+INFO  21:58:04,464 - #44 int
+INFO  21:58:04,464 - #44 bodovi
+INFO  21:58:04,464 - #16 ;
+INFO  21:58:04,464 - #9 {
+INFO  21:58:04,464 - #44 bodovi
+INFO  21:58:04,464 - #27 =
+INFO  21:58:04,464 - #43 0
+INFO  21:58:04,464 - #16 ;
+INFO  21:58:04,465 - #44 bodovi
+INFO  21:58:04,465 - #41 ++
+INFO  21:58:04,465 - #16 ;
+INFO  21:58:04,466 - #44 bodovi
+INFO  21:58:04,466 - #27 =
+INFO  21:58:04,468 - #44 bodovi
+INFO  21:58:04,469 - #36 +
+INFO  21:58:04,469 - #44 jedan
+INFO  21:58:04,472 - #16 ;
+INFO  21:58:04,478 - #44 bodovi
+INFO  21:58:04,478 - #27 =
+INFO  21:58:04,478 - #44 bodovi
+INFO  21:58:04,478 - #38 *
+INFO  21:58:04,478 - #44 pet
+INFO  21:58:04,480 - #16 ;
+INFO  21:58:04,480 - #44 bodovi
+INFO  21:58:04,480 - #42 --
+INFO  21:58:04,480 - #16 ;
+INFO  21:58:04,480 - #18 print
+INFO  21:58:04,480 - #11 (
+INFO  21:58:04,480 - #44 bodovi
+INFO  21:58:04,480 - #12 )
+INFO  21:58:04,480 - #16 ;
+INFO  21:58:04,481 - #44 niz
+INFO  21:58:04,481 - #27 =
+INFO  21:58:04,481 - #7 new
+INFO  21:58:04,481 - #44 int
+INFO  21:58:04,481 - #13 [
+INFO  21:58:04,481 - #43 2
+INFO  21:58:04,481 - #14 ]
+INFO  21:58:04,481 - #16 ;
+INFO  21:58:04,481 - #44 niz
+INFO  21:58:04,481 - #13 [
+INFO  21:58:04,481 - #43 0
+INFO  21:58:04,481 - #14 ]
+INFO  21:58:04,482 - #27 =
+INFO  21:58:04,482 - #44 pet
+INFO  21:58:04,482 - #16 ;
+INFO  21:58:04,482 - #44 niz
+INFO  21:58:04,482 - #13 [
+INFO  21:58:04,482 - #43 1
+INFO  21:58:04,482 - #14 ]
+INFO  21:58:04,482 - #27 =
+INFO  21:58:04,482 - #43 10
+INFO  21:58:04,482 - #16 ;
+INFO  21:58:04,483 - #44 bodovi
+INFO  21:58:04,483 - #27 =
+INFO  21:58:04,483 - #44 niz
+INFO  21:58:04,483 - #13 [
+INFO  21:58:04,483 - #43 1
+INFO  21:58:04,483 - #14 ]
+INFO  21:58:04,483 - #40 /
+INFO  21:58:04,483 - #44 niz
+INFO  21:58:04,484 - #13 [
+INFO  21:58:04,484 - #43 0
+INFO  21:58:04,484 - #14 ]
+INFO  21:58:04,484 - #16 ;
+INFO  21:58:04,484 - #18 print
+INFO  21:58:04,484 - #11 (
+INFO  21:58:04,484 - #44 bodovi
+INFO  21:58:04,484 - #12 )
+INFO  21:58:04,484 - #16 ;
+INFO  21:58:04,484 - #18 print
+INFO  21:58:04,484 - #11 (
+INFO  21:58:04,484 - #44 niz
+INFO  21:58:04,484 - #13 [
+INFO  21:58:04,484 - #43 1
+INFO  21:58:04,484 - #14 ]
+INFO  21:58:04,484 - #12 )
+INFO  21:58:04,484 - #16 ;
+INFO  21:58:04,485 - #44 nizch
+INFO  21:58:04,485 - #27 =
+INFO  21:58:04,485 - #7 new
+INFO  21:58:04,485 - #44 char
+INFO  21:58:04,485 - #13 [
+INFO  21:58:04,485 - #43 3
+INFO  21:58:04,485 - #14 ]
+INFO  21:58:04,485 - #16 ;
+INFO  21:58:04,485 - #44 nizch
+INFO  21:58:04,485 - #13 [
+INFO  21:58:04,485 - #43 0
+INFO  21:58:04,485 - #14 ]
+INFO  21:58:04,485 - #27 =
+INFO  21:58:04,485 - #45 a
+INFO  21:58:04,485 - #16 ;
+INFO  21:58:04,486 - #44 nizch
+INFO  21:58:04,486 - #13 [
+INFO  21:58:04,486 - #44 jedan
+INFO  21:58:04,486 - #14 ]
+INFO  21:58:04,486 - #27 =
+INFO  21:58:04,486 - #45 b
+INFO  21:58:04,486 - #16 ;
+INFO  21:58:04,486 - #44 nizch
+INFO  21:58:04,487 - #13 [
+INFO  21:58:04,487 - #44 pet
+INFO  21:58:04,487 - #37 -
+INFO  21:58:04,487 - #43 3
+INFO  21:58:04,487 - #14 ]
+INFO  21:58:04,487 - #27 =
+INFO  21:58:04,487 - #45 c
+INFO  21:58:04,487 - #16 ;
+INFO  21:58:04,487 - #18 print
+INFO  21:58:04,488 - #11 (
+INFO  21:58:04,488 - #44 nizch
+INFO  21:58:04,488 - #13 [
+INFO  21:58:04,488 - #43 2
+INFO  21:58:04,488 - #37 -
+INFO  21:58:04,488 - #43 1
+INFO  21:58:04,488 - #14 ]
+INFO  21:58:04,488 - #12 )
+INFO  21:58:04,488 - #16 ;
+INFO  21:58:04,488 - #18 print
+INFO  21:58:04,488 - #11 (
+INFO  21:58:04,488 - #44 nizch
+INFO  21:58:04,488 - #13 [
+INFO  21:58:04,488 - #44 jedan
+INFO  21:58:04,488 - #38 *
+INFO  21:58:04,488 - #43 2
+INFO  21:58:04,488 - #14 ]
+INFO  21:58:04,488 - #12 )
+INFO  21:58:04,488 - #16 ;
+INFO  21:58:04,488 - #44 bodovi
+INFO  21:58:04,488 - #27 =
+INFO  21:58:04,488 - #44 bodovi
+INFO  21:58:04,489 - #36 +
+INFO  21:58:04,489 - #11 (
+INFO  21:58:04,489 - #11 (
+INFO  21:58:04,489 - #44 pet
+INFO  21:58:04,489 - #38 *
+INFO  21:58:04,489 - #44 jedan
+INFO  21:58:04,489 - #37 -
+INFO  21:58:04,489 - #43 1
+INFO  21:58:04,489 - #12 )
+INFO  21:58:04,489 - #38 *
+INFO  21:58:04,489 - #43 2
+INFO  21:58:04,489 - #37 -
+INFO  21:58:04,489 - #11 (
+INFO  21:58:04,489 - #43 3
+INFO  21:58:04,489 - #39 %
+INFO  21:58:04,489 - #43 2
+INFO  21:58:04,490 - #36 +
+INFO  21:58:04,490 - #43 3
+INFO  21:58:04,490 - #38 *
+INFO  21:58:04,490 - #43 2
+INFO  21:58:04,490 - #37 -
+INFO  21:58:04,490 - #43 3
+INFO  21:58:04,490 - #12 )
+INFO  21:58:04,490 - #37 -
+INFO  21:58:04,490 - #43 1
+INFO  21:58:04,490 - #38 *
+INFO  21:58:04,490 - #43 0
+INFO  21:58:04,490 - #12 )
+INFO  21:58:04,490 - #16 ;
+INFO  21:58:04,491 - #18 print
+INFO  21:58:04,491 - #11 (
+INFO  21:58:04,491 - #44 bodovi
+INFO  21:58:04,491 - #12 )
+INFO  21:58:04,491 - #16 ;
+INFO  21:58:04,491 - #21 read
+INFO  21:58:04,491 - #11 (
+INFO  21:58:04,491 - #44 bodovi
+INFO  21:58:04,491 - #12 )
+INFO  21:58:04,491 - #16 ;
+INFO  21:58:04,491 - #44 bodovi
+INFO  21:58:04,491 - #27 =
+INFO  21:58:04,491 - #44 bodovi
+INFO  21:58:04,491 - #36 +
+INFO  21:58:04,491 - #43 1
+INFO  21:58:04,491 - #16 ;
+INFO  21:58:04,491 - #18 print
+INFO  21:58:04,491 - #11 (
+INFO  21:58:04,491 - #44 bodovi
+INFO  21:58:04,491 - #12 )
+INFO  21:58:04,491 - #16 ;
+INFO  21:58:04,491 - #21 read
+INFO  21:58:04,492 - #11 (
+INFO  21:58:04,492 - #44 nizch
+INFO  21:58:04,492 - #13 [
+INFO  21:58:04,492 - #43 0
+INFO  21:58:04,492 - #14 ]
+INFO  21:58:04,492 - #12 )
+INFO  21:58:04,492 - #16 ;
+INFO  21:58:04,492 - #18 print
+INFO  21:58:04,492 - #11 (
+INFO  21:58:04,492 - #44 nizch
+INFO  21:58:04,492 - #13 [
+INFO  21:58:04,492 - #43 0
+INFO  21:58:04,492 - #14 ]
+INFO  21:58:04,492 - #12 )
+INFO  21:58:04,492 - #16 ;
+INFO  21:58:04,492 - #10 }
+INFO  21:58:04,492 - #10 }
+INFO  21:58:04,496 - Otvaranje scope 
+INFO  21:58:04,497 - Prepoznato programsko ime : test301 na liniji 3
+INFO  21:58:04,497 - Prepoznat tip int na liniji 5
+INFO  21:58:04,497 - Prepoznata konstanta jedan tipa int vrednosti 1 na liniji 5
+INFO  21:58:04,497 - Prepoznat tip int na liniji 6
+INFO  21:58:04,497 - Prepoznata konstanta pet tipa int vrednosti 5 na liniji 6
+INFO  21:58:04,497 - Prepoznat tip int na liniji 8
+INFO  21:58:04,497 - Prepoznata deklaracija vektorske promenljive niz na liniji 8
+INFO  21:58:04,497 - Prepoznat tip char na liniji 10
+INFO  21:58:04,497 - Prepoznata deklaracija vektorske promenljive nizch na liniji 10
+INFO  21:58:04,498 - Otvaranje scope 
+INFO  21:58:04,498 - Prepoznat tip int na liniji 13
+INFO  21:58:04,498 - Prepoznata deklaracija skalarne promenljive a na liniji 13
+INFO  21:58:04,498 - Prepoznat tip int na liniji 13
+INFO  21:58:04,498 - Prepoznata deklaracija skalarne promenljive b na liniji 13
+INFO  21:58:04,498 - Prepoznat tip int na liniji 13
+INFO  21:58:04,498 - Prepoznata deklaracija skalarne promenljive c na liniji 13
+INFO  21:58:04,498 - Zatvaranje scope 
+INFO  21:58:04,498 - Otvaranje scope 
+INFO  21:58:04,498 - Prepoznat tip int na liniji 15
+INFO  21:58:04,498 - Prepoznata deklaracija skalarne promenljive bodovi na liniji 15
+INFO  21:58:04,499 - Koriscenje varijable bodovi na liniji 18
+INFO  21:58:04,499 - Dodela dozvoljena  na liniji 18
+INFO  21:58:04,499 - Koriscenje varijable bodovi na liniji 19
+INFO  21:58:04,499 - Detektovano inkrementiranje  na liniji 19
+INFO  21:58:04,499 - Koriscenje varijable bodovi na liniji 20
+INFO  21:58:04,499 - Koriscenje varijable bodovi na liniji 20
+INFO  21:58:04,499 - Koriscenje konstante jedan na liniji 20
+INFO  21:58:04,499 - Dodela dozvoljena  na liniji 20
+INFO  21:58:04,499 - Koriscenje varijable bodovi na liniji 21
+INFO  21:58:04,499 - Koriscenje varijable bodovi na liniji 21
+INFO  21:58:04,500 - Koriscenje konstante pet na liniji 21
+INFO  21:58:04,500 - Dodela dozvoljena  na liniji 21
+INFO  21:58:04,500 - Koriscenje varijable bodovi na liniji 22
+INFO  21:58:04,500 - Detektovano dekrementiranje  na liniji 22
+INFO  21:58:04,500 - Koriscenje varijable bodovi na liniji 23
+INFO  21:58:04,500 - Koriscenje varijable niz na liniji 26
+INFO  21:58:04,500 - Prepoznat tip int na liniji 26
+INFO  21:58:04,500 - Dodela dozvoljena  na liniji 26
+INFO  21:58:04,500 - Koriscenje varijable niz na liniji 27
+INFO  21:58:04,500 - Koriscenje konstante pet na liniji 27
+INFO  21:58:04,500 - Dodela dozvoljena  na liniji 27
+INFO  21:58:04,500 - Koriscenje varijable niz na liniji 28
+INFO  21:58:04,500 - Dodela dozvoljena  na liniji 28
+INFO  21:58:04,500 - Koriscenje varijable bodovi na liniji 29
+INFO  21:58:04,500 - Koriscenje varijable niz na liniji 29
+INFO  21:58:04,500 - Koriscenje varijable niz na liniji 29
+INFO  21:58:04,500 - Dodela dozvoljena  na liniji 29
+INFO  21:58:04,500 - Koriscenje varijable bodovi na liniji 30
+INFO  21:58:04,501 - Koriscenje varijable niz na liniji 31
+INFO  21:58:04,501 - Koriscenje varijable nizch na liniji 34
+INFO  21:58:04,501 - Prepoznat tip char na liniji 34
+INFO  21:58:04,501 - Dodela dozvoljena  na liniji 34
+INFO  21:58:04,501 - Koriscenje varijable nizch na liniji 35
+INFO  21:58:04,501 - Dodela dozvoljena  na liniji 35
+INFO  21:58:04,501 - Koriscenje varijable nizch na liniji 36
+INFO  21:58:04,501 - Koriscenje konstante jedan na liniji 36
+INFO  21:58:04,501 - Dodela dozvoljena  na liniji 36
+INFO  21:58:04,501 - Koriscenje varijable nizch na liniji 37
+INFO  21:58:04,501 - Koriscenje konstante pet na liniji 37
+INFO  21:58:04,501 - Dodela dozvoljena  na liniji 37
+INFO  21:58:04,501 - Koriscenje varijable nizch na liniji 38
+INFO  21:58:04,501 - Koriscenje varijable nizch na liniji 39
+INFO  21:58:04,501 - Koriscenje konstante jedan na liniji 39
+INFO  21:58:04,501 - Koriscenje varijable bodovi na liniji 42
+INFO  21:58:04,501 - Koriscenje varijable bodovi na liniji 42
+INFO  21:58:04,501 - Koriscenje konstante pet na liniji 42
+INFO  21:58:04,501 - Koriscenje konstante jedan na liniji 42
+INFO  21:58:04,501 - Dodela dozvoljena  na liniji 42
+INFO  21:58:04,501 - Koriscenje varijable bodovi na liniji 43
+INFO  21:58:04,501 - Koriscenje varijable bodovi na liniji 46
+INFO  21:58:04,501 - Detektovan dozvoljen read  na liniji 46
+INFO  21:58:04,501 - Koriscenje varijable bodovi na liniji 47
+INFO  21:58:04,502 - Koriscenje varijable bodovi na liniji 47
+INFO  21:58:04,502 - Dodela dozvoljena  na liniji 47
+INFO  21:58:04,502 - Koriscenje varijable bodovi na liniji 48
+INFO  21:58:04,502 - Koriscenje varijable nizch na liniji 49
+INFO  21:58:04,502 - Detektovan dozvoljen read  na liniji 49
+INFO  21:58:04,502 - Koriscenje varijable nizch na liniji 50
+INFO  21:58:04,502 - Zatvaranje scope 
+INFO  21:58:04,502 - Zatvaranje scope 
+INFO  21:58:04,502 - Zatvoren program! 
+INFO  21:58:04,502 - Print calls = 8
+INFO  21:58:04,503 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  21:58:04,516 - Parsiranje uspesno zavrseno!

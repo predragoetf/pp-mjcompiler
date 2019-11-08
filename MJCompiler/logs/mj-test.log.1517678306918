@@ -1,0 +1,80 @@
+INFO  18:12:34,895 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:12:34,981 - #2 program
+INFO  18:12:34,982 - #44 p
+INFO  18:12:34,982 - #44 int
+INFO  18:12:34,985 - #44 c
+INFO  18:12:34,987 - #16 ;
+INFO  18:12:34,988 - #9 {
+INFO  18:12:34,991 - #5 void
+INFO  18:12:34,992 - #44 main
+INFO  18:12:34,994 - #11 (
+INFO  18:12:35,002 - #12 )
+INFO  18:12:35,005 - #44 int
+INFO  18:12:35,007 - #44 c1
+INFO  18:12:35,008 - #15 ,
+INFO  18:12:35,010 - #44 c2
+INFO  18:12:35,010 - #15 ,
+INFO  18:12:35,011 - #44 c3
+INFO  18:12:35,011 - #15 ,
+INFO  18:12:35,011 - #44 c4
+INFO  18:12:35,011 - #15 ,
+INFO  18:12:35,011 - #44 c5
+INFO  18:12:35,013 - #16 ;
+INFO  18:12:35,013 - #44 int
+INFO  18:12:35,013 - #44 a
+INFO  18:12:35,014 - #16 ;
+INFO  18:12:35,014 - #44 int
+INFO  18:12:35,014 - #44 b
+INFO  18:12:35,014 - #13 [
+INFO  18:12:35,014 - #14 ]
+INFO  18:12:35,014 - #16 ;
+INFO  18:12:35,014 - #9 {
+INFO  18:12:35,014 - #44 b
+INFO  18:12:35,016 - #27 =
+INFO  18:12:35,016 - #7 new
+INFO  18:12:35,016 - #44 int
+INFO  18:12:35,016 - #13 [
+INFO  18:12:35,017 - #43 5
+INFO  18:12:35,017 - #14 ]
+INFO  18:12:35,017 - #16 ;
+INFO  18:12:35,018 - #21 read
+INFO  18:12:35,018 - #11 (
+INFO  18:12:35,018 - #44 a
+INFO  18:12:35,018 - #12 )
+INFO  18:12:35,018 - #16 ;
+INFO  18:12:35,018 - #18 print
+INFO  18:12:35,018 - #11 (
+INFO  18:12:35,018 - #44 a
+INFO  18:12:35,018 - #12 )
+INFO  18:12:35,018 - #16 ;
+INFO  18:12:35,019 - #6 return
+INFO  18:12:35,019 - #16 ;
+INFO  18:12:35,019 - #10 }
+INFO  18:12:35,020 - #10 }
+INFO  18:12:35,024 - Otvaranje scope 
+INFO  18:12:35,024 - Prepoznato programsko ime : p na liniji 1
+INFO  18:12:35,024 - Prepoznat tip int na liniji 4
+INFO  18:12:35,024 - Prepoznata deklaracija skalarne promenljive c na liniji 4
+INFO  18:12:35,024 - Otvaranje scope 
+INFO  18:12:35,025 - Prepoznat tip int na liniji 7
+INFO  18:12:35,027 - Prepoznata deklaracija skalarne promenljive c1 na liniji 7
+INFO  18:12:35,027 - Prepoznata deklaracija skalarne promenljive c2 na liniji 7
+INFO  18:12:35,027 - Prepoznata deklaracija skalarne promenljive c3 na liniji 7
+INFO  18:12:35,027 - Prepoznata deklaracija skalarne promenljive c4 na liniji 7
+INFO  18:12:35,027 - Prepoznata deklaracija skalarne promenljive c5 na liniji 7
+INFO  18:12:35,027 - Prepoznat tip int na liniji 7
+INFO  18:12:35,028 - Prepoznata deklaracija skalarne promenljive a na liniji 7
+INFO  18:12:35,028 - Prepoznat tip int na liniji 7
+INFO  18:12:35,028 - Prepoznata deklaracija vektorske promenljive b na liniji 7
+INFO  18:12:35,028 - Koriscenje varijable b na liniji 9
+INFO  18:12:35,028 - Prepoznat tip int na liniji 9
+INFO  18:12:35,028 - Dodela dozvoljena  na liniji 9
+INFO  18:12:35,028 - Koriscenje varijable a na liniji 13
+INFO  18:12:35,029 - Detektovan dozvoljen read  na liniji 13
+INFO  18:12:35,029 - Koriscenje varijable a na liniji 14
+INFO  18:12:35,029 - Zatvaranje scope 
+INFO  18:12:35,029 - Zatvaranje scope 
+INFO  18:12:35,029 - Zatvoren program! 
+INFO  18:12:35,029 - Print calls = 1
+INFO  18:12:35,030 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  18:12:35,037 - Parsiranje uspesno zavrseno!

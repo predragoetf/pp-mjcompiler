@@ -1,0 +1,62 @@
+INFO  16:30:38,973 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:30:39,056 - #2 program
+INFO  16:30:39,056 - #44 p
+INFO  16:30:39,057 - #44 int
+INFO  16:30:39,058 - #44 a
+INFO  16:30:39,059 - #16 ;
+INFO  16:30:39,059 - #44 int
+INFO  16:30:39,061 - #44 b
+INFO  16:30:39,061 - #13 [
+INFO  16:30:39,061 - #14 ]
+INFO  16:30:39,061 - #16 ;
+INFO  16:30:39,061 - #9 {
+INFO  16:30:39,061 - #5 void
+INFO  16:30:39,062 - #44 main
+INFO  16:30:39,063 - #11 (
+INFO  16:30:39,064 - #12 )
+INFO  16:30:39,065 - #9 {
+INFO  16:30:39,065 - #44 b
+INFO  16:30:39,066 - #27 =
+INFO  16:30:39,067 - #7 new
+INFO  16:30:39,067 - #44 int
+INFO  16:30:39,067 - #13 [
+INFO  16:30:39,068 - #43 5
+INFO  16:30:39,068 - #14 ]
+INFO  16:30:39,069 - #16 ;
+INFO  16:30:39,069 - #44 b
+INFO  16:30:39,070 - #13 [
+INFO  16:30:39,070 - #43 3
+INFO  16:30:39,070 - #14 ]
+INFO  16:30:39,070 - #27 =
+INFO  16:30:39,071 - #43 7
+INFO  16:30:39,071 - #16 ;
+INFO  16:30:39,071 - #44 a
+INFO  16:30:39,071 - #27 =
+INFO  16:30:39,071 - #44 b
+INFO  16:30:39,071 - #13 [
+INFO  16:30:39,071 - #43 3
+INFO  16:30:39,071 - #14 ]
+INFO  16:30:39,071 - #16 ;
+INFO  16:30:39,072 - #6 return
+INFO  16:30:39,072 - #16 ;
+INFO  16:30:39,073 - #10 }
+INFO  16:30:39,073 - #10 }
+INFO  16:30:39,078 - Otvaranje scope 
+INFO  16:30:39,079 - Prepoznato programsko ime : p na liniji 1
+INFO  16:30:39,079 - Prepoznat tip int na liniji 2
+INFO  16:30:39,079 - Prepoznata deklaracija skalarne promenljive a na liniji 2
+INFO  16:30:39,079 - Prepoznat tip int na liniji 3
+INFO  16:30:39,079 - Prepoznata deklaracija vektorske promenljive b na liniji 3
+INFO  16:30:39,079 - Otvaranje scope 
+INFO  16:30:39,084 - Koriscenje varijable b na liniji 8
+INFO  16:30:39,084 - Prepoznat tip int na liniji 8
+INFO  16:30:39,086 - Dodela dozvoljena  na liniji 8
+INFO  16:30:39,086 - Koriscenje varijable b na liniji 9
+INFO  16:30:39,086 - Dodela dozvoljena  na liniji 9
+INFO  16:30:39,086 - Koriscenje varijable a na liniji 11
+INFO  16:30:39,086 - Koriscenje varijable b na liniji 11
+INFO  16:30:39,086 - Dodela dozvoljena  na liniji 11
+INFO  16:30:39,087 - Zatvaranje scope 
+INFO  16:30:39,090 - Zatvaranje scope 
+INFO  16:30:39,090 - Zatvoren program! 
+INFO  16:30:39,090 - Print calls = 0

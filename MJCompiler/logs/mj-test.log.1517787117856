@@ -1,0 +1,167 @@
+INFO  00:29:14,991 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:29:15,098 - #2 program
+INFO  00:29:15,099 - #44 TestFuncCall
+INFO  00:29:15,099 - #9 {
+INFO  00:29:15,102 - #44 int
+INFO  00:29:15,105 - #44 f
+INFO  00:29:15,107 - #11 (
+INFO  00:29:15,108 - #44 int
+INFO  00:29:15,108 - #44 n
+INFO  00:29:15,108 - #12 )
+INFO  00:29:15,108 - #9 {
+INFO  00:29:15,109 - #22 if
+INFO  00:29:15,110 - #11 (
+INFO  00:29:15,111 - #44 n
+INFO  00:29:15,111 - #28 ==
+INFO  00:29:15,111 - #43 0
+INFO  00:29:15,112 - #34 &&
+INFO  00:29:15,113 - #43 1
+INFO  00:29:15,113 - #28 ==
+INFO  00:29:15,113 - #43 1
+INFO  00:29:15,113 - #35 ||
+INFO  00:29:15,115 - #44 n
+INFO  00:29:15,117 - #28 ==
+INFO  00:29:15,117 - #43 1
+INFO  00:29:15,117 - #12 )
+INFO  00:29:15,117 - #9 {
+INFO  00:29:15,119 - #6 return
+INFO  00:29:15,119 - #43 1
+INFO  00:29:15,119 - #16 ;
+INFO  00:29:15,120 - #10 }
+INFO  00:29:15,120 - #6 return
+INFO  00:29:15,122 - #44 f
+INFO  00:29:15,122 - #11 (
+INFO  00:29:15,122 - #44 n
+INFO  00:29:15,123 - #37 -
+INFO  00:29:15,123 - #43 1
+INFO  00:29:15,124 - #12 )
+INFO  00:29:15,124 - #36 +
+INFO  00:29:15,124 - #44 f
+INFO  00:29:15,125 - #11 (
+INFO  00:29:15,125 - #44 n
+INFO  00:29:15,125 - #37 -
+INFO  00:29:15,125 - #43 2
+INFO  00:29:15,125 - #12 )
+INFO  00:29:15,125 - #16 ;
+INFO  00:29:15,126 - #10 }
+INFO  00:29:15,126 - #44 int
+INFO  00:29:15,128 - #44 g
+INFO  00:29:15,128 - #11 (
+INFO  00:29:15,128 - #12 )
+INFO  00:29:15,128 - #9 {
+INFO  00:29:15,128 - #22 if
+INFO  00:29:15,128 - #11 (
+INFO  00:29:15,128 - #43 1
+INFO  00:29:15,129 - #28 ==
+INFO  00:29:15,129 - #43 1
+INFO  00:29:15,129 - #12 )
+INFO  00:29:15,129 - #9 {
+INFO  00:29:15,129 - #18 print
+INFO  00:29:15,129 - #11 (
+INFO  00:29:15,129 - #45 A
+INFO  00:29:15,129 - #12 )
+INFO  00:29:15,131 - #16 ;
+INFO  00:29:15,131 - #22 if
+INFO  00:29:15,132 - #11 (
+INFO  00:29:15,132 - #43 2
+INFO  00:29:15,132 - #28 ==
+INFO  00:29:15,132 - #43 22
+INFO  00:29:15,132 - #12 )
+INFO  00:29:15,132 - #9 {
+INFO  00:29:15,133 - #18 print
+INFO  00:29:15,133 - #11 (
+INFO  00:29:15,133 - #45 B
+INFO  00:29:15,133 - #12 )
+INFO  00:29:15,133 - #16 ;
+INFO  00:29:15,133 - #10 }
+INFO  00:29:15,133 - #23 else
+INFO  00:29:15,133 - #9 {
+INFO  00:29:15,135 - #18 print
+INFO  00:29:15,135 - #11 (
+INFO  00:29:15,135 - #45 C
+INFO  00:29:15,135 - #12 )
+INFO  00:29:15,135 - #16 ;
+INFO  00:29:15,135 - #10 }
+INFO  00:29:15,135 - #18 print
+INFO  00:29:15,136 - #11 (
+INFO  00:29:15,136 - #45 D
+INFO  00:29:15,136 - #12 )
+INFO  00:29:15,136 - #16 ;
+INFO  00:29:15,136 - #10 }
+INFO  00:29:15,136 - #23 else
+INFO  00:29:15,136 - #9 {
+INFO  00:29:15,136 - #18 print
+INFO  00:29:15,136 - #11 (
+INFO  00:29:15,136 - #45 E
+INFO  00:29:15,136 - #12 )
+INFO  00:29:15,136 - #16 ;
+INFO  00:29:15,136 - #10 }
+INFO  00:29:15,136 - #18 print
+INFO  00:29:15,137 - #11 (
+INFO  00:29:15,137 - #45 F
+INFO  00:29:15,137 - #12 )
+INFO  00:29:15,137 - #16 ;
+INFO  00:29:15,137 - #6 return
+INFO  00:29:15,137 - #43 666
+INFO  00:29:15,137 - #16 ;
+INFO  00:29:15,137 - #10 }
+INFO  00:29:15,137 - #5 void
+INFO  00:29:15,137 - #44 main
+INFO  00:29:15,139 - #11 (
+INFO  00:29:15,139 - #12 )
+INFO  00:29:15,140 - #44 int
+INFO  00:29:15,140 - #44 n
+INFO  00:29:15,140 - #16 ;
+INFO  00:29:15,140 - #9 {
+INFO  00:29:15,141 - #18 print
+INFO  00:29:15,141 - #11 (
+INFO  00:29:15,141 - #44 g
+INFO  00:29:15,141 - #11 (
+INFO  00:29:15,141 - #12 )
+INFO  00:29:15,143 - #12 )
+INFO  00:29:15,144 - #16 ;
+INFO  00:29:15,144 - #10 }
+INFO  00:29:15,147 - #10 }
+INFO  00:29:15,165 - Otvaranje scope 
+INFO  00:29:15,165 - Prepoznato programsko ime : TestFuncCall na liniji 1
+INFO  00:29:15,165 - Prepoznat tip int na liniji 4
+INFO  00:29:15,165 - Otvaranje scope 
+INFO  00:29:15,165 - Prepoznat tip int na liniji 4
+INFO  00:29:15,165 - Prepoznata deklaracija skalarne promenljive n na liniji 4
+INFO  00:29:15,166 - Koriscenje lokalne varijable n na liniji 6
+INFO  00:29:15,166 - 
+Var n: int, 0, 1 
+INFO  00:29:15,166 - Koriscenje lokalne varijable n na liniji 6
+INFO  00:29:15,166 - 
+Var n: int, 0, 1 
+INFO  00:29:15,166 - Koriscenje metode f na liniji 9
+INFO  00:29:15,166 - 
+Meth f: int, 0, 1 
+
+INFO  00:29:15,167 - Koriscenje lokalne varijable n na liniji 9
+INFO  00:29:15,167 - 
+Var n: int, 0, 1 
+INFO  00:29:15,167 - Koriscenje metode f na liniji 9
+INFO  00:29:15,167 - 
+Meth f: int, 0, 1 
+
+INFO  00:29:15,167 - Koriscenje lokalne varijable n na liniji 9
+INFO  00:29:15,167 - 
+Var n: int, 0, 1 
+INFO  00:29:15,167 - Zatvaranje scope 
+INFO  00:29:15,167 - Prepoznat tip int na liniji 12
+INFO  00:29:15,167 - Otvaranje scope 
+INFO  00:29:15,167 - Zatvaranje scope 
+INFO  00:29:15,167 - Otvaranje scope 
+INFO  00:29:15,167 - Prepoznat tip int na liniji 30
+INFO  00:29:15,167 - Prepoznata deklaracija skalarne promenljive n na liniji 30
+INFO  00:29:15,167 - Koriscenje metode g na liniji 32
+INFO  00:29:15,167 - 
+Meth g: int, 0, 0 
+
+INFO  00:29:15,167 - Zatvaranje scope 
+INFO  00:29:15,168 - Zatvaranje scope 
+INFO  00:29:15,168 - Zatvoren program! 
+INFO  00:29:15,168 - Print calls = 7
+INFO  00:29:15,168 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  00:29:15,172 - Parsiranje uspesno zavrseno!

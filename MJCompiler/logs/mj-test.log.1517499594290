@@ -1,0 +1,11 @@
+INFO  16:39:38,075 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:39:38,128 - #2 program
+INFO  16:39:38,129 - #44 MJProgram
+INFO  16:39:38,129 - #44 bool
+INFO  16:39:38,130 - #44 bul
+INFO  16:39:38,130 - #27 =
+ERROR 16:39:38,130 - 
+Sintaksna greska na liniji 2
+ERROR 16:39:38,130 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
+INFO  16:39:38,133 - Prepoznat tip bool
+INFO  16:39:38,133 - Print calls = 0

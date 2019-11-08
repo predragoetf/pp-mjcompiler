@@ -1,0 +1,72 @@
+INFO  00:32:54,060 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:32:54,160 - #2 program
+INFO  00:32:54,160 - #44 TestFuncCall
+INFO  00:32:54,160 - #9 {
+INFO  00:32:54,162 - #5 void
+INFO  00:32:54,163 - #44 main
+INFO  00:32:54,163 - #11 (
+INFO  00:32:54,165 - #12 )
+INFO  00:32:54,166 - #44 int
+INFO  00:32:54,166 - #44 i
+INFO  00:32:54,167 - #15 ,
+INFO  00:32:54,167 - #44 j
+INFO  00:32:54,167 - #16 ;
+INFO  00:32:54,168 - #9 {
+INFO  00:32:54,168 - #44 j
+INFO  00:32:54,169 - #27 =
+INFO  00:32:54,169 - #43 5
+INFO  00:32:54,170 - #16 ;
+INFO  00:32:54,170 - #44 i
+INFO  00:32:54,171 - #27 =
+INFO  00:32:54,171 - #43 1
+INFO  00:32:54,173 - #16 ;
+INFO  00:32:54,173 - #24 do
+INFO  00:32:54,173 - #9 {
+INFO  00:32:54,175 - #18 print
+INFO  00:32:54,175 - #11 (
+INFO  00:32:54,175 - #44 j
+INFO  00:32:54,175 - #12 )
+INFO  00:32:54,176 - #16 ;
+INFO  00:32:54,176 - #44 j
+INFO  00:32:54,176 - #42 --
+INFO  00:32:54,176 - #16 ;
+INFO  00:32:54,176 - #10 }
+INFO  00:32:54,176 - #25 while
+INFO  00:32:54,176 - #11 (
+INFO  00:32:54,176 - #44 j
+INFO  00:32:54,177 - #32 >
+INFO  00:32:54,177 - #43 0
+INFO  00:32:54,178 - #12 )
+INFO  00:32:54,178 - #16 ;
+INFO  00:32:54,179 - #10 }
+INFO  00:32:54,180 - #10 }
+INFO  00:32:54,189 - Otvaranje scope 
+INFO  00:32:54,190 - Prepoznato programsko ime : TestFuncCall na liniji 1
+INFO  00:32:54,190 - Otvaranje scope 
+INFO  00:32:54,190 - Prepoznat tip int na liniji 5
+INFO  00:32:54,190 - Prepoznata deklaracija skalarne promenljive i na liniji 5
+INFO  00:32:54,190 - Prepoznata deklaracija skalarne promenljive j na liniji 5
+INFO  00:32:54,190 - Koriscenje lokalne varijable j na liniji 7
+INFO  00:32:54,191 - 
+Var j: int, 1, 1 
+INFO  00:32:54,191 - Dodela dozvoljena  na liniji 7
+INFO  00:32:54,191 - Koriscenje lokalne varijable i na liniji 8
+INFO  00:32:54,191 - 
+Var i: int, 0, 1 
+INFO  00:32:54,192 - Dodela dozvoljena  na liniji 8
+INFO  00:32:54,192 - Koriscenje lokalne varijable j na liniji 11
+INFO  00:32:54,192 - 
+Var j: int, 1, 1 
+INFO  00:32:54,192 - Koriscenje lokalne varijable j na liniji 12
+INFO  00:32:54,192 - 
+Var j: int, 1, 1 
+INFO  00:32:54,195 - Detektovano dekrementiranje  na liniji 12
+INFO  00:32:54,196 - Koriscenje lokalne varijable j na liniji 14
+INFO  00:32:54,196 - 
+Var j: int, 1, 1 
+INFO  00:32:54,196 - Zatvaranje scope 
+INFO  00:32:54,196 - Zatvaranje scope 
+INFO  00:32:54,196 - Zatvoren program! 
+INFO  00:32:54,197 - Print calls = 1
+INFO  00:32:54,198 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  00:32:54,217 - Parsiranje uspesno zavrseno!

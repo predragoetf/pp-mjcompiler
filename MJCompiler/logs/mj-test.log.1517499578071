@@ -1,0 +1,67 @@
+INFO  16:38:36,725 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:38:36,782 - #2 program
+INFO  16:38:36,782 - #44 MJProgram
+INFO  16:38:36,782 - #44 int
+INFO  16:38:36,783 - #44 x
+INFO  16:38:36,784 - #16 ;
+INFO  16:38:36,784 - #9 {
+INFO  16:38:36,785 - #44 int
+INFO  16:38:36,786 - #44 k
+INFO  16:38:36,786 - #11 (
+INFO  16:38:36,786 - #12 )
+INFO  16:38:36,787 - #44 int
+INFO  16:38:36,787 - #44 c
+INFO  16:38:36,787 - #16 ;
+INFO  16:38:36,787 - #9 {
+INFO  16:38:36,787 - #44 c
+INFO  16:38:36,789 - #27 =
+INFO  16:38:36,789 - #43 1
+INFO  16:38:36,789 - #16 ;
+INFO  16:38:36,790 - #6 return
+INFO  16:38:36,790 - #44 c
+INFO  16:38:36,792 - #36 +
+INFO  16:38:36,792 - #43 2
+INFO  16:38:36,793 - #16 ;
+INFO  16:38:36,794 - #10 }
+INFO  16:38:36,794 - #44 int
+INFO  16:38:36,795 - #44 main
+INFO  16:38:36,795 - #11 (
+INFO  16:38:36,795 - #12 )
+INFO  16:38:36,795 - #9 {
+INFO  16:38:36,796 - #44 y
+INFO  16:38:36,796 - #27 =
+INFO  16:38:36,796 - #43 2
+INFO  16:38:36,796 - #16 ;
+INFO  16:38:36,796 - #44 x
+INFO  16:38:36,796 - #27 =
+INFO  16:38:36,796 - #44 y
+INFO  16:38:36,796 - #36 +
+INFO  16:38:36,796 - #43 2
+INFO  16:38:36,796 - #16 ;
+INFO  16:38:36,796 - #44 y
+INFO  16:38:36,796 - #27 =
+INFO  16:38:36,796 - #44 k
+INFO  16:38:36,797 - #11 (
+INFO  16:38:36,797 - #12 )
+INFO  16:38:36,797 - #36 +
+INFO  16:38:36,798 - #43 3
+INFO  16:38:36,798 - #16 ;
+INFO  16:38:36,798 - #18 print
+INFO  16:38:36,798 - #11 (
+INFO  16:38:36,798 - #44 y
+INFO  16:38:36,798 - #12 )
+INFO  16:38:36,803 - #16 ;
+INFO  16:38:36,803 - #6 return
+INFO  16:38:36,803 - #43 0
+INFO  16:38:36,804 - #16 ;
+INFO  16:38:36,804 - #10 }
+INFO  16:38:36,804 - #10 }
+INFO  16:38:36,807 - Prepoznato programsko ime : MJProgram
+INFO  16:38:36,809 - Prepoznat tip int
+INFO  16:38:36,809 - Prepoznat tip int
+INFO  16:38:36,809 - Prepoznat tip int
+INFO  16:38:36,809 - Prepoznat tip int
+ERROR 16:38:36,810 - Greska: nije pronadjena main metoda!
+INFO  16:38:36,810 - Zatvoren program! 
+ERROR 16:38:36,810 - instanceof GlobalsListList
+INFO  16:38:36,810 - Print calls = 0

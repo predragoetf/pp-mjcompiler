@@ -1,0 +1,100 @@
+INFO  16:31:23,335 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:31:23,425 - #2 program
+INFO  16:31:23,425 - #44 testFuncCall
+INFO  16:31:23,425 - #44 int
+INFO  16:31:23,427 - #44 g
+INFO  16:31:23,427 - #16 ;
+INFO  16:31:23,427 - #44 int
+INFO  16:31:23,428 - #44 niz
+INFO  16:31:23,428 - #13 [
+INFO  16:31:23,428 - #14 ]
+INFO  16:31:23,428 - #16 ;
+INFO  16:31:23,428 - #44 bool
+INFO  16:31:23,428 - #44 b
+INFO  16:31:23,428 - #16 ;
+INFO  16:31:23,428 - #44 char
+INFO  16:31:23,429 - #44 c
+INFO  16:31:23,429 - #16 ;
+INFO  16:31:23,429 - #9 {
+INFO  16:31:23,429 - #44 int
+INFO  16:31:23,429 - #44 f
+INFO  16:31:23,430 - #11 (
+INFO  16:31:23,433 - #12 )
+INFO  16:31:23,433 - #9 {
+INFO  16:31:23,434 - #6 return
+INFO  16:31:23,435 - #43 66
+INFO  16:31:23,435 - #16 ;
+INFO  16:31:23,436 - #10 }
+INFO  16:31:23,436 - #44 int
+INFO  16:31:23,437 - #44 f2
+INFO  16:31:23,438 - #11 (
+INFO  16:31:23,438 - #44 int
+INFO  16:31:23,438 - #44 p1
+INFO  16:31:23,438 - #15 ,
+INFO  16:31:23,438 - #44 int
+INFO  16:31:23,438 - #44 p2
+INFO  16:31:23,438 - #12 )
+INFO  16:31:23,438 - #9 {
+INFO  16:31:23,439 - #6 return
+INFO  16:31:23,439 - #44 p1
+INFO  16:31:23,439 - #36 +
+INFO  16:31:23,439 - #44 p2
+INFO  16:31:23,440 - #16 ;
+INFO  16:31:23,440 - #10 }
+INFO  16:31:23,441 - #5 void
+INFO  16:31:23,441 - #44 main
+INFO  16:31:23,441 - #11 (
+INFO  16:31:23,441 - #12 )
+INFO  16:31:23,441 - #9 {
+INFO  16:31:23,442 - #44 niz
+INFO  16:31:23,442 - #27 =
+INFO  16:31:23,442 - #7 new
+INFO  16:31:23,442 - #44 int
+INFO  16:31:23,442 - #13 [
+INFO  16:31:23,442 - #43 69
+INFO  16:31:23,442 - #14 ]
+INFO  16:31:23,443 - #16 ;
+INFO  16:31:23,449 - #18 print
+INFO  16:31:23,450 - #11 (
+INFO  16:31:23,450 - #44 len
+INFO  16:31:23,454 - #11 (
+INFO  16:31:23,454 - #44 niz
+INFO  16:31:23,457 - #12 )
+INFO  16:31:23,458 - #12 )
+INFO  16:31:23,458 - #16 ;
+INFO  16:31:23,458 - #10 }
+INFO  16:31:23,458 - #10 }
+INFO  16:31:23,476 - Otvaranje scope 
+INFO  16:31:23,476 - Prepoznato programsko ime : testFuncCall na liniji 1
+INFO  16:31:23,476 - Prepoznat tip int na liniji 3
+INFO  16:31:23,476 - Prepoznata deklaracija skalarne promenljive g na liniji 3
+INFO  16:31:23,476 - Prepoznat tip int na liniji 4
+INFO  16:31:23,477 - Prepoznata deklaracija vektorske promenljive niz na liniji 4
+INFO  16:31:23,477 - Prepoznat tip bool na liniji 5
+INFO  16:31:23,477 - Prepoznata deklaracija skalarne promenljive b na liniji 5
+INFO  16:31:23,477 - Prepoznat tip char na liniji 6
+INFO  16:31:23,477 - Prepoznata deklaracija skalarne promenljive c na liniji 6
+INFO  16:31:23,477 - Prepoznat tip int na liniji 8
+INFO  16:31:23,477 - Otvaranje scope 
+INFO  16:31:23,477 - Zatvaranje scope 
+INFO  16:31:23,477 - Prepoznat tip int na liniji 9
+INFO  16:31:23,477 - Otvaranje scope 
+INFO  16:31:23,477 - Prepoznat tip int na liniji 9
+INFO  16:31:23,477 - Prepoznata deklaracija skalarne promenljive p1 na liniji 9
+INFO  16:31:23,478 - Prepoznat tip int na liniji 9
+INFO  16:31:23,478 - Prepoznata deklaracija skalarne promenljive p2 na liniji 9
+INFO  16:31:23,478 - Koriscenje lokalne varijable p1 na liniji 9
+INFO  16:31:23,478 - Koriscenje lokalne varijable p2 na liniji 9
+INFO  16:31:23,478 - Zatvaranje scope 
+INFO  16:31:23,478 - Otvaranje scope 
+INFO  16:31:23,478 - Koriscenje globalne varijable niz na liniji 13
+INFO  16:31:23,479 - Prepoznat tip int na liniji 13
+INFO  16:31:23,479 - Dodela dozvoljena  na liniji 13
+INFO  16:31:23,479 - Koriscenje metode len na liniji 21
+INFO  16:31:23,479 - Koriscenje globalne varijable niz na liniji 21
+INFO  16:31:23,479 - Zatvaranje scope 
+INFO  16:31:23,480 - Zatvaranje scope 
+INFO  16:31:23,480 - Zatvoren program! 
+INFO  16:31:23,480 - Print calls = 1
+INFO  16:31:23,480 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  16:31:23,483 - Parsiranje uspesno zavrseno!

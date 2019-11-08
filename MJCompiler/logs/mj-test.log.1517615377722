@@ -1,0 +1,299 @@
+INFO  00:20:55,423 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:20:55,530 - #2 program
+INFO  00:20:55,530 - #44 test301
+INFO  00:20:55,530 - #8 const
+INFO  00:20:55,531 - #44 int
+INFO  00:20:55,531 - #44 jedan
+INFO  00:20:55,532 - #27 =
+INFO  00:20:55,532 - #43 1
+INFO  00:20:55,532 - #16 ;
+INFO  00:20:55,533 - #8 const
+INFO  00:20:55,534 - #44 int
+INFO  00:20:55,534 - #44 pet
+INFO  00:20:55,534 - #27 =
+INFO  00:20:55,534 - #43 5
+INFO  00:20:55,534 - #16 ;
+INFO  00:20:55,534 - #44 int
+INFO  00:20:55,534 - #44 niz
+INFO  00:20:55,534 - #13 [
+INFO  00:20:55,534 - #14 ]
+INFO  00:20:55,534 - #16 ;
+INFO  00:20:55,535 - #44 char
+INFO  00:20:55,537 - #44 nizch
+INFO  00:20:55,537 - #13 [
+INFO  00:20:55,538 - #14 ]
+INFO  00:20:55,538 - #16 ;
+INFO  00:20:55,538 - #9 {
+INFO  00:20:55,538 - #5 void
+INFO  00:20:55,539 - #44 main
+INFO  00:20:55,540 - #11 (
+INFO  00:20:55,541 - #12 )
+INFO  00:20:55,542 - #44 int
+INFO  00:20:55,542 - #44 bodovi
+INFO  00:20:55,542 - #16 ;
+INFO  00:20:55,542 - #9 {
+INFO  00:20:55,543 - #44 bodovi
+INFO  00:20:55,544 - #27 =
+INFO  00:20:55,544 - #43 0
+INFO  00:20:55,544 - #16 ;
+INFO  00:20:55,545 - #44 bodovi
+INFO  00:20:55,545 - #41 ++
+INFO  00:20:55,545 - #16 ;
+INFO  00:20:55,545 - #44 bodovi
+INFO  00:20:55,545 - #27 =
+INFO  00:20:55,545 - #44 bodovi
+INFO  00:20:55,546 - #36 +
+INFO  00:20:55,546 - #44 jedan
+INFO  00:20:55,547 - #16 ;
+INFO  00:20:55,547 - #44 bodovi
+INFO  00:20:55,547 - #27 =
+INFO  00:20:55,547 - #44 bodovi
+INFO  00:20:55,547 - #38 *
+INFO  00:20:55,547 - #44 pet
+INFO  00:20:55,550 - #16 ;
+INFO  00:20:55,550 - #44 bodovi
+INFO  00:20:55,550 - #42 --
+INFO  00:20:55,550 - #16 ;
+INFO  00:20:55,550 - #18 print
+INFO  00:20:55,550 - #11 (
+INFO  00:20:55,550 - #44 bodovi
+INFO  00:20:55,553 - #12 )
+INFO  00:20:55,553 - #16 ;
+INFO  00:20:55,553 - #44 niz
+INFO  00:20:55,554 - #27 =
+INFO  00:20:55,554 - #7 new
+INFO  00:20:55,554 - #44 int
+INFO  00:20:55,554 - #13 [
+INFO  00:20:55,554 - #43 2
+INFO  00:20:55,554 - #14 ]
+INFO  00:20:55,554 - #16 ;
+INFO  00:20:55,554 - #44 niz
+INFO  00:20:55,554 - #13 [
+INFO  00:20:55,555 - #43 0
+INFO  00:20:55,555 - #14 ]
+INFO  00:20:55,555 - #27 =
+INFO  00:20:55,555 - #44 pet
+INFO  00:20:55,555 - #16 ;
+INFO  00:20:55,555 - #44 niz
+INFO  00:20:55,555 - #13 [
+INFO  00:20:55,555 - #43 1
+INFO  00:20:55,555 - #14 ]
+INFO  00:20:55,555 - #27 =
+INFO  00:20:55,555 - #43 10
+INFO  00:20:55,556 - #16 ;
+INFO  00:20:55,556 - #44 bodovi
+INFO  00:20:55,556 - #27 =
+INFO  00:20:55,556 - #44 niz
+INFO  00:20:55,556 - #13 [
+INFO  00:20:55,556 - #43 1
+INFO  00:20:55,557 - #14 ]
+INFO  00:20:55,557 - #40 /
+INFO  00:20:55,557 - #44 niz
+INFO  00:20:55,559 - #13 [
+INFO  00:20:55,559 - #43 0
+INFO  00:20:55,559 - #14 ]
+INFO  00:20:55,559 - #16 ;
+INFO  00:20:55,559 - #18 print
+INFO  00:20:55,559 - #11 (
+INFO  00:20:55,559 - #44 bodovi
+INFO  00:20:55,559 - #12 )
+INFO  00:20:55,560 - #16 ;
+INFO  00:20:55,560 - #18 print
+INFO  00:20:55,560 - #11 (
+INFO  00:20:55,560 - #44 niz
+INFO  00:20:55,560 - #13 [
+INFO  00:20:55,560 - #43 1
+INFO  00:20:55,560 - #14 ]
+INFO  00:20:55,560 - #12 )
+INFO  00:20:55,560 - #16 ;
+INFO  00:20:55,560 - #18 print
+INFO  00:20:55,560 - #11 (
+INFO  00:20:55,560 - #44 chr
+INFO  00:20:55,560 - #11 (
+INFO  00:20:55,560 - #44 niz
+INFO  00:20:55,563 - #13 [
+INFO  00:20:55,564 - #43 1
+INFO  00:20:55,564 - #14 ]
+INFO  00:20:55,564 - #12 )
+INFO  00:20:55,564 - #12 )
+INFO  00:20:55,565 - #16 ;
+INFO  00:20:55,565 - #44 nizch
+INFO  00:20:55,565 - #27 =
+INFO  00:20:55,565 - #7 new
+INFO  00:20:55,565 - #44 char
+INFO  00:20:55,565 - #13 [
+INFO  00:20:55,565 - #43 3
+INFO  00:20:55,566 - #14 ]
+INFO  00:20:55,566 - #16 ;
+INFO  00:20:55,566 - #44 nizch
+INFO  00:20:55,566 - #13 [
+INFO  00:20:55,566 - #43 0
+INFO  00:20:55,566 - #14 ]
+INFO  00:20:55,566 - #27 =
+INFO  00:20:55,567 - #45 a
+INFO  00:20:55,567 - #16 ;
+INFO  00:20:55,569 - #44 nizch
+INFO  00:20:55,569 - #13 [
+INFO  00:20:55,569 - #44 jedan
+INFO  00:20:55,570 - #14 ]
+INFO  00:20:55,570 - #27 =
+INFO  00:20:55,570 - #45 b
+INFO  00:20:55,570 - #16 ;
+INFO  00:20:55,571 - #44 nizch
+INFO  00:20:55,571 - #13 [
+INFO  00:20:55,571 - #44 pet
+INFO  00:20:55,571 - #37 -
+INFO  00:20:55,571 - #43 3
+INFO  00:20:55,572 - #14 ]
+INFO  00:20:55,572 - #27 =
+INFO  00:20:55,572 - #45 c
+INFO  00:20:55,572 - #16 ;
+INFO  00:20:55,572 - #18 print
+INFO  00:20:55,572 - #11 (
+INFO  00:20:55,572 - #44 nizch
+INFO  00:20:55,572 - #13 [
+INFO  00:20:55,573 - #43 2
+INFO  00:20:55,573 - #37 -
+INFO  00:20:55,573 - #43 1
+INFO  00:20:55,573 - #14 ]
+INFO  00:20:55,573 - #12 )
+INFO  00:20:55,573 - #16 ;
+INFO  00:20:55,573 - #18 print
+INFO  00:20:55,573 - #11 (
+INFO  00:20:55,573 - #44 nizch
+INFO  00:20:55,573 - #13 [
+INFO  00:20:55,576 - #44 jedan
+INFO  00:20:55,576 - #38 *
+INFO  00:20:55,577 - #43 2
+INFO  00:20:55,577 - #14 ]
+INFO  00:20:55,577 - #12 )
+INFO  00:20:55,577 - #16 ;
+INFO  00:20:55,577 - #44 bodovi
+INFO  00:20:55,581 - #27 =
+INFO  00:20:55,581 - #44 bodovi
+INFO  00:20:55,581 - #36 +
+INFO  00:20:55,582 - #11 (
+INFO  00:20:55,582 - #11 (
+INFO  00:20:55,582 - #44 pet
+INFO  00:20:55,582 - #38 *
+INFO  00:20:55,582 - #44 jedan
+INFO  00:20:55,582 - #37 -
+INFO  00:20:55,582 - #43 1
+INFO  00:20:55,582 - #12 )
+INFO  00:20:55,582 - #38 *
+INFO  00:20:55,582 - #43 2
+INFO  00:20:55,582 - #37 -
+INFO  00:20:55,582 - #11 (
+INFO  00:20:55,582 - #43 3
+INFO  00:20:55,582 - #39 %
+INFO  00:20:55,582 - #43 2
+INFO  00:20:55,583 - #36 +
+INFO  00:20:55,583 - #43 3
+INFO  00:20:55,583 - #38 *
+INFO  00:20:55,584 - #43 2
+INFO  00:20:55,584 - #37 -
+INFO  00:20:55,585 - #43 3
+INFO  00:20:55,585 - #12 )
+INFO  00:20:55,585 - #37 -
+INFO  00:20:55,585 - #43 1
+INFO  00:20:55,585 - #38 *
+INFO  00:20:55,585 - #43 0
+INFO  00:20:55,585 - #12 )
+INFO  00:20:55,585 - #16 ;
+INFO  00:20:55,585 - #18 print
+INFO  00:20:55,585 - #11 (
+INFO  00:20:55,585 - #44 bodovi
+INFO  00:20:55,585 - #12 )
+INFO  00:20:55,586 - #16 ;
+INFO  00:20:55,586 - #21 read
+INFO  00:20:55,586 - #11 (
+INFO  00:20:55,586 - #44 bodovi
+INFO  00:20:55,586 - #12 )
+INFO  00:20:55,586 - #16 ;
+INFO  00:20:55,586 - #44 bodovi
+INFO  00:20:55,586 - #27 =
+INFO  00:20:55,586 - #44 bodovi
+INFO  00:20:55,586 - #36 +
+INFO  00:20:55,586 - #43 1
+INFO  00:20:55,586 - #16 ;
+INFO  00:20:55,586 - #18 print
+INFO  00:20:55,587 - #11 (
+INFO  00:20:55,587 - #44 bodovi
+INFO  00:20:55,587 - #12 )
+INFO  00:20:55,587 - #16 ;
+INFO  00:20:55,587 - #10 }
+INFO  00:20:55,587 - #10 }
+INFO  00:20:55,591 - Otvaranje scope 
+INFO  00:20:55,591 - Prepoznato programsko ime : test301 na liniji 2
+INFO  00:20:55,591 - Prepoznat tip int na liniji 4
+INFO  00:20:55,591 - Prepoznata konstanta jedan tipa int vrednosti 1 na liniji 4
+INFO  00:20:55,591 - Prepoznat tip int na liniji 5
+INFO  00:20:55,592 - Prepoznata konstanta pet tipa int vrednosti 5 na liniji 5
+INFO  00:20:55,592 - Prepoznat tip int na liniji 7
+INFO  00:20:55,592 - Prepoznata deklaracija vektorske promenljive niz na liniji 7
+INFO  00:20:55,592 - Prepoznat tip char na liniji 9
+INFO  00:20:55,592 - Prepoznata deklaracija vektorske promenljive nizch na liniji 9
+INFO  00:20:55,592 - Otvaranje scope 
+INFO  00:20:55,592 - Prepoznat tip int na liniji 15
+INFO  00:20:55,592 - Prepoznata deklaracija skalarne promenljive bodovi na liniji 15
+INFO  00:20:55,592 - Koriscenje varijable bodovi na liniji 20
+INFO  00:20:55,592 - Dodela dozvoljena  na liniji 20
+INFO  00:20:55,592 - Koriscenje varijable bodovi na liniji 21
+INFO  00:20:55,592 - Detektovano inkrementiranje  na liniji 21
+INFO  00:20:55,592 - Koriscenje varijable bodovi na liniji 22
+INFO  00:20:55,592 - Koriscenje varijable bodovi na liniji 22
+INFO  00:20:55,592 - Koriscenje konstante jedan na liniji 22
+INFO  00:20:55,592 - Dodela dozvoljena  na liniji 22
+INFO  00:20:55,593 - Koriscenje varijable bodovi na liniji 23
+INFO  00:20:55,593 - Koriscenje varijable bodovi na liniji 23
+INFO  00:20:55,593 - Koriscenje konstante pet na liniji 23
+INFO  00:20:55,593 - Dodela dozvoljena  na liniji 23
+INFO  00:20:55,593 - Koriscenje varijable bodovi na liniji 24
+INFO  00:20:55,593 - Detektovano dekrementiranje  na liniji 24
+INFO  00:20:55,593 - Koriscenje varijable bodovi na liniji 25
+INFO  00:20:55,593 - Koriscenje varijable niz na liniji 28
+INFO  00:20:55,593 - Prepoznat tip int na liniji 28
+INFO  00:20:55,593 - Dodela dozvoljena  na liniji 28
+INFO  00:20:55,593 - Koriscenje varijable niz na liniji 29
+INFO  00:20:55,593 - Koriscenje konstante pet na liniji 29
+INFO  00:20:55,593 - Dodela dozvoljena  na liniji 29
+INFO  00:20:55,594 - Koriscenje varijable niz na liniji 30
+INFO  00:20:55,594 - Dodela dozvoljena  na liniji 30
+INFO  00:20:55,594 - Koriscenje varijable bodovi na liniji 31
+INFO  00:20:55,594 - Koriscenje varijable niz na liniji 31
+INFO  00:20:55,594 - Koriscenje varijable niz na liniji 31
+INFO  00:20:55,594 - Dodela dozvoljena  na liniji 31
+INFO  00:20:55,594 - Koriscenje varijable bodovi na liniji 32
+INFO  00:20:55,594 - Koriscenje varijable niz na liniji 33
+INFO  00:20:55,594 - Koriscenje metode chr na liniji 34
+INFO  00:20:55,595 - Koriscenje varijable niz na liniji 34
+INFO  00:20:55,595 - Koriscenje varijable nizch na liniji 36
+INFO  00:20:55,595 - Prepoznat tip char na liniji 36
+INFO  00:20:55,595 - Dodela dozvoljena  na liniji 36
+INFO  00:20:55,595 - Koriscenje varijable nizch na liniji 37
+INFO  00:20:55,595 - Dodela dozvoljena  na liniji 37
+INFO  00:20:55,595 - Koriscenje varijable nizch na liniji 38
+INFO  00:20:55,595 - Koriscenje konstante jedan na liniji 38
+INFO  00:20:55,595 - Dodela dozvoljena  na liniji 38
+INFO  00:20:55,595 - Koriscenje varijable nizch na liniji 39
+INFO  00:20:55,595 - Koriscenje konstante pet na liniji 39
+INFO  00:20:55,595 - Dodela dozvoljena  na liniji 39
+INFO  00:20:55,595 - Koriscenje varijable nizch na liniji 40
+INFO  00:20:55,596 - Koriscenje varijable nizch na liniji 41
+INFO  00:20:55,596 - Koriscenje konstante jedan na liniji 41
+INFO  00:20:55,596 - Koriscenje varijable bodovi na liniji 44
+INFO  00:20:55,596 - Koriscenje varijable bodovi na liniji 44
+INFO  00:20:55,596 - Koriscenje konstante pet na liniji 44
+INFO  00:20:55,596 - Koriscenje konstante jedan na liniji 44
+INFO  00:20:55,596 - Dodela dozvoljena  na liniji 44
+INFO  00:20:55,596 - Koriscenje varijable bodovi na liniji 45
+INFO  00:20:55,596 - Koriscenje varijable bodovi na liniji 48
+INFO  00:20:55,596 - Detektovan dozvoljen read  na liniji 48
+INFO  00:20:55,596 - Koriscenje varijable bodovi na liniji 49
+INFO  00:20:55,596 - Koriscenje varijable bodovi na liniji 49
+INFO  00:20:55,596 - Dodela dozvoljena  na liniji 49
+INFO  00:20:55,596 - Koriscenje varijable bodovi na liniji 50
+INFO  00:20:55,596 - Zatvaranje scope 
+INFO  00:20:55,596 - Zatvaranje scope 
+INFO  00:20:55,596 - Zatvoren program! 
+INFO  00:20:55,596 - Print calls = 8

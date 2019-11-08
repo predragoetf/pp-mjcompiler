@@ -1,0 +1,69 @@
+INFO  14:25:45,250 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:25:45,340 - #2 program
+INFO  14:25:45,340 - #45 MJProgram
+INFO  14:25:45,340 - #45 int
+INFO  14:25:45,342 - #45 x
+INFO  14:25:45,342 - #16 ;
+INFO  14:25:45,343 - #45 int
+INFO  14:25:45,345 - #45 y
+INFO  14:25:45,345 - #16 ;
+INFO  14:25:45,345 - #9 {
+INFO  14:25:45,345 - #45 int
+INFO  14:25:45,347 - #45 k
+INFO  14:25:45,348 - #11 (
+INFO  14:25:45,348 - #12 )
+INFO  14:25:45,350 - #45 int
+INFO  14:25:45,351 - #45 c
+INFO  14:25:45,353 - #16 ;
+INFO  14:25:45,353 - #9 {
+INFO  14:25:45,358 - #45 c
+INFO  14:25:45,364 - #28 =
+INFO  14:25:45,365 - #44 1
+INFO  14:25:45,367 - #16 ;
+INFO  14:25:45,368 - #6 return
+INFO  14:25:45,368 - #45 c
+INFO  14:25:45,369 - #37 +
+INFO  14:25:45,369 - #44 2
+INFO  14:25:45,371 - #16 ;
+INFO  14:25:45,372 - #10 }
+INFO  14:25:45,372 - #45 int
+INFO  14:25:45,374 - #45 main
+INFO  14:25:45,375 - #11 (
+INFO  14:25:45,375 - #12 )
+INFO  14:25:45,375 - #9 {
+INFO  14:25:45,376 - #45 y
+INFO  14:25:45,376 - #28 =
+INFO  14:25:45,376 - #44 2
+INFO  14:25:45,376 - #16 ;
+INFO  14:25:45,376 - #45 x
+INFO  14:25:45,376 - #28 =
+INFO  14:25:45,376 - #45 y
+INFO  14:25:45,376 - #37 +
+INFO  14:25:45,377 - #44 2
+INFO  14:25:45,377 - #16 ;
+INFO  14:25:45,377 - #45 y
+INFO  14:25:45,378 - #28 =
+INFO  14:25:45,378 - #45 k
+INFO  14:25:45,378 - #11 (
+INFO  14:25:45,378 - #12 )
+INFO  14:25:45,380 - #37 +
+INFO  14:25:45,380 - #44 3
+INFO  14:25:45,380 - #16 ;
+INFO  14:25:45,380 - #18 print
+INFO  14:25:45,382 - #11 (
+INFO  14:25:45,383 - #45 y
+INFO  14:25:45,383 - #12 )
+INFO  14:25:45,383 - #16 ;
+INFO  14:25:45,383 - #6 return
+INFO  14:25:45,384 - #44 0
+INFO  14:25:45,384 - #16 ;
+INFO  14:25:45,386 - #10 }
+INFO  14:25:45,386 - #10 }
+INFO  14:25:45,389 - Prepoznato programsko ime : MJProgram
+INFO  14:25:45,389 - Prepoznat tip int
+INFO  14:25:45,390 - Prepoznat tip int
+INFO  14:25:45,390 - Prepoznat tip int
+INFO  14:25:45,390 - Prepoznat tip int
+INFO  14:25:45,390 - Prepoznat tip int
+INFO  14:25:45,390 - Zatvoren program! 
+INFO  14:25:45,390 - Print calls = 0

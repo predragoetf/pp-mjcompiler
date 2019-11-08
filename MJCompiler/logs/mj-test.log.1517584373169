@@ -1,0 +1,146 @@
+INFO  16:12:25,932 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:12:26,014 - #2 program
+INFO  16:12:26,016 - #44 MJProgram
+INFO  16:12:26,016 - #44 bool
+INFO  16:12:26,018 - #44 bul
+INFO  16:12:26,020 - #16 ;
+INFO  16:12:26,021 - #44 char
+INFO  16:12:26,029 - #44 s1
+INFO  16:12:26,029 - #13 [
+INFO  16:12:26,029 - #14 ]
+INFO  16:12:26,029 - #15 ,
+INFO  16:12:26,030 - #44 s2
+INFO  16:12:26,030 - #15 ,
+INFO  16:12:26,030 - #44 s3
+INFO  16:12:26,030 - #13 [
+INFO  16:12:26,030 - #14 ]
+INFO  16:12:26,030 - #16 ;
+INFO  16:12:26,031 - #44 int
+INFO  16:12:26,031 - #44 x
+INFO  16:12:26,032 - #16 ;
+INFO  16:12:26,032 - #8 const
+INFO  16:12:26,034 - #44 int
+INFO  16:12:26,034 - #44 y
+INFO  16:12:26,034 - #27 =
+INFO  16:12:26,035 - #43 5
+INFO  16:12:26,035 - #15 ,
+INFO  16:12:26,036 - #44 a
+INFO  16:12:26,036 - #27 =
+INFO  16:12:26,036 - #43 13
+INFO  16:12:26,036 - #15 ,
+INFO  16:12:26,037 - #44 b
+INFO  16:12:26,037 - #27 =
+INFO  16:12:26,037 - #43 1
+INFO  16:12:26,037 - #16 ;
+INFO  16:12:26,037 - #44 int
+INFO  16:12:26,038 - #44 niz
+INFO  16:12:26,039 - #13 [
+INFO  16:12:26,039 - #14 ]
+INFO  16:12:26,039 - #16 ;
+INFO  16:12:26,039 - #8 const
+INFO  16:12:26,039 - #44 char
+INFO  16:12:26,040 - #44 opa
+INFO  16:12:26,040 - #27 =
+INFO  16:12:26,041 - #45 p
+INFO  16:12:26,041 - #16 ;
+INFO  16:12:26,041 - #9 {
+INFO  16:12:26,041 - #44 int
+INFO  16:12:26,042 - #44 k
+INFO  16:12:26,042 - #11 (
+INFO  16:12:26,044 - #12 )
+INFO  16:12:26,046 - #44 int
+INFO  16:12:26,047 - #44 c
+INFO  16:12:26,047 - #16 ;
+INFO  16:12:26,047 - #9 {
+INFO  16:12:26,047 - #44 c
+INFO  16:12:26,048 - #27 =
+INFO  16:12:26,048 - #43 1
+INFO  16:12:26,048 - #16 ;
+INFO  16:12:26,049 - #44 d
+INFO  16:12:26,052 - #27 =
+INFO  16:12:26,053 - #43 11
+INFO  16:12:26,053 - #16 ;
+INFO  16:12:26,053 - #44 x
+INFO  16:12:26,053 - #41 ++
+INFO  16:12:26,053 - #16 ;
+INFO  16:12:26,054 - #44 x
+INFO  16:12:26,054 - #42 --
+INFO  16:12:26,054 - #16 ;
+INFO  16:12:26,054 - #44 niz
+INFO  16:12:26,054 - #13 [
+INFO  16:12:26,054 - #43 1
+INFO  16:12:26,054 - #14 ]
+INFO  16:12:26,055 - #41 ++
+INFO  16:12:26,055 - #16 ;
+INFO  16:12:26,055 - #6 return
+INFO  16:12:26,055 - #44 c
+INFO  16:12:26,055 - #36 +
+INFO  16:12:26,055 - #43 2
+INFO  16:12:26,057 - #16 ;
+INFO  16:12:26,057 - #10 }
+INFO  16:12:26,057 - #44 int
+INFO  16:12:26,058 - #44 main
+INFO  16:12:26,058 - #11 (
+INFO  16:12:26,058 - #12 )
+INFO  16:12:26,058 - #44 int
+INFO  16:12:26,058 - #44 d
+INFO  16:12:26,058 - #16 ;
+INFO  16:12:26,058 - #9 {
+INFO  16:12:26,058 - #44 y
+INFO  16:12:26,058 - #27 =
+INFO  16:12:26,058 - #43 2
+INFO  16:12:26,058 - #16 ;
+INFO  16:12:26,058 - #44 x
+INFO  16:12:26,059 - #27 =
+INFO  16:12:26,059 - #44 y
+INFO  16:12:26,059 - #36 +
+INFO  16:12:26,059 - #43 2
+INFO  16:12:26,059 - #16 ;
+INFO  16:12:26,059 - #44 y
+INFO  16:12:26,059 - #27 =
+INFO  16:12:26,059 - #44 k
+INFO  16:12:26,059 - #11 (
+INFO  16:12:26,059 - #12 )
+INFO  16:12:26,060 - #36 +
+INFO  16:12:26,060 - #43 3
+INFO  16:12:26,060 - #16 ;
+INFO  16:12:26,060 - #44 k
+INFO  16:12:26,061 - #11 (
+INFO  16:12:26,061 - #43 1
+INFO  16:12:26,061 - #12 )
+INFO  16:12:26,061 - #16 ;
+INFO  16:12:26,061 - #18 print
+INFO  16:12:26,061 - #11 (
+INFO  16:12:26,061 - #44 y
+INFO  16:12:26,061 - #12 )
+INFO  16:12:26,061 - #16 ;
+INFO  16:12:26,061 - #6 return
+INFO  16:12:26,061 - #43 0
+INFO  16:12:26,061 - #16 ;
+INFO  16:12:26,062 - #10 }
+INFO  16:12:26,062 - #10 }
+INFO  16:12:26,065 - Otvaranje scope 
+INFO  16:12:26,066 - Prepoznato programsko ime : MJProgram na liniji 1
+INFO  16:12:26,066 - Prepoznat tip bool na liniji 2
+INFO  16:12:26,066 - Prepoznata deklaracija skalarne promenljive bul na liniji 2
+INFO  16:12:26,066 - Prepoznat tip char na liniji 3
+INFO  16:12:26,066 - Prepoznata deklaracija vektorske promenljive s1 na liniji 3
+INFO  16:12:26,066 - Prepoznata deklaracija skalarne promenljive s2 na liniji 3
+INFO  16:12:26,066 - Prepoznata deklaracija vektorske promenljive s3 na liniji 3
+INFO  16:12:26,066 - Prepoznat tip int na liniji 4
+INFO  16:12:26,066 - Prepoznata deklaracija skalarne promenljive x na liniji 4
+INFO  16:12:26,067 - Prepoznat tip int na liniji 4
+INFO  16:12:26,067 - Prepoznata konstanta y tipa int vrednosti 5 na liniji 4
+INFO  16:12:26,067 - Prepoznata konstanta a tipa int vrednosti 13 na liniji 4
+INFO  16:12:26,067 - Prepoznata konstanta b tipa int vrednosti 1 na liniji 4
+INFO  16:12:26,067 - Prepoznat tip int na liniji 5
+INFO  16:12:26,067 - Prepoznata deklaracija vektorske promenljive niz na liniji 5
+INFO  16:12:26,067 - Prepoznat tip char na liniji 6
+INFO  16:12:26,067 - Prepoznata konstanta opa tipa char vrednosti p na liniji 6
+INFO  16:12:26,067 - Prepoznat tip int na liniji 9
+INFO  16:12:26,067 - Otvaranje scope 
+INFO  16:12:26,067 - Prepoznat tip int na liniji 9
+INFO  16:12:26,067 - Prepoznata deklaracija skalarne promenljive c na liniji 9
+INFO  16:12:26,067 - Koriscenje varijable c na liniji 10
+INFO  16:12:26,068 - Dodela dozvoljena  na liniji 10
+ERROR 16:12:26,068 - Greska: ime d nije pronadjeno na liniji 11

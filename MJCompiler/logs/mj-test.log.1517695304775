@@ -1,0 +1,15 @@
+INFO  23:01:05,951 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:01:06,053 - #2 program
+INFO  23:01:06,053 - #44 test301
+INFO  23:01:06,053 - #8 const
+INFO  23:01:06,054 - #44 int
+INFO  23:01:06,055 - #44 jedan
+INFO  23:01:06,055 - #27 =
+INFO  23:01:06,055 - #43 1
+INFO  23:01:06,055 - #8 const
+ERROR 23:01:06,055 - 
+Sintaksna greska na liniji 6
+ERROR 23:01:06,055 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6
+INFO  23:01:06,060 - Prepoznat tip int na liniji 5
+INFO  23:01:06,060 - Print calls = 0
+ERROR 23:01:06,061 - Parsiranje NIJE uspesno zavrseno!

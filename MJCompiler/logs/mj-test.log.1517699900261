@@ -1,0 +1,46 @@
+INFO  00:11:54,022 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:11:54,110 - #2 program
+INFO  00:11:54,112 - #44 test301
+INFO  00:11:54,112 - #8 const
+INFO  00:11:54,115 - #44 int
+INFO  00:11:54,115 - #44 jedan
+INFO  00:11:54,116 - #27 =
+INFO  00:11:54,117 - #43 1
+INFO  00:11:54,117 - #16 ;
+INFO  00:11:54,120 - #8 const
+INFO  00:11:54,126 - #44 int
+INFO  00:11:54,126 - #44 pet
+INFO  00:11:54,126 - #27 =
+INFO  00:11:54,127 - #43 5
+INFO  00:11:54,127 - #16 ;
+INFO  00:11:54,127 - #8 const
+INFO  00:11:54,127 - #44 int
+INFO  00:11:54,128 - #44 voodoo
+INFO  00:11:54,128 - #27 =
+INFO  00:11:54,128 - #43 6
+INFO  00:11:54,128 - #16 ;
+INFO  00:11:54,129 - #44 int
+INFO  00:11:54,129 - #44 niz
+INFO  00:11:54,129 - #13 [
+INFO  00:11:54,129 - #14 ]
+INFO  00:11:54,129 - #15 ,
+INFO  00:11:54,130 - #44 niz2
+INFO  00:11:54,130 - #13 [
+INFO  00:11:54,130 - #43 3
+ERROR 00:11:54,130 - 
+Sintaksna greska na liniji 9
+INFO  00:11:54,130 - #14 ]
+INFO  00:11:54,130 - #15 ,
+INFO  00:11:54,130 - #44 niz3
+INFO  00:11:54,131 - #13 [
+INFO  00:11:54,131 - #14 ]
+INFO  00:11:54,132 - #16 ;
+INFO  00:11:54,133 - #44 int
+INFO  00:11:54,133 - #44 niz
+INFO  00:11:54,133 - #44 int
+ERROR 00:11:54,133 - 
+Sintaksna greska na liniji 11
+ERROR 00:11:54,133 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11
+INFO  00:11:54,139 - Prepoznat tip int na liniji 10
+INFO  00:11:54,139 - Print calls = 0
+ERROR 00:11:54,140 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,173 @@
+INFO  20:15:44,087 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:15:44,186 - #2 program
+INFO  20:15:44,186 - #44 p
+INFO  20:15:44,186 - #44 int
+INFO  20:15:44,188 - #44 c
+INFO  20:15:44,190 - #16 ;
+INFO  20:15:44,190 - #9 {
+INFO  20:15:44,192 - #5 void
+INFO  20:15:44,193 - #44 main
+INFO  20:15:44,193 - #11 (
+INFO  20:15:44,198 - #12 )
+INFO  20:15:44,200 - #44 int
+INFO  20:15:44,201 - #44 u
+INFO  20:15:44,201 - #13 [
+INFO  20:15:44,201 - #14 ]
+INFO  20:15:44,201 - #15 ,
+INFO  20:15:44,202 - #44 c2
+INFO  20:15:44,202 - #15 ,
+INFO  20:15:44,202 - #44 c3
+INFO  20:15:44,202 - #15 ,
+INFO  20:15:44,202 - #44 c4
+INFO  20:15:44,202 - #15 ,
+INFO  20:15:44,205 - #44 c5
+INFO  20:15:44,205 - #16 ;
+INFO  20:15:44,205 - #44 int
+INFO  20:15:44,206 - #44 a
+INFO  20:15:44,206 - #16 ;
+INFO  20:15:44,206 - #44 char
+INFO  20:15:44,206 - #44 b
+INFO  20:15:44,206 - #13 [
+INFO  20:15:44,206 - #14 ]
+INFO  20:15:44,206 - #16 ;
+INFO  20:15:44,206 - #44 char
+INFO  20:15:44,206 - #44 d
+INFO  20:15:44,206 - #13 [
+INFO  20:15:44,206 - #14 ]
+INFO  20:15:44,206 - #16 ;
+INFO  20:15:44,206 - #9 {
+INFO  20:15:44,206 - #44 u
+INFO  20:15:44,209 - #27 =
+INFO  20:15:44,209 - #7 new
+INFO  20:15:44,209 - #44 int
+INFO  20:15:44,209 - #13 [
+INFO  20:15:44,209 - #43 2
+INFO  20:15:44,209 - #14 ]
+INFO  20:15:44,210 - #16 ;
+INFO  20:15:44,210 - #44 u
+INFO  20:15:44,211 - #13 [
+INFO  20:15:44,211 - #43 1
+INFO  20:15:44,211 - #14 ]
+INFO  20:15:44,211 - #27 =
+INFO  20:15:44,212 - #43 222
+INFO  20:15:44,214 - #16 ;
+INFO  20:15:44,214 - #44 u
+INFO  20:15:44,214 - #13 [
+INFO  20:15:44,214 - #43 1
+INFO  20:15:44,214 - #14 ]
+INFO  20:15:44,214 - #42 --
+INFO  20:15:44,214 - #16 ;
+INFO  20:15:44,217 - #18 print
+INFO  20:15:44,217 - #11 (
+INFO  20:15:44,217 - #44 u
+INFO  20:15:44,217 - #13 [
+INFO  20:15:44,217 - #43 1
+INFO  20:15:44,217 - #14 ]
+INFO  20:15:44,218 - #12 )
+INFO  20:15:44,218 - #16 ;
+INFO  20:15:44,218 - #44 a
+INFO  20:15:44,218 - #27 =
+INFO  20:15:44,218 - #43 77
+INFO  20:15:44,218 - #16 ;
+INFO  20:15:44,218 - #44 a
+INFO  20:15:44,218 - #41 ++
+INFO  20:15:44,218 - #16 ;
+INFO  20:15:44,219 - #44 b
+INFO  20:15:44,219 - #27 =
+INFO  20:15:44,219 - #7 new
+INFO  20:15:44,219 - #44 char
+INFO  20:15:44,219 - #13 [
+INFO  20:15:44,219 - #43 5
+INFO  20:15:44,219 - #36 +
+INFO  20:15:44,219 - #44 a
+INFO  20:15:44,221 - #14 ]
+INFO  20:15:44,221 - #16 ;
+INFO  20:15:44,221 - #44 d
+INFO  20:15:44,222 - #27 =
+INFO  20:15:44,222 - #7 new
+INFO  20:15:44,222 - #44 char
+INFO  20:15:44,222 - #13 [
+INFO  20:15:44,222 - #43 5
+INFO  20:15:44,222 - #14 ]
+INFO  20:15:44,222 - #16 ;
+INFO  20:15:44,222 - #44 b
+INFO  20:15:44,222 - #13 [
+INFO  20:15:44,223 - #43 3
+INFO  20:15:44,223 - #14 ]
+INFO  20:15:44,223 - #27 =
+INFO  20:15:44,223 - #45 5
+INFO  20:15:44,223 - #16 ;
+INFO  20:15:44,226 - #44 d
+INFO  20:15:44,227 - #27 =
+INFO  20:15:44,227 - #44 b
+INFO  20:15:44,227 - #16 ;
+INFO  20:15:44,227 - #21 read
+INFO  20:15:44,227 - #11 (
+INFO  20:15:44,227 - #44 u
+INFO  20:15:44,227 - #13 [
+INFO  20:15:44,227 - #43 1
+INFO  20:15:44,227 - #14 ]
+INFO  20:15:44,227 - #12 )
+INFO  20:15:44,228 - #16 ;
+INFO  20:15:44,228 - #18 print
+INFO  20:15:44,228 - #11 (
+INFO  20:15:44,228 - #44 u
+INFO  20:15:44,228 - #13 [
+INFO  20:15:44,228 - #43 1
+INFO  20:15:44,228 - #14 ]
+INFO  20:15:44,228 - #12 )
+INFO  20:15:44,228 - #16 ;
+INFO  20:15:44,228 - #6 return
+INFO  20:15:44,228 - #16 ;
+INFO  20:15:44,229 - #10 }
+INFO  20:15:44,229 - #10 }
+INFO  20:15:44,235 - Otvaranje scope 
+INFO  20:15:44,235 - Prepoznato programsko ime : p na liniji 1
+INFO  20:15:44,235 - Prepoznat tip int na liniji 4
+INFO  20:15:44,235 - Prepoznata deklaracija skalarne promenljive c na liniji 4
+INFO  20:15:44,235 - Otvaranje scope 
+INFO  20:15:44,236 - Prepoznat tip int na liniji 7
+INFO  20:15:44,236 - Prepoznata deklaracija vektorske promenljive u na liniji 7
+INFO  20:15:44,236 - Prepoznata deklaracija skalarne promenljive c2 na liniji 7
+INFO  20:15:44,236 - Prepoznata deklaracija skalarne promenljive c3 na liniji 7
+INFO  20:15:44,236 - Prepoznata deklaracija skalarne promenljive c4 na liniji 7
+INFO  20:15:44,236 - Prepoznata deklaracija skalarne promenljive c5 na liniji 7
+INFO  20:15:44,236 - Prepoznat tip int na liniji 7
+INFO  20:15:44,236 - Prepoznata deklaracija skalarne promenljive a na liniji 7
+INFO  20:15:44,236 - Prepoznat tip char na liniji 7
+INFO  20:15:44,236 - Prepoznata deklaracija vektorske promenljive b na liniji 7
+INFO  20:15:44,236 - Prepoznat tip char na liniji 7
+INFO  20:15:44,236 - Prepoznata deklaracija vektorske promenljive d na liniji 7
+INFO  20:15:44,236 - Koriscenje varijable u na liniji 9
+INFO  20:15:44,236 - Prepoznat tip int na liniji 9
+INFO  20:15:44,237 - Dodela dozvoljena  na liniji 9
+INFO  20:15:44,237 - Koriscenje varijable u na liniji 10
+INFO  20:15:44,237 - Dodela dozvoljena  na liniji 10
+INFO  20:15:44,237 - Koriscenje varijable u na liniji 11
+INFO  20:15:44,237 - Detektovano dekrementiranje  na liniji 11
+INFO  20:15:44,237 - Koriscenje varijable u na liniji 12
+INFO  20:15:44,237 - Koriscenje varijable a na liniji 13
+INFO  20:15:44,237 - Dodela dozvoljena  na liniji 13
+INFO  20:15:44,237 - Koriscenje varijable a na liniji 14
+INFO  20:15:44,237 - Detektovano inkrementiranje  na liniji 14
+INFO  20:15:44,237 - Koriscenje varijable b na liniji 15
+INFO  20:15:44,237 - Prepoznat tip char na liniji 15
+INFO  20:15:44,237 - Koriscenje varijable a na liniji 15
+INFO  20:15:44,237 - Dodela dozvoljena  na liniji 15
+INFO  20:15:44,237 - Koriscenje varijable d na liniji 16
+INFO  20:15:44,238 - Prepoznat tip char na liniji 16
+INFO  20:15:44,238 - Dodela dozvoljena  na liniji 16
+INFO  20:15:44,238 - Koriscenje varijable b na liniji 18
+INFO  20:15:44,238 - Dodela dozvoljena  na liniji 18
+INFO  20:15:44,238 - Koriscenje varijable d na liniji 20
+INFO  20:15:44,238 - Koriscenje varijable b na liniji 20
+INFO  20:15:44,238 - Dodela dozvoljena  na liniji 20
+INFO  20:15:44,238 - Koriscenje varijable u na liniji 24
+INFO  20:15:44,238 - Detektovan dozvoljen read  na liniji 24
+INFO  20:15:44,238 - Koriscenje varijable u na liniji 25
+INFO  20:15:44,238 - Zatvaranje scope 
+INFO  20:15:44,238 - Zatvaranje scope 
+INFO  20:15:44,238 - Zatvoren program! 
+INFO  20:15:44,238 - Print calls = 2
+INFO  20:15:44,239 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  20:15:44,248 - Parsiranje uspesno zavrseno!

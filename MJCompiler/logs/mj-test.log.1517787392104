@@ -1,0 +1,138 @@
+INFO  00:34:39,419 - Compiling source file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:34:39,531 - #2 program
+INFO  00:34:39,531 - #44 TestFuncCall
+INFO  00:34:39,531 - #9 {
+INFO  00:34:39,532 - #5 void
+INFO  00:34:39,533 - #44 main
+INFO  00:34:39,534 - #11 (
+INFO  00:34:39,534 - #12 )
+INFO  00:34:39,535 - #44 int
+INFO  00:34:39,535 - #44 n
+INFO  00:34:39,536 - #16 ;
+INFO  00:34:39,536 - #44 int
+INFO  00:34:39,536 - #44 m
+INFO  00:34:39,537 - #16 ;
+INFO  00:34:39,537 - #44 int
+INFO  00:34:39,537 - #44 j
+INFO  00:34:39,537 - #16 ;
+INFO  00:34:39,537 - #9 {
+INFO  00:34:39,537 - #44 m
+INFO  00:34:39,541 - #27 =
+INFO  00:34:39,541 - #43 444
+INFO  00:34:39,546 - #16 ;
+INFO  00:34:39,547 - #44 n
+INFO  00:34:39,548 - #27 =
+INFO  00:34:39,548 - #43 666
+INFO  00:34:39,548 - #16 ;
+INFO  00:34:39,548 - #24 do
+INFO  00:34:39,548 - #9 {
+INFO  00:34:39,550 - #44 n
+INFO  00:34:39,550 - #42 --
+INFO  00:34:39,550 - #16 ;
+INFO  00:34:39,551 - #18 print
+INFO  00:34:39,551 - #11 (
+INFO  00:34:39,551 - #45 A
+INFO  00:34:39,551 - #12 )
+INFO  00:34:39,552 - #16 ;
+INFO  00:34:39,552 - #24 do
+INFO  00:34:39,552 - #9 {
+INFO  00:34:39,552 - #18 print
+INFO  00:34:39,552 - #11 (
+INFO  00:34:39,552 - #45 B
+INFO  00:34:39,552 - #12 )
+INFO  00:34:39,552 - #16 ;
+INFO  00:34:39,552 - #22 if
+INFO  00:34:39,553 - #11 (
+INFO  00:34:39,553 - #44 m
+INFO  00:34:39,553 - #33 <
+INFO  00:34:39,553 - #43 447
+INFO  00:34:39,556 - #12 )
+INFO  00:34:39,557 - #9 {
+INFO  00:34:39,558 - #44 m
+INFO  00:34:39,559 - #41 ++
+INFO  00:34:39,559 - #16 ;
+INFO  00:34:39,559 - #10 }
+INFO  00:34:39,559 - #23 else
+INFO  00:34:39,560 - #9 {
+INFO  00:34:39,561 - #44 n
+INFO  00:34:39,562 - #42 --
+INFO  00:34:39,562 - #16 ;
+INFO  00:34:39,566 - #10 }
+INFO  00:34:39,567 - #18 print
+INFO  00:34:39,567 - #11 (
+INFO  00:34:39,567 - #44 m
+INFO  00:34:39,568 - #12 )
+INFO  00:34:39,568 - #16 ;
+INFO  00:34:39,568 - #18 print
+INFO  00:34:39,568 - #11 (
+INFO  00:34:39,568 - #44 n
+INFO  00:34:39,568 - #12 )
+INFO  00:34:39,568 - #16 ;
+INFO  00:34:39,569 - #10 }
+INFO  00:34:39,569 - #25 while
+INFO  00:34:39,569 - #11 (
+INFO  00:34:39,569 - #44 m
+INFO  00:34:39,569 - #33 <
+INFO  00:34:39,569 - #43 447
+INFO  00:34:39,569 - #12 )
+INFO  00:34:39,569 - #16 ;
+INFO  00:34:39,569 - #10 }
+INFO  00:34:39,573 - #25 while
+INFO  00:34:39,574 - #11 (
+INFO  00:34:39,574 - #44 n
+INFO  00:34:39,575 - #32 >
+INFO  00:34:39,575 - #43 662
+INFO  00:34:39,576 - #12 )
+INFO  00:34:39,576 - #16 ;
+INFO  00:34:39,577 - #10 }
+INFO  00:34:39,577 - #10 }
+INFO  00:34:39,594 - Otvaranje scope 
+INFO  00:34:39,595 - Prepoznato programsko ime : TestFuncCall na liniji 1
+INFO  00:34:39,595 - Otvaranje scope 
+INFO  00:34:39,595 - Prepoznat tip int na liniji 6
+INFO  00:34:39,595 - Prepoznata deklaracija skalarne promenljive n na liniji 6
+INFO  00:34:39,596 - Prepoznat tip int na liniji 7
+INFO  00:34:39,596 - Prepoznata deklaracija skalarne promenljive m na liniji 7
+INFO  00:34:39,596 - Prepoznat tip int na liniji 8
+INFO  00:34:39,596 - Prepoznata deklaracija skalarne promenljive j na liniji 8
+INFO  00:34:39,596 - Koriscenje lokalne varijable m na liniji 10
+INFO  00:34:39,596 - 
+Var m: int, 1, 1 
+INFO  00:34:39,597 - Dodela dozvoljena  na liniji 10
+INFO  00:34:39,597 - Koriscenje lokalne varijable n na liniji 11
+INFO  00:34:39,597 - 
+Var n: int, 0, 1 
+INFO  00:34:39,597 - Dodela dozvoljena  na liniji 11
+INFO  00:34:39,597 - Koriscenje lokalne varijable n na liniji 13
+INFO  00:34:39,597 - 
+Var n: int, 0, 1 
+INFO  00:34:39,597 - Detektovano dekrementiranje  na liniji 13
+INFO  00:34:39,597 - Koriscenje lokalne varijable m na liniji 17
+INFO  00:34:39,597 - 
+Var m: int, 1, 1 
+INFO  00:34:39,597 - Koriscenje lokalne varijable m na liniji 18
+INFO  00:34:39,598 - 
+Var m: int, 1, 1 
+INFO  00:34:39,598 - Detektovano inkrementiranje  na liniji 18
+INFO  00:34:39,598 - Koriscenje lokalne varijable n na liniji 20
+INFO  00:34:39,598 - 
+Var n: int, 0, 1 
+INFO  00:34:39,598 - Detektovano dekrementiranje  na liniji 20
+INFO  00:34:39,598 - Koriscenje lokalne varijable m na liniji 22
+INFO  00:34:39,598 - 
+Var m: int, 1, 1 
+INFO  00:34:39,598 - Koriscenje lokalne varijable n na liniji 23
+INFO  00:34:39,598 - 
+Var n: int, 0, 1 
+INFO  00:34:39,598 - Koriscenje lokalne varijable m na liniji 24
+INFO  00:34:39,598 - 
+Var m: int, 1, 1 
+INFO  00:34:39,598 - Koriscenje lokalne varijable n na liniji 25
+INFO  00:34:39,598 - 
+Var n: int, 0, 1 
+INFO  00:34:39,598 - Zatvaranje scope 
+INFO  00:34:39,599 - Zatvaranje scope 
+INFO  00:34:39,599 - Zatvoren program! 
+INFO  00:34:39,599 - Print calls = 4
+INFO  00:34:39,599 - Generating bytecode file: C:\Users\Pedja\Desktop\FAKS\Prevodioci 1\Projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  00:34:39,608 - Parsiranje uspesno zavrseno!
